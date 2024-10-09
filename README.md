@@ -19,39 +19,40 @@ This downloads all player information from the current gameweek only.
 
 Information:
 
-Player ID
-Name
-Last_Name
-Team
-Position
-Cost_Today
-GW Points
-Minutes
-KO_time
-Goals
-Assists
-Clean Sheets
-Goals Conceded
-Penalties Saved
-Penalties Missed
-YC
-RC
-Saves
-Total Bonus Points
-Total BPS
-Influence
-Creativity
-Threat
-ICT Index
-xG (Expected goals)
-xA (Expected assists)
-xGi (Expected goal involvements)
-xGc (Expected goals conceded)
-Transfers In GW
-Transfers Out GW
-Gameweek
-Opponent
-Difficulty 
+*Player ID
+*Name
+*Last_Name
+*Team
+*Position
+*Cost_Today
+*GW Points
+*Minutes
+*KO_time
+*Goals
+*Assists
+*Clean Sheets
+*Goals Conceded
+*Penalties Saved
+*Penalties Missed
+*YC
+*RC
+*Saves
+*Total Bonus Points
+*Total BPS
+*Influence
+*Creativity
+*Threat
+*ICT Index
+*xG (Expected goals)
+*xA (Expected assists)
+*xGi (Expected goal involvements)
+*xGc (Expected goals conceded)
+*Transfers In GW
+*Transfers Out GW
+*Gameweek
+*Opponent
+*Difficulty
+
 
 ### `Code.player_acc`
 
@@ -66,59 +67,60 @@ to the gameweek.
 
 Information
 
-Player ID
-Name
-Last_Name
-Team
-Position
-Cost_Today
-Total Points
-Form
-xGi (Expected goal involvements)
-xGc (Expected goal conceded)
-Points/Game
-Selection %
-Goals
-Assists
-Clean Sheets
-GW Points
-Total Bonus Points
-Total BPS
-Goals Conceded
-Minutes
-YC
-RC
-Saves
-Penalties Saved
-Penalties Missed
-Transfers Out GW
-Transfers in GW
-Influence
-Creativity
-Threat
-ICT Index
-GW2 - Gameweek fixture 2 (Current gameweek - note this increases each GW). 
-GW3 - Gameweek fixture 3
-GW4 - Gameweek fixture 4
-GW5 - etc.
-GW6 - etc.
-GW7 - etc.
-CGW - Current gameweek difficulty (GW2 in this example)
-NGW - Next gameweek difficulty (GW3 in this example)
-NGW2 - Next, next gameweek difficulty (GW4 in this example)
-NGW3 - etc.
-NGW4 - etc.
-NGW5 - etc.
-Diff_Score_1_GW - Difficulty score for next gameweek
-Diff_Score_2_GW - Combined difficulty score for next 2 gameweeks
-Diff_Score_3_GW - Combined diffculty score for next 3 gamweeks
-Diff_Score_4_GW - etc.
-Diff_Score_5_GW - etc.
-FDI_1 - Form / Diff_Score_1_GW
-FDI_2 - Form / Diff_Score_2_GW
-FDI_3 - etc.
-FDI_4 - etc.
-FDI_5 - etc.
+*Player ID
+*Name
+*Last_Name
+*Team
+*Position
+*Cost_Today
+*Total Points
+*Form
+*xGi (Expected goal involvements)
+*xGc (Expected goal conceded)
+*Points/Game
+*Selection %
+*Goals
+*Assists
+*Clean Sheets
+*GW Points
+*Total Bonus Points
+*Total BPS
+*Goals Conceded
+*Minutes
+*YC
+*RC
+*Saves
+*Penalties Saved
+*Penalties Missed
+*Transfers Out GW
+*Transfers in GW
+*Influence
+*Creativity
+*Threat
+*ICT Index
+*GW2 - Gameweek fixture 2 (Current gameweek - note this increases each GW). 
+*GW3 - Gameweek fixture 3
+*GW4 - Gameweek fixture 4
+*GW5 - etc.
+*GW6 - etc.
+*GW7 - etc.
+*CGW - Current gameweek difficulty (GW2 in this example)
+*NGW - Next gameweek difficulty (GW3 in this example)
+*NGW2 - Next, next gameweek difficulty (GW4 in this example)
+*NGW3 - etc.
+*NGW4 - etc.
+*NGW5 - etc.
+*Diff_Score_1_GW - Difficulty score for next gameweek
+*Diff_Score_2_GW - Combined difficulty score for next 2 gameweeks
+*Diff_Score_3_GW - Combined difficulty score for next 3 gameweeks
+*Diff_Score_4_GW - etc.
+*Diff_Score_5_GW - etc.
+*FDI_1 - Form / Diff_Score_1_GW
+*FDI_2 - Form / Diff_Score_2_GW
+*FDI_3 - etc.
+*FDI_4 - etc.
+*FDI_5 - etc.
+
 
 ### `Code.team`
 
@@ -172,8 +174,9 @@ conda activate FPL_Data
 
 ### Models and performance
 
-Details of each model can be found in the folder 'Models' and their respective performance in 'Model Performance'. 
+Details of each model can be found in the folder 'Models' and their respective 
+performance in 'Model Performance'. 
 
-Model_1 uses a combination of form and fixture difficulty over a number of weeks. 
+* Model_1 uses a combination of form and fixture difficulty over a number of weeks. 
 
-Model_2 is currently under development. 
+* Model_2 is currently under development. 
