@@ -13,7 +13,7 @@ For any assistance please contact: t.burnand@ucl.ac.uk
 
 ### **Details of code**
 
-### 'Code.player'
+### `Code.player`
 
 This downloads all player information from the current gameweek only. 
 
@@ -157,7 +157,7 @@ Then, you can access the data using the following attributes:
   * `events_json`: A list of all game weeks in the current season
   * `fixtures_json`: A list of all fixtures in the current season
 
-### `Code.utils'
+### `Code.utils`
 
 A small module to drop keys from a dictionary. 
 
