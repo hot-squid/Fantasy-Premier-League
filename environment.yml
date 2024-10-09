@@ -1,0 +1,4 @@
+name: FPL_Data
+channels:
+  - defaults
+prefix: C:\Users\thoma\anaconda3\envs\FPL_Data
