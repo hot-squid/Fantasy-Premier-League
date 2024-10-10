@@ -1,8 +1,8 @@
-Gameweek,Tim_Reaper, FPAL_M1, FPAL_M2, FPL_Average Points, JRB,International Break?,Champions League?
-1,58, nan, nan,57,72,0,0
-2,69, nan, nan,69,77,0,0
-3,40, nan, nan,64,72,0,0
-4,38,38, nan,51,59,1,0
-5,70,70,nan,58,62,0,1
-6,78,58,nan,50,27,0,0
-7,44,35,nan,46,30,0,0
+Gameweek,Tim_Reaper,FPL_Average Points, JRB, FPAL_M1, FPAL_M2,International Break?,Champions League?, Position
+1,58,57,72,0,0,0,0,0
+2,69,69,77,0,0,0,0,0
+3,40,64,72,0,0,0,0,0
+4,38,51,59,38,0,1,0,0
+5,70,58,62,70,0,0,1,0
+6,78,50,27,58,0,0,0,0
+7,44,46,30,35,0,0,0,4458683
