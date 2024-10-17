@@ -1,12 +1,23 @@
 # Import libraries
 import pandas as pd
 import warnings
-warnings.filterwarnings("ignore")
+import requests
+import os
 
-# URL of the specific tab called "data" using the gid parameter
-sheet_url = 'https://docs.google.com/spreadsheets/d/1_rkHKgIPt3i_2uKr8kh5u4WZaYOLccNiiTx1xAaAo_Y/export?format=csv&gid=881934048'
+# URL of the Google Sheet in CSV format
+csv_url = "https://docs.google.com/spreadsheets/d/1jh4VynDiD2lNWlaG7caRBCctkuw_uVUCgjWFFaaB9RE/export?format=csv&gid=1381310626"
 
-df = pd.read_csv(sheet_url, dtype={
+# Send a request to fetch the CSV
+response = requests.get(csv_url)
+
+# Save the file locally
+with open('downloaded_sheet.csv', 'wb') as file:
+    file.write(response.content)
+
+print("File downloaded successfully.")
+
+
+df = pd.read_csv('downloaded_sheet.csv', dtype={
     'Player ID': str,
     'Name': str,
     'Last Name': str
@@ -75,3 +86,16 @@ file_path = fr'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Players\
 
 # Export the current working dataset to the specified file path
 Data.to_csv(file_path, index=False)
+
+# Delete original file downloaded from google sheets
+
+# Specify the path to the CSV file
+file_path = 'downloaded_sheet.csv'
+
+# Check if the file exists
+if os.path.exists(file_path):
+    os.remove(file_path)
+    print(f"{file_path} has been deleted.")
+else:
+    print("File does not exist.")
+
