@@ -11,11 +11,11 @@ from pulp import LpMaximize, LpProblem, LpVariable, lpSum
 
 # Define constants
 
-BUDGET = 1000 # Choose your budget (1000 = £100m)
+BUDGET = 850 # Choose your budget (1000 = £100m)
 WEEKS = 1 # Choose how many weeks you want to prepare for between 1 and 5
-GK = 2 # Goalkeepers required (Choose between 0 and 2)
-DEF = 5 # Defenders required (Choose between 0 and 5)
-MID = 5 # Midfielders required (Choose between 0 and 5)
+GK = 1 # Goalkeepers required (Choose between 0 and 2)
+DEF = 3 # Defenders required (Choose between 0 and 5)
+MID = 4 # Midfielders required (Choose between 0 and 5)
 FWD = 3 #  Forwards required (Choose between 0 and 3)
 
 # Read csv dataframe
@@ -45,6 +45,9 @@ prob += lpSum(players[i] * FD_index[i] for i in range(len(data)))
 
 # Budget constraint: the sum of selected players' prices must be <= BUDGET
 prob += lpSum(players[i] * prices[i] for i in range(len(data))) <= BUDGET
+
+# Budget constraint: the sum of selected players' prices must be <= BUDGET
+prob += lpSum(players[i] * prices[i] for i in range(len(data))) >= (BUDGET - 75)
 
 # Position constraints: enforce exact limits for each position
 prob += lpSum(players[i] for i in range(len(data)) if positions[i] == 'GK') == GK
