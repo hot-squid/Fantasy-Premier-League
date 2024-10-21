@@ -59,10 +59,10 @@ defense = team_defense(url)
 current_gw = attack['Playing TimeMP'].max()
 
 # Create a full file path with the current GW for attack
-attack_file_path = fr'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Team\Attacking\GW_{current_gw}.csv'
+attack_file_path = fr'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Team\Accumulated\Attacking\GW_{current_gw}.csv'
 
 # Create full file path with current GW for defense
-defense_file_path = fr'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Team\Defensive\GW_{current_gw}.csv'
+defense_file_path = fr'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Team\Accumulated\Defensive\GW_{current_gw}.csv'
 
 # Export data
 attack.to_csv(attack_file_path)
