@@ -122,7 +122,7 @@ Information
   * FDI_5 - etc.
 
 
-### `Code.team`
+### `Code.team_acc`
 
 This downloads all accumulated team data from FBRef website, including 
 attacking and defensive. 
@@ -130,6 +130,14 @@ attacking and defensive.
 The full glossary can be found here:
 
 https://fbref.com/en/comps/9/Premier-League-Stats
+
+### 'Code.team'
+
+This code pulls each weekly accumulated team data from FRBref and deaccumulates
+the data into csv files.
+
+For example data shown in GW5.csv will show team data for GW5 only and not all
+from 1 to 5. 
 
 
 ### `Code.load`

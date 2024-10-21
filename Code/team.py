@@ -1,70 +1,80 @@
-# Import libraries
-import requests
-from bs4 import BeautifulSoup, Comment
+import glob
+import os
 import pandas as pd
-from io import StringIO
 
-# URL to team data
-url = 'https://fbref.com/en/comps/9/stats/Premier-League-Stats'
+# Folder path where CSV files are stored
+folder_path = r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Team\Accumulated\Defensive'  # Change this to the actual folder path
 
-# Function to get attacking team data 
-def team_attack(url):
+# Use glob to get all CSV files in the folder
+csv_files = glob.glob(os.path.join(folder_path, "*.csv"))
 
-    # Read the URL
-    df = pd.read_html(url)[0]
+# Dictionary to store DataFrames
+dataframes = {}
 
-    # Remove multiple indexes within the same header
-    df.columns = [''.join(col).strip() for col in df.columns]
-    df = df.reset_index(drop=True)
+# Loop through each CSV file and store them in the dictionary
+for file in csv_files:
+    # Get the file name without the path and extension
+    file_name = os.path.splitext(os.path.basename(file))[0]
+    
+    # Debug: Print the file names being processed
+    print(f"Loading file: {file_name}")
+    
+    # Read the CSV into a DataFrame
+    df = pd.read_csv(file)
+    
+    # Store the DataFrame in the dictionary with the file name as the key
+    dataframes[file_name] = df
 
-    # Drop non-needed columns
-    df.drop(['Unnamed: 1_level_0# Pl', 'Unnamed: 2_level_0Age'], 
-    axis=1, inplace=True)
+# Create empty gameweek list
+gameweeks = []
 
-    # Rename columns
-    df = df.rename({'Unnamed: 0_level_0Squad' : 'Team', 
-                    'Unnamed: 3_level_0Poss': 'Possession'}, axis=1)
+# Trim gameweek information to a number
+for file in csv_files:
+    trimmed_file = int(file[87:88])
+    gameweeks.append(trimmed_file)
 
-    # Return
-    return df
+# Create a new empty list to store selected DataFrames
+gameweek_dfs = []
 
-# Function to get defensive team data 
-def team_defense(url):
+# Loop through each gameweek number
+for gw in gameweeks:
+    # Construct the key dynamically based on the gameweek number
+    gw_key = f'GW_{gw}'
+    
+    # Debug: Check if the constructed key matches any of the loaded DataFrames
+    print(f"Looking for key: {gw_key}")
+    
+    # Check if the key exists in the dataframes dictionary
+    if gw_key in dataframes:
+        # Append the DataFrame to the gameweek_dfs list
+        gameweek_dfs.append(dataframes[gw_key])
+    else:
+        print(f"Warning: {gw_key} not found in dataframes")
 
-    # Read the URL
-    df = pd.read_html(url)[1]
+# Function to de-cumulate the gameweek data 
+def decumulate(GW_previous, GW_current):
 
-    # Remove multiple indexes within the same header
-    df.columns = [''.join(col).strip() for col in df.columns]
-    df = df.reset_index(drop=True)
+    # Merge two gameweeks on the right (the most current gameweek)
+    merged = pd.merge(GW_previous, GW_current, on='Team',
+                      suffixes= ('_GWp', '_GWc'),
+                      how='right')
 
-    # Drop non-needed columns
-    df.drop(['Unnamed: 1_level_0# Pl', 'Unnamed: 2_level_0Age'], 
-    axis=1, inplace=True)
+    # List of columns to update by subtracting the previous gameweek values
+    columns = ['PerformanceG+A']
 
-    # Rename columns
-    df = df.rename({'Unnamed: 0_level_0Squad' : 'Team', 
-                    'Unnamed: 3_level_0Poss': 'Possession'}, axis=1)
+    # Create a new DataFrame to store the decumulated values
+    decumulated_gw = GW_current.copy()
 
-    # Return
-    return df
+    # Iterate through each column and calculate the actual gameweek value
+    for col in columns:
+        # Subtract the previous gameweek values from the current ones
+        decumulated_gw[col] = merged[f'{col}_GWc'] - merged[f'{col}_GWp'].fillna(0)
 
-# Pull current attacking data
-attack = team_attack(url)
+    # Return the decumulated gameweek data without modifying GW_current
+    return decumulated_gw
 
-# Pull current defensive data
-defense = team_defense(url)
-
-# Current gameweek
-current_gw = attack['Playing TimeMP'].max()
-
-# Create a full file path with the current GW for attack
-attack_file_path = fr'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Team\Accumulated\Attacking\GW_{current_gw}.csv'
-
-# Create full file path with current GW for defense
-defense_file_path = fr'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Team\Accumulated\Defensive\GW_{current_gw}.csv'
-
-# Export data
-attack.to_csv(attack_file_path)
-defense.to_csv(defense_file_path)
-
+# Export each individual gameweek to a csv file 
+for i in range(1, len(gameweek_dfs)):
+    GW = decumulate(gameweek_dfs[i-1], gameweek_dfs[i])
+    # Proper f-string formatting for the filename
+    GW.to_csv(f'GW_{i + 2}.csv', index=False)
