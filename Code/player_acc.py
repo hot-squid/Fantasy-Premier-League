@@ -4,10 +4,9 @@ import warnings
 import requests
 import os
 
-# URL of the Google Sheet in CSV format
-csv_url = "https://docs.google.com/spreadsheets/d/1jh4VynDiD2lNWlaG7caRBCctkuw_uVUCgjWFFaaB9RE/export?format=csv&gid=1381310626"
+# Replace '123456789' with the actual gid of the tab you want to download
+csv_url = "https://docs.google.com/spreadsheets/d/1jh4VynDiD2lNWlaG7caRBCctkuw_uVUCgjWFFaaB9RE/export?format=csv&gid=1917862744"
 
-# Send a request to fetch the CSV
 response = requests.get(csv_url)
 
 # Save the file locally
@@ -17,7 +16,7 @@ with open('downloaded_sheet.csv', 'wb') as file:
 print("File downloaded successfully.")
 
 
-df = pd.read_csv('downloaded_sheet.csv', dtype={
+df = pd.read_csv('downloaded_sheet.csv',on_bad_lines= 'skip', dtype={
     'Player ID': str,
     'Name': str,
     'Last Name': str
