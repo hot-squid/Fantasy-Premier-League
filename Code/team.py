@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 # Folder path where CSV files are stored
-folder_path = r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Team\Accumulated\Defensive'  # Change this to the actual folder path
+folder_path = r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Team\Accumulated\Attacking'  # Change this to the actual folder path
 
 # Use glob to get all CSV files in the folder
 csv_files = glob.glob(os.path.join(folder_path, "*.csv"))
@@ -60,15 +60,16 @@ def decumulate(GW_previous, GW_current):
                       how='right')
 
     # List of columns to update by subtracting the previous gameweek values
-    columns = ['PerformanceG+A']
+    columns = ['Playing TimeMP','PerformanceGls','PerformanceAst','ExpectedxG','ExpectedxAG']
 
     # Create a new DataFrame to store the decumulated values
     decumulated_gw = GW_current.copy()
 
     # Iterate through each column and calculate the actual gameweek value
     for col in columns:
-        # Subtract the previous gameweek values from the current ones
-        decumulated_gw[col] = merged[f'{col}_GWc'] - merged[f'{col}_GWp'].fillna(0)
+        # Subtract the previous gameweek values from the current ones, round to 3 decimal places
+        decumulated_gw[col] = (merged[f'{col}_GWc'] - merged[f'{col}_GWp'].fillna(0)).round(3)
+
 
     # Return the decumulated gameweek data without modifying GW_current
     return decumulated_gw
@@ -77,4 +78,4 @@ def decumulate(GW_previous, GW_current):
 for i in range(1, len(gameweek_dfs)):
     GW = decumulate(gameweek_dfs[i-1], gameweek_dfs[i])
     # Proper f-string formatting for the filename
-    GW.to_csv(f'GW_{i + 2}.csv', index=False)
+    GW.to_csv(f'GW_{i + 7}.csv', index=False)
