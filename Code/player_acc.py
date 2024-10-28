@@ -3,17 +3,20 @@ import pandas as pd
 import warnings
 import requests
 import os
+# Use the export format URL to download as CSV
+csv_url = "https://docs.google.com/spreadsheets/d/1jh4VynDiD2lNWlaG7caRBCctkuw_uVUCgjWFFaaB9RE/export?format=csv&gid=313393064"
 
-# Replace '123456789' with the actual gid of the tab you want to download
-csv_url = "https://docs.google.com/spreadsheets/d/1jh4VynDiD2lNWlaG7caRBCctkuw_uVUCgjWFFaaB9RE/export?format=csv&gid=1917862744"
-
+# Request the CSV data
 response = requests.get(csv_url)
 
-# Save the file locally
-with open('downloaded_sheet.csv', 'wb') as file:
-    file.write(response.content)
-
-print("File downloaded successfully.")
+# Check if the request was successful
+if response.status_code == 200:
+    # Save the file locally
+    with open('downloaded_sheet.csv', 'wb') as file:
+        file.write(response.content)
+    print("File downloaded successfully!")
+else:
+    print("Failed to download file. Status code:", response.status_code)
 
 
 df = pd.read_csv('downloaded_sheet.csv',on_bad_lines= 'skip', dtype={

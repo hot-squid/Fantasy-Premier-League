@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 # Folder path where CSV files are stored
-folder_path = r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Team\Accumulated\Attacking'  # Change this to the actual folder path
+folder_path = r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Team\Accumulated\Defensive'  # Change this to the actual folder path
 
 # Use glob to get all CSV files in the folder
 csv_files = glob.glob(os.path.join(folder_path, "*.csv"))
