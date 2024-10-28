@@ -79,5 +79,3 @@ for i in range(1, len(gameweek_dfs)):
     GW = decumulate(gameweek_dfs[i-1], gameweek_dfs[i])
     # Proper f-string formatting for the filename
     GW.to_csv(f'GW_{i + 7}.csv', index=False)
-
-# I want to add some testing code here just in case
