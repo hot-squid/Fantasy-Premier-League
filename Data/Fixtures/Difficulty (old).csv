@@ -3,11 +3,11 @@ ARS (A),5
 ARS (H),5
 AVL (A),4
 AVL (H),3
-BHA (A),3
+BHA (A),2
 BHA (H),2
-BOU (A),3
+BOU (A),2
 BOU (H),2
-BRE (A),3
+BRE (A),2
 BRE (H),2
 CHE (A),4
 CHE (H),3
@@ -30,7 +30,7 @@ MUN (H),3
 NEW (A),4
 NEW (H),3
 NFO (A),2
-NFO (H),3
+NFO (H),2
 SOU (A),2
 SOU (H),2
 TOT (A),4
