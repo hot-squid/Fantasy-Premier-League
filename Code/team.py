@@ -30,8 +30,12 @@ gameweeks = []
 
 # Trim gameweek information to a number
 for file in csv_files:
-    trimmed_file = int(file[87:88])
-    gameweeks.append(trimmed_file)
+    if len(file) == 92:
+        trimmed_file = int(file[87:88])
+        gameweeks.append(trimmed_file)
+    else:
+        trimmed_file = int(file[87:89])
+        gameweeks.append(trimmed_file)
 
 # Create a new empty list to store selected DataFrames
 gameweek_dfs = []
