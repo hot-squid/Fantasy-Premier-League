@@ -37,6 +37,8 @@ for file in csv_files:
         trimmed_file = int(file[87:89])
         gameweeks.append(trimmed_file)
 
+gameweeks = sorted(gameweeks)
+
 # Create a new empty list to store selected DataFrames
 gameweek_dfs = []
 
@@ -54,6 +56,7 @@ for gw in gameweeks:
         gameweek_dfs.append(dataframes[gw_key])
     else:
         print(f"Warning: {gw_key} not found in dataframes")
+
 
 # Function to de-cumulate the gameweek data 
 def decumulate(GW_previous, GW_current):
