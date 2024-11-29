@@ -66,7 +66,7 @@ player = player_info[columns]
 dataset = player.merge(data, on='Player ID', how='left')
 
 # Import fixture information
-fixtures = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Fixtures.csv')
+fixtures = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Difficulty_ratings\Fixtures.csv')
 
 # Use 'melt' function to unpivot the dataframe
 fixtures = fixtures.melt(id_vars=['Team'], var_name='Gameweek', value_name='Opponent')
@@ -78,7 +78,7 @@ fixtures['Gameweek'] = fixtures['Gameweek'].str.replace('GW', '').astype(int)
 data= pd.merge(dataset, fixtures, on=['Team', 'Gameweek'], how='left')
 
 # Import fixture difficulty information
-fixture_diff = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Difficulty.csv')
+fixture_diff = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Difficulty_ratings\Difficulty.csv')
 
 # Create a mapping dictionary from fixture difficulty
 mapping = fixture_diff.set_index('Fixture')['Difficulty'].to_dict()

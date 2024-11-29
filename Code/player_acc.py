@@ -54,7 +54,7 @@ data = df[columns_to_select]
 current_gw = df['Last GW'].max()
 
 # Import whole fixture list 
-fixtures = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Fixtures.csv')
+fixtures = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Difficulty_ratings\Fixtures.csv')
 
 # Select current gameweek plus next 5 gameweek fixture information
 selected_columns = ['Team'] + [f'GW{gw}' for gw in range(current_gw, current_gw + 6)]
@@ -66,7 +66,7 @@ fixtures = fixtures[selected_columns]
 Data = data.merge(fixtures, on= 'Team', how= 'left')
 
 # Import fixture difficulty csv
-fixture_diff = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Difficulty.csv')
+fixture_diff = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Difficulty_ratings\Difficulty.csv')
 
 # Create a mapping dictionary from fixture difficulty
 mapping = fixture_diff.set_index('Fixture')['Difficulty'].to_dict()
