@@ -66,7 +66,7 @@ player = player_info[columns]
 dataset = player.merge(data, on='Player ID', how='left')
 
 # Import fixture information
-fixtures = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Difficulty_ratings\Fixtures.csv')
+fixtures = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Schedule\Fixtures.csv')
 
 # Use 'melt' function to unpivot the dataframe
 fixtures = fixtures.melt(id_vars=['Team'], var_name='Gameweek', value_name='Opponent')
