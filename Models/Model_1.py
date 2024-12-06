@@ -10,7 +10,7 @@ from pulp import LpMaximize, LpProblem, LpVariable, lpSum
 # a team given the constraints of budget, position and team limit. 
 
 # Define constants
-Gameweek = 12
+Gameweek = 13
 BUDGET = 800 # Choose your budget (1000 = £100m)
 WEEKS = 1 # Choose how many weeks you want to prepare for between 1 and 5
 GK = 1 # Goalkeepers required (Choose between 0 and 2)
