@@ -78,7 +78,7 @@ fixtures['Gameweek'] = fixtures['Gameweek'].str.replace('GW', '').astype(int)
 data= pd.merge(dataset, fixtures, on=['Team', 'Gameweek'], how='left')
 
 # Import fixture difficulty information
-fixture_diff = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Difficulty_ratings\Difficulty.csv')
+fixture_diff = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Difficulty_ratings\FD_FPL\Difficulty.csv')
 
 # Create a mapping dictionary from fixture difficulty
 mapping = fixture_diff.set_index('Fixture')['Difficulty'].to_dict()

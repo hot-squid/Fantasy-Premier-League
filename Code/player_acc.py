@@ -7,7 +7,7 @@ import os
 # Adjust the URL to point to the CSV export link
 # This format is usually: https://docs.google.com/spreadsheets/d/<SHEET_ID>/gviz/tq?tqx=out:csv&gid=<GID>
 sheet_id = '1jh4VynDiD2lNWlaG7caRBCctkuw_uVUCgjWFFaaB9RE'
-gid = '1944649285'  # Change this to your specific GID
+gid = '51332721'  # Change this to your specific GID
 
 csv_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&gid={gid}'
 
@@ -66,7 +66,7 @@ fixtures = fixtures[selected_columns]
 Data = data.merge(fixtures, on= 'Team', how= 'left')
 
 # Import fixture difficulty csv
-fixture_diff = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Difficulty_ratings\Difficulty.csv')
+fixture_diff = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Difficulty_ratings\FD_FPL\Difficulty.csv')
 
 # Create a mapping dictionary from fixture difficulty
 mapping = fixture_diff.set_index('Fixture')['Difficulty'].to_dict()
