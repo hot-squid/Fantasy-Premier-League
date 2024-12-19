@@ -14,13 +14,13 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Current gameweek parameter
-gameweek = 15
+week = 16
 
 # Initialize an empty list to store all individual, player gameweek data 
 all_player_sep = []
 
 # Loop through each gameweek
-for i in range(1, gameweek + 1):  # Adjusting the range to start from 1 to gameweek
+for i in range(1, week + 1):  # Adjusting the range to start from 1 to gameweek
     # Read the CSV for the current gameweek
     x = pd.read_csv(rf'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Players\Seperate_GW\GW_{i}.csv')
     
@@ -45,7 +45,7 @@ final_data = player_data.merge(fixtures, on= 'Team')
 team_data = []
 
 # For all available gameweeks
-for gameweek in range (4,15):
+for gameweek in range (4,16):
 
     # Drop unneeded gameweek columns
     def drop_gw_columns(final_data, gameweek):
@@ -302,6 +302,12 @@ for gameweek in range (4,15):
     number_of_games = 4  # Define the rolling window size
 
     # Apply rolling mean for "Form_xG" (including current gameweek)
+    player_data["Form"] = (
+        player_data.groupby("Player ID")["GW Points"]
+        .transform(lambda x: x.rolling(window=number_of_games).mean().round(3))
+    )
+
+    # Apply rolling mean for "Form_xG" (including current gameweek)
     player_data["Form_player_xG"] = (
         player_data.groupby("Player ID")["xG"]
         .transform(lambda x: x.rolling(window=number_of_games).mean().round(3))
@@ -320,6 +326,9 @@ for gameweek in range (4,15):
     for i in range(1,6):
         player_data[f'FD_Difference_norm{i}'] = scaler.fit_transform(player_data[f'F_Difference{i}'].values.reshape(-1, 1))
 
+    # Player form normalise
+    player_data[f'Form_norm'] = scaler.fit_transform(player_data['Form'].values.reshape(-1, 1))
+
     # Player xG_form
     player_data[f'Form_player_xG_norm'] = scaler.fit_transform(player_data['Form_player_xG'].values.reshape(-1, 1))
 
@@ -332,7 +341,7 @@ for gameweek in range (4,15):
             lambda row: (
                 row[f'FD_Difference_norm{i}'] / row['Form_TeamxG_against_norm']
                 if row['Position'] in ['GK', 'DEF']
-                else row[f'FD_Difference_norm{i}'] * row['Form_player_xG_norm']
+                else row[f'FD_Difference_norm{i}'] * row['Form_norm'] * row['Form_player_xG_norm']
             ),
             axis=1
         )
@@ -343,7 +352,7 @@ for gameweek in range (4,15):
 
     # Filter on columns
     columns = ['Player ID', 'Name', 'Last_Name', 'Team', 'Position', 'Cost_Today', 
-            'Minutes', 'Gameweek','Form_player_xG_norm','Form_TeamxG_against_norm', 'FDI_1',
+            'Minutes', 'Gameweek','Form_norm','Form_TeamxG_against_norm', 'FDI_1',
         'FDI_2', 'FDI_3', 'FDI_4', 'FDI_5']
 
     # Filter on columns
@@ -422,7 +431,7 @@ for gameweek in range (4,15):
             selected_players.append(player_info)
 
     # Create team data folder 
-    team_data.append(selected_players)
+    team_data.append([gameweek, selected_players])
 
 # Create dataframe
 data = pd.DataFrame(team_data)

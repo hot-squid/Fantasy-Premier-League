@@ -288,6 +288,12 @@ player_data["Form_TeamxG_against"] = (
     .transform(lambda x: x.rolling(window=number_of_games).mean().round(3))
 )
 
+# Apply rolling mean for Form
+player_data['Form'] = (
+    player_data.groupby("Player ID")["GW Points"]
+    .transform(lambda x: x.rolling(window=number_of_games).mean().round(3))
+)
+
 # Min/Max scaler 
 scaler = MinMaxScaler(feature_range=(2, 5))
 
@@ -301,13 +307,16 @@ player_data[f'Form_player_xG_norm'] = scaler.fit_transform(player_data['Form_pla
 # Team xG_against_form
 player_data[f'Form_TeamxG_against_norm'] = scaler.fit_transform(player_data['Form_TeamxG_against'].values.reshape(-1, 1))
 
+# Player form normalise
+player_data[f'Form_norm'] = scaler.fit_transform(player_data['Form'].values.reshape(-1, 1))
+
 # Creating interaction variables for defensive and attacking players
 for i in range(1, 6):
     player_data[f'FD{i}'] = player_data.apply(
         lambda row: (
             row[f'FD_Difference_norm{i}'] / row['Form_TeamxG_against_norm']
             if row['Position'] in ['GK', 'DEF']
-            else row[f'FD_Difference_norm{i}'] * row['Form_player_xG_norm']
+            else row[f'FD_Difference_norm{i}'] * row['Form_player_xG_norm'] * row['Form_norm']
         ),
         axis=1
     )

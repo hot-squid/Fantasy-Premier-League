@@ -4,7 +4,7 @@ import streamlit as st
 from datetime import datetime
 import os
 
-def run_model_1():
+def run_model_2_1():
 
     # Get the current week number (1-52)
     current_week = datetime.now().isocalendar()[1]
