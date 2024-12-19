@@ -1,0 +1,665 @@
+,Player ID,Name,Last_Name,Team,Position,Cost_Today,GW Points,Form,Gameweek,GW16,GW17,GW18,GW19,GW20,NGW1,NGW2,NGW3,NGW4,NGW5,F_1,F_2,F_3,F_4,F_5,FDI_1,FDI_2,FDI_3,FDI_4,FDI_5
+13,1,Fábio,Fábio Vieira,Arsenal,MID,54,0,0.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,0.0,0.0,0.0,0.0,0.0
+28,2,Gabriel,G.Jesus,Arsenal,FWD,68,1,0.75,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,0.25,0.1071,0.0833,0.0682,0.0536
+43,3,Gabriel,Gabriel,Arsenal,DEF,62,0,3.75,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,1.875,0.9375,0.625,0.3409,0.25
+58,4,Kai,Havertz,Arsenal,FWD,79,5,3.25,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,1.0833,0.4643,0.3611,0.2955,0.2321
+73,5,Karl,Hein,Arsenal,GK,40,0,0.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,0.0,0.0,0.0,0.0,0.0
+88,6,Jurriën,J.Timber,Arsenal,DEF,56,2,5.75,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,2.875,1.4375,0.9583,0.5227,0.3833
+103,7,Jorge Luiz,Jorginho,Arsenal,MID,47,2,1.25,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,0.4167,0.1786,0.1389,0.1136,0.0893
+118,8,Jakub,Kiwior,Arsenal,DEF,48,2,2.5,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,1.25,0.625,0.4167,0.2273,0.1667
+133,9,Gabriel,Martinelli,Arsenal,MID,68,0,0.75,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,0.25,0.1071,0.0833,0.0682,0.0536
+148,10,Reiss,Nelson,Fulham,MID,50,0,1.75,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.35,0.25,0.175,0.125,0.1094
+163,11,Eddie,Nketiah,Crystal Palace,FWD,59,0,0.5,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.1667,0.0714,0.0417,0.0357,0.0294
+178,12,Ethan,Nwaneri,Arsenal,MID,45,1,2.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,0.6667,0.2857,0.2222,0.1818,0.1429
+193,13,Martin,Ødegaard,Arsenal,MID,83,2,4.75,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,1.5833,0.6786,0.5278,0.4318,0.3393
+208,14,Aaron,Ramsdale,Southampton,GK,44,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.0,0.0,0.0,0.0,0.0
+223,15,David,Raya,Arsenal,GK,55,2,4.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,2.0,1.0,0.6667,0.3636,0.2667
+238,16,Declan,Rice,Arsenal,MID,62,2,2.75,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,0.9167,0.3929,0.3056,0.25,0.1964
+253,17,Bukayo,Saka,Arsenal,MID,105,2,9.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,3.0,1.2857,1.0,0.8182,0.6429
+268,18,William,Saliba,Arsenal,DEF,61,9,8.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,4.0,2.0,1.3333,0.7273,0.5333
+283,19,Emile,Smith Rowe,Fulham,MID,56,1,1.5,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.3,0.2143,0.15,0.1071,0.0938
+298,20,Thomas,Thomas,Arsenal,MID,50,2,4.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,1.3333,0.5714,0.4444,0.3636,0.2857
+313,21,Kieran,Tierney,Arsenal,DEF,43,0,0.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,0.0,0.0,0.0,0.0,0.0
+328,22,Tomiyasu,Tomiyasu,Arsenal,DEF,48,0,0.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,0.0,0.0,0.0,0.0,0.0
+343,23,Leandro,Trossard,Arsenal,MID,68,1,4.25,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,1.4167,0.6071,0.4722,0.3864,0.3036
+358,24,Benjamin,White,Arsenal,DEF,61,0,0.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,0.0,0.0,0.0,0.0,0.0
+373,25,Oleksandr,Zinchenko,Arsenal,DEF,48,0,1.75,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,0.875,0.4375,0.2917,0.1591,0.1167
+388,26,Álex,Alex Moreno,Nottingham Forest,DEF,44,0,0.75,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.1875,0.0833,0.0625,0.0536,0.0441
+403,27,Cameron,Archer,Southampton,FWD,50,2,1.75,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.4375,0.25,0.1944,0.1346,0.1167
+418,28,Leon,Bailey,Aston Villa,MID,62,1,1.5,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.375,0.2143,0.1364,0.1071,0.0938
+433,29,Ross,Barkley,Aston Villa,MID,52,1,3.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.75,0.4286,0.2727,0.2143,0.1875
+448,30,Enzo,Barrenechea,Aston Villa,MID,49,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.0,0.0,0.0,0.0,0.0
+463,31,Emiliano,Buendia,Aston Villa,MID,52,0,0.5,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.125,0.0714,0.0455,0.0357,0.0312
+478,32,Matty,Cash,Aston Villa,DEF,44,0,2.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.5,0.25,0.1667,0.1333,0.1111
+493,33,Leander,Dendoncker,Aston Villa,MID,45,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.0,0.0,0.0,0.0,0.0
+508,34,Moussa,Diaby,Aston Villa,MID,65,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.0,0.0,0.0,0.0,0.0
+523,35,Diego Carlos,Diego Carlos,Aston Villa,DEF,45,7,1.75,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.4375,0.2188,0.1458,0.1167,0.0972
+538,36,Lucas,Digne,Aston Villa,DEF,47,1,1.25,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.3125,0.1562,0.1042,0.0833,0.0694
+553,37,Lewis,Dobbin,Aston Villa,MID,50,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.0,0.0,0.0,0.0,0.0
+568,38,Jhon,Duran,Aston Villa,FWD,58,8,2.5,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.625,0.3571,0.2273,0.1786,0.1562
+583,39,Joe,Gauci,Aston Villa,GK,40,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.0,0.0,0.0,0.0,0.0
+598,40,Kortney,Hause,Aston Villa,DEF,40,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.0,0.0,0.0,0.0,0.0
+613,41,Samuel,Iling Jr,Aston Villa,MID,54,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.0,0.0,0.0,0.0,0.0
+628,42,Boubacar,Kamara,Aston Villa,MID,50,3,1.75,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.4375,0.25,0.1591,0.125,0.1094
+643,43,Kaine,Kesler-Hayden,Aston Villa,DEF,40,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.0,0.0,0.0,0.0,0.0
+658,44,Ezri,Konsa,Aston Villa,DEF,44,8,2.75,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.6875,0.3438,0.2292,0.1833,0.1528
+673,45,Ian,Maatsen,Aston Villa,DEF,46,1,0.5,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.125,0.0625,0.0417,0.0333,0.0278
+688,46,Filip,Marschall,Aston Villa,GK,40,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.0,0.0,0.0,0.0,0.0
+703,47,Emiliano,Martinez,Aston Villa,GK,50,6,2.75,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.6875,0.3438,0.2292,0.1833,0.1528
+718,48,John,McGinn,Aston Villa,MID,52,3,3.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.75,0.4286,0.2727,0.2143,0.1875
+733,49,Tyrone,Mings,Aston Villa,DEF,44,0,0.5,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.125,0.0625,0.0417,0.0333,0.0278
+748,50,Kosta,Nedeljkovic,Aston Villa,DEF,40,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.0,0.0,0.0,0.0,0.0
+763,51,Robin,Olsen,Aston Villa,GK,45,0,0.25,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.0625,0.0312,0.0208,0.0167,0.0139
+778,52,Pau,Pau,Aston Villa,DEF,44,6,2.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.5,0.25,0.1667,0.1333,0.1111
+793,53,Jacob,Ramsey,Aston Villa,MID,54,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.0,0.0,0.0,0.0,0.0
+808,54,Morgan,Rogers,Aston Villa,MID,53,2,3.5,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.875,0.5,0.3182,0.25,0.2188
+823,55,Viljami,Sinisalo,Aston Villa,GK,40,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.0,0.0,0.0,0.0,0.0
+838,56,Lino,Sousa,Aston Villa,DEF,40,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.0,0.0,0.0,0.0,0.0
+853,57,Youri,Tielemans,Aston Villa,MID,55,1,2.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.5,0.2857,0.1818,0.1429,0.125
+868,58,Ollie,Watkins,Aston Villa,FWD,90,1,5.5,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,1.375,0.7857,0.5,0.3929,0.3438
+883,59,Max,Aarons,Bournemouth,DEF,43,0,0.25,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),3,3,3,3,2,3,6,9,12,14,0.0833,0.0417,0.0278,0.0208,0.0179
+898,60,Tyler,Adams,Bournemouth,MID,49,0,1.5,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,0.75,0.3,0.2143,0.15,0.1154
+913,61,Jaidon,Anthony,Bournemouth,MID,45,0,0.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,0.0,0.0,0.0,0.0,0.0
+928,62,David,Brooks,Bournemouth,MID,49,3,3.25,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,1.625,0.65,0.4643,0.325,0.25
+943,63,Ryan,Christie,Bournemouth,MID,49,2,1.75,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,0.875,0.35,0.25,0.175,0.1346
+958,64,Lewis,Cook,Bournemouth,MID,50,2,1.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,0.5,0.2,0.1429,0.1,0.0769
+973,65,Enes,Enes Ünal,Bournemouth,FWD,54,6,3.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,1.5,0.6,0.4286,0.3,0.2308
+988,66,Romain,Faivre,Bournemouth,MID,50,0,0.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,0.0,0.0,0.0,0.0,0.0
+1003,67,Hamed,H.Traorè,Bournemouth,MID,45,0,0.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,0.0,0.0,0.0,0.0,0.0
+1018,68,James,Hill,Bournemouth,DEF,39,1,0.25,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),3,3,3,3,2,3,6,9,12,14,0.0833,0.0417,0.0278,0.0208,0.0179
+1033,69,Daniel,Jebbison,Bournemouth,FWD,45,0,0.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,0.0,0.0,0.0,0.0,0.0
+1048,70,Milos,Kerkez,Bournemouth,DEF,46,2,4.5,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),3,3,3,3,2,3,6,9,12,14,1.5,0.75,0.5,0.375,0.3214
+1063,71,Justin,Kluivert,Bournemouth,MID,55,2,6.75,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,3.375,1.35,0.9643,0.675,0.5192
+1078,72,Chris,Mepham,Bournemouth,DEF,44,0,0.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),3,3,3,3,2,3,6,9,12,14,0.0,0.0,0.0,0.0,0.0
+1093,73,Norberto,Neto,Arsenal,GK,42,0,0.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,0.0,0.0,0.0,0.0,0.0
+1108,74,Dango,O.Dango,Bournemouth,MID,50,12,3.75,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,1.875,0.75,0.5357,0.375,0.2885
+1123,75,Alex,Paulsen,Bournemouth,GK,40,0,0.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),3,3,3,3,2,3,6,9,12,14,0.0,0.0,0.0,0.0,0.0
+1138,76,Philip,Philip,Bournemouth,MID,48,1,0.75,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,0.375,0.15,0.1071,0.075,0.0577
+1153,77,Alex,Scott,Bournemouth,MID,47,0,0.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,0.0,0.0,0.0,0.0,0.0
+1168,78,Antoine,Semenyo,Bournemouth,MID,57,2,1.5,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,0.75,0.3,0.2143,0.15,0.1154
+1183,79,Marcos,Senesi,Bournemouth,DEF,48,0,0.5,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),3,3,3,3,2,3,6,9,12,14,0.1667,0.0833,0.0556,0.0417,0.0357
+1198,80,Luis,Sinisterra,Bournemouth,MID,49,0,0.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,0.0,0.0,0.0,0.0,0.0
+1213,81,Adam,Smith,Bournemouth,DEF,45,2,2.5,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),3,3,3,3,2,3,6,9,12,14,0.8333,0.4167,0.2778,0.2083,0.1786
+1228,82,Dominic,Solanke,Spurs,FWD,75,6,3.25,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,1.625,0.4643,0.2955,0.2321,0.1912
+1243,83,Marcus,Tavernier,Bournemouth,MID,55,2,3.75,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,1.875,0.75,0.5357,0.375,0.2885
+1258,84,Mark,Travers,Bournemouth,GK,44,0,0.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),3,3,3,3,2,3,6,9,12,14,0.0,0.0,0.0,0.0,0.0
+1273,85,Illia,Zabarnyi,Bournemouth,DEF,44,4,2.75,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),3,3,3,3,2,3,6,9,12,14,0.9167,0.4583,0.3056,0.2292,0.1964
+1288,86,Kristoffer,Ajer,Brentford,DEF,44,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),4,3,4,5,2,4,7,11,16,18,0.0,0.0,0.0,0.0,0.0
+1303,87,Ethan,Brierley,Brentford,MID,45,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.0,0.0,0.0,0.0,0.0
+1318,88,Nathan,Collins,Brentford,DEF,45,7,4.5,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),4,3,4,5,2,4,7,11,16,18,1.125,0.6429,0.4091,0.2812,0.25
+1333,89,Mikkel,Damsgaard,Brentford,MID,50,1,4.5,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,1.5,0.75,0.5,0.3462,0.3
+1348,90,Josh,Dasilva,Brentford,MID,48,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.0,0.0,0.0,0.0,0.0
+1363,91,Mark,Flekken,Brentford,GK,45,3,4.25,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),4,3,4,5,2,4,7,11,16,18,1.0625,0.6071,0.3864,0.2656,0.2361
+1378,92,Rico,Henry,Brentford,DEF,43,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),4,3,4,5,2,4,7,11,16,18,0.0,0.0,0.0,0.0,0.0
+1393,93,Aaron,Hickey,Brentford,DEF,43,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),4,3,4,5,2,4,7,11,16,18,0.0,0.0,0.0,0.0,0.0
+1408,94,Vitaly,Janelt,Brentford,MID,49,0,1.5,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.5,0.25,0.1667,0.1154,0.1
+1423,95,Mathias,Jensen,Brentford,MID,53,0,1.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.3333,0.1667,0.1111,0.0769,0.0667
+1438,96,Kim,Ji-soo,Brentford,DEF,39,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),4,3,4,5,2,4,7,11,16,18,0.0,0.0,0.0,0.0,0.0
+1453,97,Yunus Emre,Konak,Brentford,MID,45,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.0,0.0,0.0,0.0,0.0
+1468,98,Keane,Lewis-Potter,Brentford,MID,50,1,1.75,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.5833,0.2917,0.1944,0.1346,0.1167
+1483,99,Bryan,Mbeumo,Brentford,MID,77,13,5.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,1.6667,0.8333,0.5556,0.3846,0.3333
+1498,100,Ben,Mee,Brentford,DEF,42,1,0.25,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),4,3,4,5,2,4,7,11,16,18,0.0625,0.0357,0.0227,0.0156,0.0139
+1513,101,Christian,Nørgaard,Brentford,MID,48,5,1.25,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.4167,0.2083,0.1389,0.0962,0.0833
+1528,102,Frank,Onyeka,Brentford,MID,49,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.0,0.0,0.0,0.0,0.0
+1543,103,Myles,Peart-Harris,Brentford,MID,45,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.0,0.0,0.0,0.0,0.0
+1558,104,Ethan,Pinnock,Brentford,DEF,45,1,2.25,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),4,3,4,5,2,4,7,11,16,18,0.5625,0.3214,0.2045,0.1406,0.125
+1573,105,Mads,Roerslev,Brentford,DEF,43,0,0.5,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),4,3,4,5,2,4,7,11,16,18,0.125,0.0714,0.0455,0.0312,0.0278
+1588,106,Kevin,Schade,Brentford,MID,51,6,8.75,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,2.9167,1.4583,0.9722,0.6731,0.5833
+1603,107,Igor Thiago,Thiago,Brentford,FWD,59,2,1.25,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.4167,0.2083,0.1389,0.0962,0.0833
+1618,108,Ivan,Toney,Brentford,FWD,73,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.0,0.0,0.0,0.0,0.0
+1633,109,Hákon,Valdimarsson,Brentford,GK,40,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),4,3,4,5,2,4,7,11,16,18,0.0,0.0,0.0,0.0,0.0
+1648,110,Yoane,Wissa,Brentford,FWD,62,7,4.75,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,1.5833,0.7917,0.5278,0.3654,0.3167
+1663,111,Yehor,Yarmoliuk,Brentford,MID,44,2,1.5,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.5,0.25,0.1667,0.1154,0.1
+1678,112,Mathias,Zanka,Brentford,DEF,45,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),4,3,4,5,2,4,7,11,16,18,0.0,0.0,0.0,0.0,0.0
+1693,113,Simon,Adingra,Brighton,MID,53,0,1.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.5,0.25,0.1667,0.1,0.0714
+1708,114,Benicio,Baker-Boaitey,Brighton,MID,45,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+1723,115,Carlos,Baleba,Brighton,MID,50,0,1.75,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.875,0.4375,0.2917,0.175,0.125
+1738,116,Valentín,Barco,Brighton,DEF,40,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,0.0,0.0,0.0,0.0,0.0
+1753,117,Facundo,Buonanotte,Leicester,MID,50,0,2.75,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.6875,0.3929,0.2292,0.1833,0.1447
+1768,118,Amario,Cozier-Duberry,Brighton,MID,45,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+1783,119,Mahmoud,Dahoud,Brighton,MID,49,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+1798,120,Lewis,Dunk,Brighton,DEF,44,1,0.5,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,0.1667,0.0833,0.0625,0.0417,0.0294
+1813,121,Julio,Enciso,Brighton,MID,54,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+1828,122,Pervis,Estupiñan,Brighton,DEF,51,5,3.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,1.0,0.5,0.375,0.25,0.1765
+1843,123,Evan,Ferguson,Brighton,FWD,55,2,1.25,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.625,0.3125,0.2083,0.125,0.0893
+1858,124,Billy,Gilmour,Brighton,MID,50,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+1873,125,Pascal,Gross,Brighton,MID,65,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+1888,126,Jack,Hinshelwood,Brighton,MID,50,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+1903,127,Ibrahim,I.Osman,Brighton,MID,50,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+1918,128,Igor Julio,Igor,Brighton,DEF,44,1,1.5,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,0.5,0.25,0.1875,0.125,0.0882
+1933,129,João Pedro,João Pedro,Brighton,FWD,59,2,5.25,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,2.625,1.3125,0.875,0.525,0.375
+1948,130,Kacper,Kozlowski,Brighton,MID,45,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+1963,131,Tariq,Lamptey,Brighton,DEF,44,8,3.25,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,1.0833,0.5417,0.4062,0.2708,0.1912
+1978,132,Solly,March,Brighton,MID,65,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+1993,133,Adrian,Mazilu,Brighton,MID,45,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+2008,134,James,Milner,Brighton,MID,50,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+2023,135,Yankuba,Minteh,Brighton,MID,51,6,2.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,1.0,0.5,0.3333,0.2,0.1429
+2038,136,Mitoma,Mitoma,Brighton,MID,65,2,5.75,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,2.875,1.4375,0.9583,0.575,0.4107
+2053,137,Jakub,Moder,Brighton,MID,44,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+2068,138,Mark,O’Mahony,Brighton,FWD,45,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+2083,139,Odeluga,Offiah,Brighton,DEF,40,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,0.0,0.0,0.0,0.0,0.0
+2098,140,Cameron,Peupion,Brighton,MID,44,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+2113,141,Jeremy,Sarmiento,Brighton,MID,49,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+2128,142,Jason,Steele,Brighton,GK,42,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,0.0,0.0,0.0,0.0,0.0
+2143,143,Deniz,Undav,Brighton,FWD,55,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+2158,144,Jan Paul,Van Hecke,Brighton,DEF,45,1,1.25,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,0.4167,0.2083,0.1562,0.1042,0.0735
+2173,145,Joël,Veltman,Brighton,DEF,46,0,0.5,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,0.1667,0.0833,0.0625,0.0417,0.0294
+2188,146,Bart,Verbruggen,Brighton,GK,45,1,1.75,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,0.5833,0.2917,0.2188,0.1458,0.1029
+2203,147,Adam,Webster,Brighton,DEF,43,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,0.0,0.0,0.0,0.0,0.0
+2218,148,Danny,Welbeck,Brighton,FWD,59,1,1.25,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.625,0.3125,0.2083,0.125,0.0893
+2233,149,Mats,Wieffer,Brighton,MID,47,3,1.5,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.75,0.375,0.25,0.15,0.1071
+2248,150,Andrey,Andrey Santos,Chelsea,MID,45,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.0,0.0,0.0,0.0,0.0
+2263,151,Ângelo Gabriel,Ângelo,Chelsea,MID,45,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.0,0.0,0.0,0.0,0.0
+2278,152,Kepa,Arrizabalaga,Bournemouth,GK,45,3,3.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),3,3,3,3,2,3,6,9,12,14,1.0,0.5,0.3333,0.25,0.2143
+2293,153,Benoît,B.Badiashile,Chelsea,DEF,43,1,1.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,0.5,0.25,0.1429,0.1111,0.0909
+2308,154,Lucas,Bergström,Chelsea,GK,40,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,0.0,0.0,0.0,0.0,0.0
+2323,155,Marcus,Bettinelli,Chelsea,GK,39,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,0.0,0.0,0.0,0.0,0.0
+2338,156,Armando,Broja,Everton,FWD,54,0,0.25,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.05,0.0312,0.0227,0.0179,0.0132
+2353,157,Moisés,Caicedo,Chelsea,MID,49,5,3.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,1.5,0.4286,0.2727,0.2308,0.1765
+2368,158,Cesare,Casadei,Chelsea,MID,44,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.0,0.0,0.0,0.0,0.0
+2383,159,Trevoh,Chalobah,Crystal Palace,DEF,44,1,2.25,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),4,5,3,2,5,4,9,12,14,19,0.5625,0.25,0.1875,0.1607,0.1184
+2398,160,Ben,Chilwell,Chelsea,DEF,47,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,0.0,0.0,0.0,0.0,0.0
+2413,161,Carney,Chukwuemeka,Chelsea,MID,48,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.0,0.0,0.0,0.0,0.0
+2428,162,Levi,Colwill,Chelsea,DEF,45,1,2.25,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,1.125,0.5625,0.3214,0.25,0.2045
+2443,163,Marc,Cucurella,Chelsea,DEF,51,4,4.75,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,2.375,1.1875,0.6786,0.5278,0.4318
+2458,164,David Datro,D.D.Fofana,Chelsea,FWD,54,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.0,0.0,0.0,0.0,0.0
+2473,165,Deivid Washington,Deivid,Chelsea,FWD,49,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.0,0.0,0.0,0.0,0.0
+2488,166,Kiernan,Dewsbury-Hall,Chelsea,MID,56,0,0.5,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.25,0.0714,0.0455,0.0385,0.0294
+2503,167,Axel,Disasi,Chelsea,DEF,42,0,2.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,1.0,0.5,0.2857,0.2222,0.1818
+2518,168,Enzo,Enzo,Chelsea,MID,49,9,8.75,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,4.375,1.25,0.7955,0.6731,0.5147
+2533,169,Conor,Gallagher,Chelsea,MID,59,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.0,0.0,0.0,0.0,0.0
+2548,170,Alfie,Gilchrist,Chelsea,DEF,40,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,0.0,0.0,0.0,0.0,0.0
+2563,171,Malo,Gusto,Chelsea,DEF,49,1,1.75,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,0.875,0.4375,0.25,0.1944,0.1591
+2578,172,Reece,James,Chelsea,DEF,49,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,0.0,0.0,0.0,0.0,0.0
+2593,173,Omari,Kellyman,Chelsea,MID,44,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.0,0.0,0.0,0.0,0.0
+2608,174,Roméo,Lavia,Chelsea,MID,45,0,0.75,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.375,0.1071,0.0682,0.0577,0.0441
+2623,175,Romelu,Lukaku,Chelsea,FWD,63,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.0,0.0,0.0,0.0,0.0
+2638,176,Malang,M.Sarr,Chelsea,DEF,45,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,0.0,0.0,0.0,0.0,0.0
+2653,177,Noni,Madueke,Chelsea,MID,63,1,5.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,2.5,0.7143,0.4545,0.3846,0.2941
+2668,178,Marc,Marc Guiu,Chelsea,FWD,48,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.0,0.0,0.0,0.0,0.0
+2683,179,Mykhailo,Mudryk,Chelsea,MID,62,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.0,0.0,0.0,0.0,0.0
+2698,180,Nicolas,N.Jackson,Chelsea,FWD,82,2,5.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,2.5,0.7143,0.4545,0.3846,0.2941
+2713,181,Christopher,Nkunku,Chelsea,MID,58,1,4.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,2.0,0.5714,0.3636,0.3077,0.2353
+2728,182,Cole,Palmer,Chelsea,MID,110,18,10.25,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,5.125,1.4643,0.9318,0.7885,0.6029
+2743,183,Đorđe,Petrović,Chelsea,GK,44,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,0.0,0.0,0.0,0.0,0.0
+2758,184,Renato,Renato Veiga,Chelsea,MID,45,1,0.5,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.25,0.0714,0.0455,0.0385,0.0294
+2773,185,Robert,Sánchez,Chelsea,GK,48,0,2.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,1.0,0.5,0.2857,0.2222,0.1818
+2788,186,Raheem,Sterling,Arsenal,MID,67,0,1.25,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,0.4167,0.1786,0.1389,0.1136,0.0893
+2803,187,Tosin,Tosin,Chelsea,DEF,42,0,0.5,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,0.25,0.125,0.0714,0.0556,0.0455
+2818,188,Lesley,Ugochukwu,Southampton,MID,45,0,0.25,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.0625,0.0357,0.0278,0.0192,0.0167
+2833,189,Wesley,W.Fofana,Chelsea,DEF,45,0,0.75,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,0.375,0.1875,0.1071,0.0833,0.0682
+2848,190,Naouirou,Ahamada,Crystal Palace,MID,45,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.0,0.0,0.0,0.0,0.0
+2863,191,Joachim,Andersen,Fulham,DEF,42,0,0.0,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,4,3,2,5,7,11,14,16,0.0,0.0,0.0,0.0,0.0
+2878,192,Jordan,J.Ayew,Leicester,MID,52,2,3.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.75,0.4286,0.25,0.2,0.1579
+2893,193,Cheick,C.Doucouré,Crystal Palace,MID,49,0,0.5,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.1667,0.0714,0.0417,0.0357,0.0294
+2908,194,Chris,C.Richards,Crystal Palace,DEF,44,0,0.5,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),4,5,3,2,5,4,9,12,14,19,0.125,0.0556,0.0417,0.0357,0.0263
+2923,195,Chadi,Chadi Riad,Crystal Palace,DEF,43,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),4,5,3,2,5,4,9,12,14,19,0.0,0.0,0.0,0.0,0.0
+2938,196,Nathaniel,Clyne,Crystal Palace,DEF,43,0,0.25,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),4,5,3,2,5,4,9,12,14,19,0.0625,0.0278,0.0208,0.0179,0.0132
+2953,197,Malcolm,Ebiowei,Crystal Palace,MID,45,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.0,0.0,0.0,0.0,0.0
+2968,198,Odsonne,Edouard,Leicester,FWD,52,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.0,0.0,0.0,0.0,0.0
+2983,199,Eberechi,Eze,Crystal Palace,MID,66,2,2.5,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.8333,0.3571,0.2083,0.1786,0.1471
+2998,200,Marc,Guéhi,Crystal Palace,DEF,45,1,2.75,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),4,5,3,2,5,4,9,12,14,19,0.6875,0.3056,0.2292,0.1964,0.1447
+3013,201,Dean,Henderson,Crystal Palace,GK,44,1,4.25,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),4,5,3,2,5,4,9,12,14,19,1.0625,0.4722,0.3542,0.3036,0.2237
+3028,202,Rob,Holding,Crystal Palace,DEF,43,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),4,5,3,2,5,4,9,12,14,19,0.0,0.0,0.0,0.0,0.0
+3043,203,Will,Hughes,Crystal Palace,MID,49,11,4.25,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,1.4167,0.6071,0.3542,0.3036,0.25
+3058,204,Sam,Johnstone,Wolves,GK,43,1,0.25,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.125,0.05,0.0357,0.0208,0.0167
+3073,205,Daichi,Kamada,Crystal Palace,MID,51,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.0,0.0,0.0,0.0,0.0
+3088,206,Jefferson,Lerma,Crystal Palace,MID,48,2,1.25,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.4167,0.1786,0.1042,0.0893,0.0735
+3103,207,Jean-Philippe,Mateta,Crystal Palace,FWD,72,2,4.25,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,1.4167,0.6071,0.3542,0.3036,0.25
+3118,208,Matheus,M.França,Crystal Palace,MID,44,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.0,0.0,0.0,0.0,0.0
+3133,209,Remi,Matthews,Crystal Palace,GK,40,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),4,5,3,2,5,4,9,12,14,19,0.0,0.0,0.0,0.0,0.0
+3148,210,Tyrick,Mitchell,Crystal Palace,DEF,48,1,2.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),4,5,3,2,5,4,9,12,14,19,0.5,0.2222,0.1667,0.1429,0.1053
+3163,211,Daniel,Muñoz,Crystal Palace,DEF,47,7,6.25,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),4,5,3,2,5,4,9,12,14,19,1.5625,0.6944,0.5208,0.4464,0.3289
+3178,212,David,Ozoh,Crystal Palace,MID,45,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.0,0.0,0.0,0.0,0.0
+3193,213,Jesurun,Rak-Sakyi,Crystal Palace,MID,45,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.0,0.0,0.0,0.0,0.0
+3208,214,Jeffrey,Schlupp,Crystal Palace,MID,47,0,0.5,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.1667,0.0714,0.0417,0.0357,0.0294
+3223,215,Joel,Ward,Crystal Palace,DEF,43,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),4,5,3,2,5,4,9,12,14,19,0.0,0.0,0.0,0.0,0.0
+3238,216,Adam,Wharton,Crystal Palace,MID,47,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.0,0.0,0.0,0.0,0.0
+3253,217,Abdoulaye,A.Doucoure,Everton,MID,51,0,2.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.4,0.25,0.1818,0.1429,0.1053
+3268,218,Norberto Bercique,Beto,Everton,FWD,50,0,0.75,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.15,0.0938,0.0682,0.0536,0.0395
+3283,219,Jarrad,Branthwaite,Everton,DEF,48,0,3.25,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,5,5,3,3,5,10,15,18,21,0.65,0.325,0.2167,0.1806,0.1548
+3298,220,Dominic,Calvert-Lewin,Everton,FWD,56,0,2.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.4,0.25,0.1818,0.1429,0.1053
+3313,221,Séamus,Coleman,Everton,DEF,43,0,0.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,5,5,3,3,5,10,15,18,21,0.0,0.0,0.0,0.0,0.0
+3328,222,Idrissa,Gana,Everton,MID,49,0,1.75,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.35,0.2188,0.1591,0.125,0.0921
+3343,223,James,Garner,Everton,MID,49,0,0.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.0,0.0,0.0,0.0,0.0
+3358,224,Jack,Harrison,Everton,MID,53,0,0.5,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.1,0.0625,0.0455,0.0357,0.0263
+3373,225,Mason,Holgate,Everton,DEF,40,0,0.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,5,5,3,3,5,10,15,18,21,0.0,0.0,0.0,0.0,0.0
+3388,226,Tim,Iroegbunam,Everton,MID,44,0,0.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.0,0.0,0.0,0.0,0.0
+3403,227,João,J.Virginia,Everton,GK,40,0,0.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,5,5,3,3,5,10,15,18,21,0.0,0.0,0.0,0.0,0.0
+3418,228,Michael,Keane,Everton,DEF,42,0,0.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,5,5,3,3,5,10,15,18,21,0.0,0.0,0.0,0.0,0.0
+3433,229,Neal,Maupay,Everton,FWD,49,0,0.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.0,0.0,0.0,0.0,0.0
+3448,230,Dwight,McNeil,Everton,MID,55,0,3.5,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.7,0.4375,0.3182,0.25,0.1842
+3463,231,Vitalii,Mykolenko,Everton,DEF,43,0,4.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,5,5,3,3,5,10,15,18,21,0.8,0.4,0.2667,0.2222,0.1905
+3478,232,Iliman,Ndiaye,Everton,FWD,54,0,1.5,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.3,0.1875,0.1364,0.1071,0.0789
+3493,233,Amadou,Onana,Aston Villa,MID,49,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.0,0.0,0.0,0.0,0.0
+3508,234,Nathan,Patterson,Everton,DEF,44,0,0.25,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,5,5,3,3,5,10,15,18,21,0.05,0.025,0.0167,0.0139,0.0119
+3523,235,Jordan,Pickford,Everton,GK,49,0,3.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,5,5,3,3,5,10,15,18,21,0.6,0.3,0.2,0.1667,0.1429
+3538,236,James,Tarkowski,Everton,DEF,48,0,3.25,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,5,5,3,3,5,10,15,18,21,0.65,0.325,0.2167,0.1806,0.1548
+3553,237,Youssef,Y. Chermiti,Everton,FWD,49,0,0.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.0,0.0,0.0,0.0,0.0
+3568,238,Ashley,Young,Everton,DEF,46,0,5.75,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,5,5,3,3,5,10,15,18,21,1.15,0.575,0.3833,0.3194,0.2738
+3583,239,Adama,Adama,Fulham,MID,48,1,0.75,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.15,0.1071,0.075,0.0536,0.0469
+3598,240,Andreas,Andreas,Fulham,MID,51,1,1.0,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.2,0.1429,0.1,0.0714,0.0625
+3613,241,Calvin,Bassey,Fulham,DEF,45,1,1.0,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,4,3,2,5,7,11,14,16,0.2,0.1429,0.0909,0.0714,0.0625
+3628,242,Steven,Benda,Fulham,GK,40,0,0.0,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,4,3,2,5,7,11,14,16,0.0,0.0,0.0,0.0,0.0
+3643,243,Tom,Cairney,Fulham,MID,48,0,1.0,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.2,0.1429,0.1,0.0714,0.0625
+3658,244,Timothy,Castagne,Fulham,DEF,42,0,0.75,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,4,3,2,5,7,11,14,16,0.15,0.1071,0.0682,0.0536,0.0469
+3673,245,Issa,Diop,Fulham,DEF,44,2,1.5,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,4,3,2,5,7,11,14,16,0.3,0.2143,0.1364,0.1071,0.0938
+3688,246,Luke,Harris,Fulham,MID,45,0,0.0,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.0,0.0,0.0,0.0,0.0
+3703,247,Alex,Iwobi,Fulham,MID,56,2,7.25,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,1.45,1.0357,0.725,0.5179,0.4531
+3718,248,Bernd,Leno,Fulham,GK,50,3,1.75,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,4,3,2,5,7,11,14,16,0.35,0.25,0.1591,0.125,0.1094
+3733,249,Saša,Lukić,Fulham,MID,48,1,1.0,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.2,0.1429,0.1,0.0714,0.0625
+3748,250,Kevin,Mbabu,Fulham,DEF,40,0,0.0,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,4,3,2,5,7,11,14,16,0.0,0.0,0.0,0.0,0.0
+3763,251,Rodrigo,Muniz,Fulham,FWD,55,1,1.25,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.25,0.1786,0.125,0.0893,0.0781
+3778,252,Raúl,Raúl,Fulham,FWD,55,8,3.25,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.65,0.4643,0.325,0.2321,0.2031
+3793,253,Tim,Ream,Fulham,DEF,45,0,0.0,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,4,3,2,5,7,11,14,16,0.0,0.0,0.0,0.0,0.0
+3808,254,Harrison,Reed,Fulham,MID,48,0,0.0,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.0,0.0,0.0,0.0,0.0
+3823,255,Antonee,Robinson,Fulham,DEF,47,1,2.25,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,4,3,2,5,7,11,14,16,0.45,0.3214,0.2045,0.1607,0.1406
+3838,256,Jay,Stansfield,Fulham,FWD,50,0,0.0,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.0,0.0,0.0,0.0,0.0
+3853,257,Kenny,Tete,Fulham,DEF,45,5,2.5,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,4,3,2,5,7,11,14,16,0.5,0.3571,0.2273,0.1786,0.1562
+3868,258,Carlos Vinícius,Vinicius,Fulham,FWD,50,0,0.0,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.0,0.0,0.0,0.0,0.0
+3883,259,Harry,Wilson,Fulham,MID,52,1,1.25,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.25,0.1786,0.125,0.0893,0.0781
+3898,260,Ali,Al-Hamadi,Ipswich,FWD,48,1,0.75,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.375,0.15,0.075,0.0577,0.0469
+3913,261,Elkan,Baggott,Ipswich,DEF,40,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.0,0.0,0.0,0.0,0.0
+3928,262,Nathan,Broadhead,Ipswich,MID,49,0,0.5,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.25,0.1,0.05,0.0385,0.0312
+3943,263,Cameron,Burgess,Ipswich,DEF,40,4,2.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.6667,0.3333,0.1818,0.125,0.1053
+3958,264,Wes,Burns,Ipswich,MID,48,1,2.25,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,1.125,0.45,0.225,0.1731,0.1406
+3973,265,Conor,Chaplin,Ipswich,MID,51,7,2.75,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,1.375,0.55,0.275,0.2115,0.1719
+3988,266,Harry,H.Clarke,Ipswich,DEF,40,0,0.75,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.25,0.125,0.0682,0.0469,0.0395
+4003,267,Leif,Davis,Ipswich,DEF,45,1,1.75,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.5833,0.2917,0.1591,0.1094,0.0921
+4018,268,Liam,Delap,Ipswich,FWD,56,1,1.75,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.875,0.35,0.175,0.1346,0.1094
+4033,269,George,Edmundson,Ipswich,DEF,40,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.0,0.0,0.0,0.0,0.0
+4048,270,Jacob,Greaves,Ipswich,DEF,40,0,0.25,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.0833,0.0417,0.0227,0.0156,0.0132
+4063,271,Marcus,Harness,Ipswich,MID,49,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.0,0.0,0.0,0.0,0.0
+4078,272,George,Hirst,Ipswich,FWD,54,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.0,0.0,0.0,0.0,0.0
+4093,273,Cameron,Humphreys,Ipswich,MID,45,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.0,0.0,0.0,0.0,0.0
+4108,274,Omari,Hutchinson,Ipswich,MID,52,2,3.75,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,1.875,0.75,0.375,0.2885,0.2344
+4123,275,Ben,Johnson,Ipswich,DEF,40,1,0.25,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.0833,0.0417,0.0227,0.0156,0.0132
+4138,276,Freddie,Ladapo,Ipswich,FWD,45,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.0,0.0,0.0,0.0,0.0
+4153,277,Massimo,Luongo,Ipswich,MID,44,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.0,0.0,0.0,0.0,0.0
+4168,278,Sam,Morsy,Ipswich,MID,49,2,2.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,1.0,0.4,0.2,0.1538,0.125
+4183,279,Corrie,Ndaba,Ipswich,DEF,40,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.0,0.0,0.0,0.0,0.0
+4198,280,Cieran,Slicker,Ipswich,GK,40,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.0,0.0,0.0,0.0,0.0
+4213,281,Jack,Taylor,Ipswich,MID,48,2,1.25,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.625,0.25,0.125,0.0962,0.0781
+4228,282,Axel,Tuanzebe,Ipswich,DEF,40,0,0.75,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.25,0.125,0.0682,0.0469,0.0395
+4243,283,Christian,Walton,Ipswich,GK,43,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.0,0.0,0.0,0.0,0.0
+4258,284,Luke,Woolfenden,Ipswich,DEF,40,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.0,0.0,0.0,0.0,0.0
+4273,285,Boubakary,B.Soumaré,Leicester,MID,44,1,1.25,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.3125,0.1786,0.1042,0.0833,0.0658
+4288,286,Tom,Cannon,Leicester,FWD,45,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.0,0.0,0.0,0.0,0.0
+4303,287,Hamza,Choudhury,Leicester,MID,43,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.0,0.0,0.0,0.0,0.0
+4318,288,Conor,Coady,Leicester,DEF,40,1,0.75,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.1875,0.125,0.0682,0.05,0.0395
+4333,289,Patson,Daka,Leicester,FWD,48,1,2.5,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.625,0.3571,0.2083,0.1667,0.1316
+4348,290,Bobby,De Cordova-Reid,Leicester,MID,52,11,4.25,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,1.0625,0.6071,0.3542,0.2833,0.2237
+4363,291,Wout,Faes,Leicester,DEF,41,1,0.5,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.125,0.0833,0.0455,0.0333,0.0263
+4378,292,Michael,Golding,Leicester,MID,44,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.0,0.0,0.0,0.0,0.0
+4393,293,Mads,Hermansen,Leicester,GK,45,2,2.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.5,0.3333,0.1818,0.1333,0.1053
+4408,294,Daniel,Iversen,Leicester,GK,40,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.0,0.0,0.0,0.0,0.0
+4423,295,James,Justin,Leicester,DEF,45,1,0.75,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.1875,0.125,0.0682,0.05,0.0395
+4438,296,Victor,Kristiansen,Leicester,DEF,45,1,1.75,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.4375,0.2917,0.1591,0.1167,0.0921
+4453,297,Wanya,Marcal,Leicester,MID,45,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.0,0.0,0.0,0.0,0.0
+4468,298,Stephy,Mavididi,Leicester,MID,53,1,1.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.25,0.1429,0.0833,0.0667,0.0526
+4483,299,Kasey,McAteer,Leicester,MID,47,2,2.5,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.625,0.3571,0.2083,0.1667,0.1316
+4498,300,Wilfred,Ndidi,Leicester,MID,50,1,1.5,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.375,0.2143,0.125,0.1,0.0789
+4513,301,Caleb,Okoli,Leicester,DEF,40,0,0.25,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.0625,0.0417,0.0227,0.0167,0.0132
+4528,302,Ricardo,Ricardo,Leicester,DEF,42,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.0,0.0,0.0,0.0,0.0
+4543,303,Harry,Souttar,Leicester,DEF,40,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.0,0.0,0.0,0.0,0.0
+4558,304,Jakub,Stolarczyk,Leicester,GK,40,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.0,0.0,0.0,0.0,0.0
+4573,305,Luke,Thomas,Leicester,DEF,39,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.0,0.0,0.0,0.0,0.0
+4588,306,Jamie,Vardy,Leicester,FWD,55,12,5.75,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,1.4375,0.8214,0.4792,0.3833,0.3026
+4603,307,Jannik,Vestergaard,Leicester,DEF,40,1,0.5,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.125,0.0833,0.0455,0.0333,0.0263
+4618,308,Danny,Ward,Leicester,GK,40,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.0,0.0,0.0,0.0,0.0
+4633,309,Harry,Winks,Leicester,MID,45,0,0.25,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.0625,0.0357,0.0208,0.0167,0.0132
+4648,310,Alisson,A.Becker,Liverpool,GK,54,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),3,5,3,3,2,3,8,11,14,16,0.0,0.0,0.0,0.0,0.0
+4663,311,Trent,Alexander-Arnold,Liverpool,DEF,69,0,3.5,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),3,5,3,3,2,3,8,11,14,16,1.1667,0.4375,0.3182,0.25,0.2188
+4678,312,Stefan,Bajcetic,Liverpool,MID,45,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.0,0.0,0.0,0.0,0.0
+4693,313,Conor,Bradley,Liverpool,DEF,47,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),3,5,3,3,2,3,8,11,14,16,0.0,0.0,0.0,0.0,0.0
+4708,314,Fábio,Carvalho,Brentford,MID,47,2,1.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.3333,0.1667,0.1111,0.0769,0.0667
+4723,315,Bobby,Clark,Liverpool,MID,45,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.0,0.0,0.0,0.0,0.0
+4738,316,Darwin,Darwin,Liverpool,FWD,71,0,1.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.25,0.1429,0.1111,0.0909,0.0714
+4753,317,Diogo,Diogo J.,Liverpool,MID,72,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.0,0.0,0.0,0.0,0.0
+4768,318,Ben,Doak,Liverpool,MID,45,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.0,0.0,0.0,0.0,0.0
+4783,319,Harvey,Elliott,Liverpool,MID,52,0,0.25,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.0625,0.0357,0.0278,0.0227,0.0179
+4798,320,Endo,Endo,Liverpool,MID,47,0,0.25,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.0625,0.0357,0.0278,0.0227,0.0179
+4813,321,Cody,Gakpo,Liverpool,FWD,71,0,3.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.75,0.4286,0.3333,0.2727,0.2143
+4828,322,Joe,Gomez,Liverpool,DEF,48,0,1.75,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),3,5,3,3,2,3,8,11,14,16,0.5833,0.2188,0.1591,0.125,0.1094
+4843,323,Ryan,Gravenberch,Liverpool,MID,50,0,2.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.5,0.2857,0.2222,0.1818,0.1429
+4858,324,Curtis,Jones,Liverpool,MID,53,0,2.5,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.625,0.3571,0.2778,0.2273,0.1786
+4873,325,Caoimhin,Kelleher,Liverpool,GK,45,0,4.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),3,5,3,3,2,3,8,11,14,16,1.3333,0.5,0.3636,0.2857,0.25
+4888,326,Ibrahima,Konaté,Liverpool,DEF,53,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),3,5,3,3,2,3,8,11,14,16,0.0,0.0,0.0,0.0,0.0
+4903,327,Luis,Luis Díaz,Liverpool,MID,75,0,2.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.5,0.2857,0.2222,0.1818,0.1429
+4918,328,Mohamed,M.Salah,Liverpool,MID,132,0,11.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,2.75,1.5714,1.2222,1.0,0.7857
+4933,329,Alexis,Mac Allister,Liverpool,MID,62,0,1.25,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.3125,0.1786,0.1389,0.1136,0.0893
+4948,330,James,McConnell,Liverpool,MID,44,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.0,0.0,0.0,0.0,0.0
+4963,331,Tyler,Morton,Liverpool,MID,44,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.0,0.0,0.0,0.0,0.0
+4978,332,Nathaniel,N.Phillips,Liverpool,DEF,40,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),3,5,3,3,2,3,8,11,14,16,0.0,0.0,0.0,0.0,0.0
+4993,333,Jarell,Quansah,Liverpool,DEF,39,0,0.25,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),3,5,3,3,2,3,8,11,14,16,0.0833,0.0312,0.0227,0.0179,0.0156
+5008,334,Rhys,R.Williams,Liverpool,DEF,40,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),3,5,3,3,2,3,8,11,14,16,0.0,0.0,0.0,0.0,0.0
+5023,335,Andrew,Robertson,Liverpool,DEF,59,0,2.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),3,5,3,3,2,3,8,11,14,16,0.6667,0.25,0.1818,0.1429,0.125
+5038,336,Dominik,Szoboszlai,Liverpool,MID,63,0,3.5,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.875,0.5,0.3889,0.3182,0.25
+5053,337,Konstantinos,Tsimikas,Liverpool,DEF,46,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),3,5,3,3,2,3,8,11,14,16,0.0,0.0,0.0,0.0,0.0
+5068,338,Sepp,Van den Berg,Brentford,DEF,41,0,2.25,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),4,3,4,5,2,4,7,11,16,18,0.5625,0.3214,0.2045,0.1406,0.125
+5083,339,Virgil,Virgil,Liverpool,DEF,64,0,2.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),3,5,3,3,2,3,8,11,14,16,0.6667,0.25,0.1818,0.1429,0.125
+5098,340,Manuel,Akanji,Man City,DEF,54,0,0.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),2,4,2,3,3,2,6,8,11,14,0.0,0.0,0.0,0.0,0.0
+5113,341,Nathan,Aké,Man City,DEF,53,0,1.75,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),2,4,2,3,3,2,6,8,11,14,0.875,0.2917,0.2188,0.1591,0.125
+5128,342,Bernardo,Bernardo,Man City,MID,63,5,4.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,1.3333,0.5714,0.4,0.3333,0.2857
+5143,343,Oscar,Bobb,Man City,MID,47,0,0.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,0.0,0.0,0.0,0.0,0.0
+5158,344,Scott,Carson,Man City,GK,40,0,0.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),2,4,2,3,3,2,6,8,11,14,0.0,0.0,0.0,0.0,0.0
+5173,345,Kevin,De Bruyne,Man City,MID,94,2,4.25,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,1.4167,0.6071,0.425,0.3542,0.3036
+5188,346,Jérémy,Doku,Man City,MID,62,1,3.75,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,1.25,0.5357,0.375,0.3125,0.2679
+5203,347,Ederson,Ederson M.,Man City,GK,54,0,0.25,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),2,4,2,3,3,2,6,8,11,14,0.125,0.0417,0.0312,0.0227,0.0179
+5218,348,Phil,Foden,Man City,MID,91,0,0.75,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,0.25,0.1071,0.075,0.0625,0.0536
+5233,349,Jack,Grealish,Man City,MID,64,1,1.5,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,0.5,0.2143,0.15,0.125,0.1071
+5248,350,Joško,Gvardiol,Man City,DEF,62,1,1.75,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),2,4,2,3,3,2,6,8,11,14,0.875,0.2917,0.2188,0.1591,0.125
+5263,351,Erling,Haaland,Man City,FWD,150,7,4.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,1.3333,0.5714,0.4,0.3333,0.2857
+5278,352,Julián,J.Alvarez,Man City,FWD,70,0,0.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,0.0,0.0,0.0,0.0,0.0
+5293,353,João,João Cancelo,Man City,DEF,53,0,0.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),2,4,2,3,3,2,6,8,11,14,0.0,0.0,0.0,0.0,0.0
+5308,354,Mateo,Kovačić,Man City,MID,54,0,0.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,0.0,0.0,0.0,0.0,0.0
+5323,355,Rico,Lewis,Man City,DEF,47,4,1.5,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),2,4,2,3,3,2,6,8,11,14,0.75,0.25,0.1875,0.1364,0.1071
+5338,356,Matheus Luiz,Matheus N.,Man City,MID,49,7,2.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,0.6667,0.2857,0.2,0.1667,0.1429
+5353,357,James,McAtee,Man City,MID,46,0,0.25,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,0.0833,0.0357,0.025,0.0208,0.0179
+5368,358,Stefan,Ortega Moreno,Man City,GK,52,1,2.5,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),2,4,2,3,3,2,6,8,11,14,1.25,0.4167,0.3125,0.2273,0.1786
+5383,359,Kalvin,Phillips,Ipswich,MID,49,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.0,0.0,0.0,0.0,0.0
+5398,360,Rodrigo 'Rodri',Rodrigo,Man City,MID,63,0,0.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,0.0,0.0,0.0,0.0,0.0
+5413,361,Rúben,Rúben,Man City,DEF,54,1,2.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),2,4,2,3,3,2,6,8,11,14,1.0,0.3333,0.25,0.1818,0.1429
+5428,362,John,Stones,Man City,DEF,53,0,0.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),2,4,2,3,3,2,6,8,11,14,0.0,0.0,0.0,0.0,0.0
+5443,363,Kyle,Walker,Man City,DEF,52,1,0.75,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),2,4,2,3,3,2,6,8,11,14,0.375,0.125,0.0938,0.0682,0.0536
+5458,364,Amad,Amad,Man Utd,MID,50,5,6.25,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,2.0833,0.8929,0.6944,0.5208,0.3676
+5473,365,Antony Matheus,Antony,Man Utd,MID,57,0,0.25,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,0.0833,0.0357,0.0278,0.0208,0.0147
+5488,366,Bruno,B.Fernandes,Man Utd,MID,85,9,5.5,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,1.8333,0.7857,0.6111,0.4583,0.3235
+5503,367,Altay,Bayindir,Man Utd,GK,43,0,0.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),5,3,3,3,5,5,8,11,14,19,0.0,0.0,0.0,0.0,0.0
+5518,368,Carlos Henrique,Casemiro,Man Utd,MID,48,0,1.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,0.3333,0.1429,0.1111,0.0833,0.0588
+5533,369,Diogo,Dalot,Man Utd,DEF,52,1,2.5,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),5,3,3,3,5,5,8,11,14,19,0.5,0.3125,0.2273,0.1786,0.1316
+5548,370,Christian,Eriksen,Man Utd,MID,54,0,0.5,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,0.1667,0.0714,0.0556,0.0417,0.0294
+5563,371,Jonny,Evans,Man Utd,DEF,44,0,0.25,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),5,3,3,3,5,5,8,11,14,19,0.05,0.0312,0.0227,0.0179,0.0132
+5578,372,Alejandro,Garnacho,Man Utd,MID,63,4,2.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,0.6667,0.2857,0.2222,0.1667,0.1176
+5593,373,Hannibal,Hannibal,Man Utd,MID,45,0,0.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,0.0,0.0,0.0,0.0,0.0
+5608,374,Tom,Heaton,Man Utd,GK,40,0,0.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),5,3,3,3,5,5,8,11,14,19,0.0,0.0,0.0,0.0,0.0
+5623,375,Rasmus,Højlund,Man Utd,FWD,69,8,2.75,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,0.9167,0.3929,0.3056,0.2292,0.1618
+5638,376,Victor,Lindelof,Man Utd,DEF,43,0,0.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),5,3,3,3,5,5,8,11,14,19,0.0,0.0,0.0,0.0,0.0
+5653,377,Harry,Maguire,Man Utd,DEF,49,1,0.5,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),5,3,3,3,5,5,8,11,14,19,0.1,0.0625,0.0455,0.0357,0.0263
+5668,378,Kobbie,Mainoo,Man Utd,MID,52,2,1.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,0.3333,0.1429,0.1111,0.0833,0.0588
+5683,379,Tyrell,Malacia,Man Utd,DEF,44,0,0.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),5,3,3,3,5,5,8,11,14,19,0.0,0.0,0.0,0.0,0.0
+5698,380,Lisandro,Martinez,Man Utd,DEF,44,1,1.5,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),5,3,3,3,5,5,8,11,14,19,0.3,0.1875,0.1364,0.1071,0.0789
+5713,381,Scott,McTominay,Man Utd,MID,49,0,0.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,0.0,0.0,0.0,0.0,0.0
+5728,382,Mason,Mount,Man Utd,MID,63,1,1.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,0.3333,0.1429,0.1111,0.0833,0.0588
+5743,383,André,Onana,Man Utd,GK,52,1,3.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),5,3,3,3,5,5,8,11,14,19,0.6,0.375,0.2727,0.2143,0.1579
+5758,384,Facundo,Pellistri,Man Utd,MID,50,0,0.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,0.0,0.0,0.0,0.0,0.0
+5773,385,Marcus,Rashford,Man Utd,MID,70,1,6.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,2.0,0.8571,0.6667,0.5,0.3529
+5788,386,Jadon,Sancho,Chelsea,MID,62,8,4.5,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,2.25,0.6429,0.4091,0.3462,0.2647
+5803,387,Luke,Shaw,Man Utd,DEF,49,0,0.5,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),5,3,3,3,5,5,8,11,14,19,0.1,0.0625,0.0455,0.0357,0.0263
+5818,388,Aaron,Wan-Bissaka,West Ham,DEF,45,2,6.0,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),3,3,2,5,5,3,6,8,13,18,2.0,1.0,0.75,0.4615,0.3333
+5833,389,Joshua,Zirkzee,Man Utd,FWD,66,1,4.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,1.3333,0.5714,0.4444,0.3333,0.2353
+5848,390,Alex,A.Murphy,Newcastle,DEF,40,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.0,0.0,0.0,0.0,0.0
+5863,391,Miguel,Almirón,Newcastle,MID,55,1,0.25,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,0.125,0.0625,0.0417,0.0278,0.0208
+5878,392,Harvey,Barnes,Newcastle,MID,62,7,2.75,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,1.375,0.6875,0.4583,0.3056,0.2292
+5893,393,Sven,Botman,Newcastle,DEF,44,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.0,0.0,0.0,0.0,0.0
+5908,394,Bruno,Bruno G.,Newcastle,MID,61,2,3.5,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,1.75,0.875,0.5833,0.3889,0.2917
+5923,395,Dan,Burn,Newcastle,DEF,44,0,1.25,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.4167,0.25,0.1389,0.1042,0.0735
+5938,396,Martin,Dúbravka,Newcastle,GK,42,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.0,0.0,0.0,0.0,0.0
+5953,397,Ryan,Fraser,Southampton,MID,48,0,1.25,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.3125,0.1786,0.1389,0.0962,0.0833
+5968,398,Anthony,Gordon,Newcastle,MID,72,1,4.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,2.0,1.0,0.6667,0.4444,0.3333
+5983,399,Lewis,Hall,Newcastle,DEF,44,1,1.25,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.4167,0.25,0.1389,0.1042,0.0735
+5998,400,Isaac,Hayden,Newcastle,MID,45,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,0.0,0.0,0.0,0.0,0.0
+6013,401,Alexander,Isak,Newcastle,FWD,85,8,5.5,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,2.75,1.375,0.9167,0.6111,0.4583
+6028,402,Jacob,J.Murphy,Newcastle,MID,49,7,2.5,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,1.25,0.625,0.4167,0.2778,0.2083
+6043,403,Joelinton Cássio,Joelinton,Newcastle,MID,60,1,1.75,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,0.875,0.4375,0.2917,0.1944,0.1458
+6058,404,Lloyd,Kelly,Newcastle,DEF,43,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.0,0.0,0.0,0.0,0.0
+6073,405,Emil,Krafth,Newcastle,DEF,43,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.0,0.0,0.0,0.0,0.0
+6088,406,Garang,Kuol,Newcastle,MID,45,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,0.0,0.0,0.0,0.0,0.0
+6103,407,Jamaal,Lascelles,Newcastle,DEF,45,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.0,0.0,0.0,0.0,0.0
+6118,408,Jamal,Lewis,Newcastle,DEF,40,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.0,0.0,0.0,0.0,0.0
+6133,409,Tino,Livramento,Newcastle,DEF,45,0,1.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.3333,0.2,0.1111,0.0833,0.0588
+6148,410,Sean,Longstaff,Newcastle,MID,47,2,1.25,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,0.625,0.3125,0.2083,0.1389,0.1042
+6163,411,Lewis,Miley,Newcastle,MID,50,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,0.0,0.0,0.0,0.0,0.0
+6178,412,Odysseas,Odysseas,Newcastle,GK,43,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.0,0.0,0.0,0.0,0.0
+6193,413,Nick,Pope,Newcastle,GK,50,1,1.25,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.4167,0.25,0.1389,0.1042,0.0735
+6208,414,John,Ruddy,Newcastle,GK,40,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.0,0.0,0.0,0.0,0.0
+6223,415,Fabian,Schär,Newcastle,DEF,54,0,2.5,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.8333,0.5,0.2778,0.2083,0.1471
+6238,416,Matt,Targett,Newcastle,DEF,40,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.0,0.0,0.0,0.0,0.0
+6253,417,Sandro,Tonali,Newcastle,MID,55,1,1.25,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,0.625,0.3125,0.2083,0.1389,0.1042
+6268,418,Kieran,Trippier,Newcastle,DEF,56,1,0.5,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.1667,0.1,0.0556,0.0417,0.0294
+6283,419,Joe,White,Newcastle,MID,45,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,0.0,0.0,0.0,0.0,0.0
+6298,420,Joe,Willock,Newcastle,MID,48,0,1.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,0.5,0.25,0.1667,0.1111,0.0833
+6313,421,Callum,Wilson,Newcastle,FWD,69,1,0.75,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,0.375,0.1875,0.125,0.0833,0.0625
+6328,422,Ola,Aina,Nottingham Forest,DEF,49,1,2.5,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.625,0.2778,0.2083,0.1786,0.1471
+6343,423,Elliot,Anderson,Nottingham Forest,MID,50,5,2.25,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,1.125,0.5625,0.2812,0.1731,0.15
+6358,424,Taiwo,Awoniyi,Nottingham Forest,FWD,56,1,1.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.5,0.25,0.125,0.0769,0.0667
+6373,425,Willy,Boly,Nottingham Forest,DEF,42,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.0,0.0,0.0,0.0,0.0
+6388,426,Josh,Bowler,Nottingham Forest,MID,45,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.0,0.0,0.0,0.0,0.0
+6403,427,Carlos Miguel,C.Miguel,Nottingham Forest,GK,42,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.0,0.0,0.0,0.0,0.0
+6418,428,Eric,Da Silva Moreira,Nottingham Forest,MID,44,0,0.25,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.125,0.0625,0.0312,0.0192,0.0167
+6433,429,Danilo,Danilo,Nottingham Forest,MID,47,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.0,0.0,0.0,0.0,0.0
+6448,430,Emmanuel,Dennis,Nottingham Forest,FWD,49,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.0,0.0,0.0,0.0,0.0
+6463,431,Nicolás,Dominguez,Nottingham Forest,MID,48,1,1.25,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.625,0.3125,0.1562,0.0962,0.0833
+6478,432,Anthony,Elanga,Nottingham Forest,MID,51,1,1.25,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.625,0.3125,0.1562,0.0962,0.0833
+6493,433,Morgan,Gibbs-White,Nottingham Forest,MID,63,13,4.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,2.0,1.0,0.5,0.3077,0.2667
+6508,434,Callum,Hudson-Odoi,Nottingham Forest,MID,54,5,2.5,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,1.25,0.625,0.3125,0.1923,0.1667
+6523,435,Alex,Mighten,Nottingham Forest,MID,45,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.0,0.0,0.0,0.0,0.0
+6538,436,Murillo,Murillo,Nottingham Forest,DEF,46,1,2.25,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.5625,0.25,0.1875,0.1607,0.1324
+6553,437,Neco,N.Williams,Nottingham Forest,DEF,43,0,1.75,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.4375,0.1944,0.1458,0.125,0.1029
+6568,438,Omar,O.Richards,Nottingham Forest,DEF,45,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.0,0.0,0.0,0.0,0.0
+6583,439,Lewis,O'Brien,Nottingham Forest,MID,50,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.0,0.0,0.0,0.0,0.0
+6598,440,Andrew,Omobamidele,Nottingham Forest,DEF,43,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.0,0.0,0.0,0.0,0.0
+6613,441,Jonathan,Panzo,Nottingham Forest,DEF,40,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.0,0.0,0.0,0.0,0.0
+6628,442,Ibrahim,Sangaré,Nottingham Forest,MID,44,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.0,0.0,0.0,0.0,0.0
+6643,443,Matz,Sels,Nottingham Forest,GK,47,2,3.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.75,0.3333,0.25,0.2143,0.1765
+6658,444,Harry,Toffolo,Nottingham Forest,DEF,43,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.0,0.0,0.0,0.0,0.0
+6673,445,Matt,Turner,Crystal Palace,GK,40,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),4,5,3,2,5,4,9,12,14,19,0.0,0.0,0.0,0.0,0.0
+6688,446,Hwang,Ui-jo,Nottingham Forest,FWD,45,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.0,0.0,0.0,0.0,0.0
+6703,447,Chris,Wood,Nottingham Forest,FWD,65,8,5.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,2.5,1.25,0.625,0.3846,0.3333
+6718,448,Joe,Worrall,Nottingham Forest,DEF,45,0,0.0,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.0,0.0,0.0,0.0,0.0
+6733,449,Ryan,Yates,Nottingham Forest,MID,49,2,1.75,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.875,0.4375,0.2188,0.1346,0.1167
+6748,450,Carlos,Alcaraz,Southampton,MID,49,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.0,0.0,0.0,0.0,0.0
+6763,451,Samuel,Amo-Ameyaw,Southampton,MID,44,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.0,0.0,0.0,0.0,0.0
+6778,452,Joe,Aribo,Southampton,MID,49,1,2.75,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.6875,0.3929,0.3056,0.2115,0.1833
+6793,453,Adam,Armstrong,Southampton,FWD,51,2,3.75,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.9375,0.5357,0.4167,0.2885,0.25
+6808,454,Gavin,Bazunu,Southampton,GK,43,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.0,0.0,0.0,0.0,0.0
+6823,455,Jan,Bednarek,Southampton,DEF,40,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.0,0.0,0.0,0.0,0.0
+6838,456,Armel,Bella-Kotchap,Southampton,DEF,39,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.0,0.0,0.0,0.0,0.0
+6853,457,James,Bree,Southampton,DEF,39,1,0.25,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.0833,0.0417,0.0278,0.0227,0.0192
+6868,458,Shea,Charles,Southampton,MID,45,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.0,0.0,0.0,0.0,0.0
+6883,459,Samuel,Edozie,Southampton,MID,49,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.0,0.0,0.0,0.0,0.0
+6898,460,Ronnie,Edwards,Southampton,DEF,39,0,0.25,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.0833,0.0417,0.0278,0.0227,0.0192
+6913,461,Taylor,Harwood-Bellis,Southampton,DEF,41,2,1.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.3333,0.1667,0.1111,0.0909,0.0769
+6928,462,Kamaldeen,Kamaldeen,Southampton,MID,50,1,0.75,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.1875,0.1071,0.0833,0.0577,0.05
+6943,463,Adam,Lallana,Southampton,MID,50,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.0,0.0,0.0,0.0,0.0
+6958,464,Juan,Larios,Southampton,DEF,40,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.0,0.0,0.0,0.0,0.0
+6973,465,Mateusz,Lis,Southampton,GK,40,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.0,0.0,0.0,0.0,0.0
+6988,466,Joe,Lumley,Southampton,GK,40,3,2.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.6667,0.3333,0.2222,0.1818,0.1538
+7003,467,Ryan,Manning,Southampton,DEF,43,2,1.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.3333,0.1667,0.1111,0.0909,0.0769
+7018,468,Sékou,Mara,Southampton,FWD,50,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.0,0.0,0.0,0.0,0.0
+7033,469,Alex,McCarthy,Southampton,GK,43,0,0.75,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.25,0.125,0.0833,0.0682,0.0577
+7048,470,Paul,Onuachu,Southampton,FWD,49,0,0.25,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.0625,0.0357,0.0278,0.0192,0.0167
+7063,471,Will,Smallbone,Southampton,MID,50,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.0,0.0,0.0,0.0,0.0
+7078,472,Jack,Stephens,Southampton,DEF,40,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.0,0.0,0.0,0.0,0.0
+7093,473,Ross,Stewart,Southampton,FWD,44,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.0,0.0,0.0,0.0,0.0
+7108,474,Sugawara,Sugawara,Southampton,DEF,44,0,0.75,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.25,0.125,0.0833,0.0682,0.0577
+7123,475,Charlie,Taylor,Southampton,DEF,39,0,0.25,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.0833,0.0417,0.0278,0.0227,0.0192
+7138,476,Kyle,Walker-Peters,Southampton,DEF,44,2,1.75,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.5833,0.2917,0.1944,0.1591,0.1346
+7153,477,Nathan,Wood,Southampton,DEF,40,1,0.25,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),3,3,3,2,2,3,6,9,11,13,0.0833,0.0417,0.0278,0.0227,0.0192
+7168,478,Ashley,A.Phillips,Spurs,DEF,40,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,0.0,0.0,0.0,0.0,0.0
+7183,479,Brandon,Austin,Spurs,GK,40,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,0.0,0.0,0.0,0.0,0.0
+7198,480,Rodrigo,Bentancur,Spurs,MID,50,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.0,0.0,0.0,0.0,0.0
+7213,481,Lucas,Bergvall,Spurs,MID,44,1,1.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.5,0.1429,0.0909,0.0714,0.0588
+7228,482,Yves,Bissouma,Spurs,MID,49,1,1.5,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.75,0.2143,0.1364,0.1071,0.0882
+7243,483,Bryan,Bryan,Spurs,MID,50,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.0,0.0,0.0,0.0,0.0
+7258,484,Ben,Davies,Spurs,DEF,43,0,2.25,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,1.125,0.3214,0.2045,0.1731,0.1406
+7273,485,Alfie,Devine,Spurs,MID,45,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.0,0.0,0.0,0.0,0.0
+7288,486,Radu,Dragusin,Spurs,DEF,43,0,2.5,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,1.25,0.3571,0.2273,0.1923,0.1562
+7303,487,Emerson,E.Royal,Spurs,DEF,45,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,0.0,0.0,0.0,0.0,0.0
+7318,488,Fraser,Forster,Spurs,GK,43,1,2.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,1.0,0.2857,0.1818,0.1538,0.125
+7333,489,Archie,Gray,Spurs,MID,46,1,1.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.5,0.1429,0.0909,0.0714,0.0588
+7348,490,Pierre-Emile,Højbjerg,Spurs,MID,50,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.0,0.0,0.0,0.0,0.0
+7363,491,Brennan,Johnson,Spurs,MID,67,4,5.5,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,2.75,0.7857,0.5,0.3929,0.3235
+7378,492,Dejan,Kulusevski,Spurs,MID,63,7,4.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,2.0,0.5714,0.3636,0.2857,0.2353
+7393,493,Giovani,Lo Celso,Spurs,MID,49,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.0,0.0,0.0,0.0,0.0
+7408,494,James,Maddison,Spurs,MID,76,4,6.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,3.0,0.8571,0.5455,0.4286,0.3529
+7423,495,Pedro,Pedro Porro,Spurs,DEF,56,3,5.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,2.5,0.7143,0.4545,0.3846,0.3125
+7438,496,Sergio,Reguilón,Spurs,DEF,42,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,0.0,0.0,0.0,0.0,0.0
+7453,497,Richarlison,Richarlison,Spurs,FWD,68,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.0,0.0,0.0,0.0,0.0
+7468,498,Cristian,Romero,Spurs,DEF,50,1,0.25,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,0.125,0.0357,0.0227,0.0192,0.0156
+7483,499,Pape Matar,P.M.Sarr,Spurs,MID,48,1,1.5,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.75,0.2143,0.1364,0.1071,0.0882
+7498,500,Dane,Scarlett,Spurs,FWD,45,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.0,0.0,0.0,0.0,0.0
+7513,501,Oliver,Skipp,Leicester,MID,48,1,0.75,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.1875,0.1071,0.0625,0.05,0.0395
+7528,502,Manor,Solomon,Spurs,MID,54,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.0,0.0,0.0,0.0,0.0
+7543,503,Son,Son,Spurs,MID,98,7,4.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,2.0,0.5714,0.3636,0.2857,0.2353
+7558,504,Djed,Spence,Spurs,DEF,44,0,0.25,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,0.125,0.0357,0.0227,0.0192,0.0156
+7573,505,Destiny,Udogie,Spurs,DEF,49,0,2.5,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,1.25,0.3571,0.2273,0.1923,0.1562
+7588,506,Micky,Van de Ven,Spurs,DEF,45,1,0.25,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,0.125,0.0357,0.0227,0.0192,0.0156
+7603,507,Alejo,Veliz,Spurs,FWD,50,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.0,0.0,0.0,0.0,0.0
+7618,508,Guglielmo,Vicario,Spurs,GK,49,0,2.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,1.0,0.2857,0.1818,0.1538,0.125
+7633,509,Timo,Werner,Spurs,MID,62,1,3.25,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,1.625,0.4643,0.2955,0.2321,0.1912
+7648,510,Alfie,Whiteman,Spurs,GK,40,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,2,3,2,7,11,13,16,0.0,0.0,0.0,0.0,0.0
+7663,511,Edson,Álvarez,West Ham,MID,50,2,1.0,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,0.2,0.125,0.1,0.0667,0.0556
+7678,512,Michail,Antonio,West Ham,FWD,54,0,1.25,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,0.25,0.1562,0.125,0.0833,0.0694
+7693,513,Alphonse,Areola,West Ham,GK,43,0,0.0,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),3,3,2,5,5,3,6,8,13,18,0.0,0.0,0.0,0.0,0.0
+7708,514,Jarrod,Bowen,West Ham,MID,74,12,5.75,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,1.15,0.7188,0.575,0.3833,0.3194
+7723,515,Maxwel,Cornet,Southampton,MID,47,0,0.0,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.0,0.0,0.0,0.0,0.0
+7738,516,Vladimír,Coufal,West Ham,DEF,42,0,0.5,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),3,3,2,5,5,3,6,8,13,18,0.1667,0.0833,0.0625,0.0385,0.0278
+7753,517,Aaron,Cresswell,West Ham,DEF,40,1,0.25,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),3,3,2,5,5,3,6,8,13,18,0.0833,0.0417,0.0312,0.0192,0.0139
+7768,518,Flynn,Downes,Southampton,MID,48,1,2.25,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.5625,0.3214,0.25,0.1731,0.15
+7783,519,George,Earthy,West Ham,MID,45,0,0.0,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,0.0,0.0,0.0,0.0,0.0
+7798,520,Emerson,Emerson,West Ham,DEF,44,1,4.0,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),3,3,2,5,5,3,6,8,13,18,1.3333,0.6667,0.5,0.3077,0.2222
+7813,521,Łukasz,Fabianski,West Ham,GK,41,2,2.25,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),3,3,2,5,5,3,6,8,13,18,0.75,0.375,0.2812,0.1731,0.125
+7828,522,Wes,Foderingham,West Ham,GK,43,0,0.0,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),3,3,2,5,5,3,6,8,13,18,0.0,0.0,0.0,0.0,0.0
+7843,523,Danny,Ings,West Ham,FWD,50,1,1.0,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,0.2,0.125,0.1,0.0667,0.0556
+7858,524,Max,Kilman,West Ham,DEF,45,2,2.25,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),3,3,2,5,5,3,6,8,13,18,0.75,0.375,0.2812,0.1731,0.125
+7873,525,Mohammed,Kudus,West Ham,MID,62,7,2.25,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,0.45,0.2812,0.225,0.15,0.125
+7888,526,Luis Guilherme,L.Guilherme,West Ham,MID,47,0,0.0,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,0.0,0.0,0.0,0.0,0.0
+7903,527,Lucas,L.Paquetá,West Ham,MID,58,1,2.5,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,0.5,0.3125,0.25,0.1667,0.1389
+7918,528,Konstantinos,Mavropanos,West Ham,DEF,44,2,1.0,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),3,3,2,5,5,3,6,8,13,18,0.3333,0.1667,0.125,0.0769,0.0556
+7933,529,Nayef,N.Aguerd,West Ham,DEF,44,0,0.0,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),3,3,2,5,5,3,6,8,13,18,0.0,0.0,0.0,0.0,0.0
+7948,530,Tomáš,Souček,West Ham,MID,49,9,5.5,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,1.1,0.6875,0.55,0.3667,0.3056
+7963,531,James,Ward-Prowse,Nottingham Forest,MID,62,0,0.5,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.25,0.125,0.0625,0.0385,0.0333
+7978,532,Kurt,Zouma,West Ham,DEF,44,0,0.0,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),3,3,2,5,5,3,6,8,13,18,0.0,0.0,0.0,0.0,0.0
+7993,533,Rayan,Aït-Nouri,Wolves,DEF,49,4,1.5,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.75,0.3,0.2143,0.125,0.1
+8008,534,Boubacar,B.Traore,Wolves,MID,48,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.0,0.0,0.0,0.0,0.0
+8023,535,Jean-Ricner,Bellegarde,Wolves,MID,50,1,2.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,1.0,0.5,0.2857,0.2,0.1538
+8038,536,Daniel,Bentley,Wolves,GK,40,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.0,0.0,0.0,0.0,0.0
+8053,537,Francisco Jorge,Chiquinho,Wolves,MID,45,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.0,0.0,0.0,0.0,0.0
+8068,538,Tawanda,Chirewa,Wolves,MID,45,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.0,0.0,0.0,0.0,0.0
+8083,539,Leon,Chiwome,Wolves,FWD,45,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.0,0.0,0.0,0.0,0.0
+8098,540,Luke,Cundle,Wolves,MID,45,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.0,0.0,0.0,0.0,0.0
+8113,541,Matheus,Cunha,Wolves,FWD,71,1,5.25,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,2.625,1.3125,0.75,0.525,0.4038
+8128,542,Craig,Dawson,Wolves,DEF,44,0,-1.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,-0.5,-0.2,-0.1429,-0.0833,-0.0667
+8143,543,Matt,Doherty,Wolves,DEF,43,6,1.75,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.875,0.35,0.25,0.1458,0.1167
+8158,544,Tommy,Doyle,Wolves,MID,48,1,0.75,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.375,0.1875,0.1071,0.075,0.0577
+8173,545,Fábio,Fábio Silva,Wolves,FWD,50,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.0,0.0,0.0,0.0,0.0
+8188,546,Nathan,Fraser,Wolves,FWD,45,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.0,0.0,0.0,0.0,0.0
+8203,547,Enso,Gonzalez,Wolves,MID,44,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.0,0.0,0.0,0.0,0.0
+8218,548,Gonçalo Manuel,Guedes,Wolves,MID,53,1,3.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,1.5,0.75,0.4286,0.3,0.2308
+8233,549,Hugo,H.Bueno,Wolves,DEF,45,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.0,0.0,0.0,0.0,0.0
+8248,550,Hwang,Hee Chan,Wolves,MID,61,0,0.75,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.375,0.1875,0.1071,0.075,0.0577
+8263,551,Joe,Hodge,Wolves,MID,45,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.0,0.0,0.0,0.0,0.0
+8278,552,Ki-Jana,Hoever,Wolves,DEF,40,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.0,0.0,0.0,0.0,0.0
+8293,553,João Victor,J.Gomes,Wolves,MID,49,1,4.25,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,2.125,1.0625,0.6071,0.425,0.3269
+8308,554,José,José Sá,Wolves,GK,43,0,0.5,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.25,0.1,0.0714,0.0417,0.0333
+8323,555,Saša,Kalajdžić,Wolves,FWD,48,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.0,0.0,0.0,0.0,0.0
+8338,556,Tom,King,Wolves,GK,40,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.0,0.0,0.0,0.0,0.0
+8353,557,Mario,Mario Jr.,Wolves,MID,50,1,2.5,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,1.25,0.625,0.3571,0.25,0.1923
+8368,558,Yerson,Mosquera,Wolves,DEF,39,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.0,0.0,0.0,0.0,0.0
+8383,559,Nélson,N.Semedo,Wolves,DEF,45,1,0.5,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.25,0.1,0.0714,0.0417,0.0333
+8398,560,Pedro,Neto,Chelsea,MID,62,1,1.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,0.5,0.1429,0.0909,0.0769,0.0588
+8413,561,Pedro,Pedro Lima,Wolves,DEF,40,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.0,0.0,0.0,0.0,0.0
+8428,562,Daniel,Podence,Wolves,MID,55,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.0,0.0,0.0,0.0,0.0
+8443,563,Rodrigo,R.Gomes,Wolves,MID,52,1,1.25,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.625,0.3125,0.1786,0.125,0.0962
+8458,564,Santiago,S.Bueno,Wolves,DEF,43,1,0.25,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.125,0.05,0.0357,0.0208,0.0167
+8473,565,Pablo,Sarabia,Wolves,MID,51,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.0,0.0,0.0,0.0,0.0
+8488,566,Jørgen,Strand Larsen,Wolves,FWD,56,2,5.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,2.5,1.25,0.7143,0.5,0.3846
+8503,567,Toti António,Toti,Wolves,DEF,43,1,1.25,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.625,0.25,0.1786,0.1042,0.0833
+8518,568,Arijanet,Muric,Ipswich,GK,44,2,2.5,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.8333,0.4167,0.2273,0.1562,0.1316
+8533,569,Jaden,Jaden,Aston Villa,MID,53,1,1.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.25,0.1429,0.0909,0.0714,0.0625
+8548,570,Abdul,A.Fatawu,Leicester,MID,52,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.0,0.0,0.0,0.0,0.0
+8563,571,Sávio 'Savinho',Sávio,Man City,MID,65,2,1.5,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,0.5,0.2143,0.15,0.125,0.1071
+8578,572,Leny,Yoro,Man Utd,DEF,43,1,0.5,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),5,3,3,3,5,5,8,11,14,19,0.1,0.0625,0.0455,0.0357,0.0263
+8593,573,Nikola,Milenković,Nottingham Forest,DEF,45,7,3.5,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.875,0.3889,0.2917,0.25,0.2059
+8608,574,Miodrag,Pivas,Newcastle,DEF,40,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),3,2,4,3,5,3,5,9,12,17,0.0,0.0,0.0,0.0,0.0
+8623,575,Caleb,Wiley,Chelsea,DEF,40,0,0.0,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,0.0,0.0,0.0,0.0,0.0
+8638,576,Andy,Irving,West Ham,MID,48,0,0.5,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,0.1,0.0625,0.05,0.0333,0.0278
+8653,577,Jesper,Lindstrøm,Everton,MID,51,0,1.5,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.3,0.1875,0.1364,0.1071,0.0789
+8668,578,Riccardo,Calafiori,Arsenal,DEF,58,0,1.5,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,0.75,0.375,0.25,0.1364,0.1
+8683,579,Ryan,Sessegnon,Fulham,DEF,42,0,0.25,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,4,3,2,5,7,11,14,16,0.05,0.0357,0.0227,0.0179,0.0156
+8698,580,Dean,Huijsen,Bournemouth,DEF,43,2,4.75,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),3,3,3,3,2,3,6,9,12,14,1.5833,0.7917,0.5278,0.3958,0.3393
+8713,581,Filip,Jørgensen,Chelsea,GK,42,0,0.75,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,2,3,2,2,2,4,7,9,11,0.375,0.1875,0.1071,0.0833,0.0682
+8728,582,Jake,O'Brien,Everton,DEF,46,0,0.25,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,5,5,3,3,5,10,15,18,21,0.05,0.025,0.0167,0.0139,0.0119
+8743,583,Conor,Townsend,Ipswich,DEF,40,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.0,0.0,0.0,0.0,0.0
+8758,584,Ben,Brereton Díaz,Southampton,MID,49,1,0.75,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.1875,0.1071,0.0833,0.0577,0.05
+8773,585,Ismaïla,I.Sarr,Crystal Palace,MID,57,2,4.75,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,1.5833,0.6786,0.3958,0.3393,0.2794
+8788,586,Jorge,J.Cuenca,Fulham,DEF,44,1,0.5,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,4,3,2,5,7,11,14,16,0.1,0.0714,0.0455,0.0357,0.0312
+8803,587,Crysencio,Summerville,West Ham,MID,57,2,2.25,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,0.45,0.2812,0.225,0.15,0.125
+8818,588,Guido,G.Rodríguez,West Ham,MID,48,0,0.5,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,0.1,0.0625,0.05,0.0333,0.0278
+8833,589,Niclas,Füllkrug,West Ham,FWD,67,0,1.5,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,0.3,0.1875,0.15,0.1,0.0833
+8848,590,William,Osula,Newcastle,FWD,50,0,0.0,15,LEI (H),IPS (A),AVL (H),MUN (A),TOT (A),2,2,2,3,3,2,4,6,9,12,0.0,0.0,0.0,0.0,0.0
+8863,591,Jean-Clair,Todibo,West Ham,DEF,43,1,0.5,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),3,3,2,5,5,3,6,8,13,18,0.1667,0.0833,0.0625,0.0385,0.0278
+8878,592,Julián,J.Araujo,Bournemouth,DEF,44,0,0.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),3,3,3,3,2,3,6,9,12,14,0.0,0.0,0.0,0.0,0.0
+8893,593,Matthijs,De Ligt,Man Utd,DEF,50,1,1.25,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),5,3,3,3,5,5,8,11,14,19,0.25,0.1562,0.1136,0.0893,0.0658
+8908,594,Noussair,Mazraoui,Man Utd,DEF,47,1,1.25,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),5,3,3,3,5,5,8,11,14,19,0.25,0.1562,0.1136,0.0893,0.0658
+8923,595,Brajan,Gruda,Brighton,MID,54,0,0.25,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.125,0.0625,0.0417,0.025,0.0179
+8938,596,João Pedro,Jota Silva,Nottingham Forest,MID,59,1,2.5,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,1.25,0.625,0.3125,0.1923,0.1667
+8953,597,Myles,Lewis-Skelly,Arsenal,MID,45,0,0.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,0.0,0.0,0.0,0.0,0.0
+8968,598,Lamare,Bogarde,Aston Villa,DEF,40,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.0,0.0,0.0,0.0,0.0
+8983,599,Will,Dennis,Bournemouth,GK,40,0,0.0,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),3,3,3,3,2,3,6,9,12,14,0.0,0.0,0.0,0.0,0.0
+8998,600,Yasin,Ayari,Brighton,MID,50,3,2.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,1.0,0.5,0.3333,0.2,0.1429
+9013,601,Andrew,Moran,Brighton,MID,50,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.0,0.0,0.0,0.0,0.0
+9028,602,Ryan,Trevitt,Brentford,MID,45,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.0,0.0,0.0,0.0,0.0
+9043,603,Harrison,Armstrong,Everton,MID,45,0,0.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.0,0.0,0.0,0.0,0.0
+9058,604,Josh,King,Fulham,MID,45,0,0.25,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.05,0.0357,0.025,0.0179,0.0156
+9073,605,Martial,Godo,Fulham,MID,45,0,0.0,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.0,0.0,0.0,0.0,0.0
+9088,606,Will,Alves,Leicester,MID,45,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,0.0,0.0,0.0,0.0,0.0
+9103,607,Nico,O’Reilly,Man City,MID,49,0,0.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,0.0,0.0,0.0,0.0,0.0
+9118,608,Tyler,Dibling,Southampton,MID,45,2,1.25,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.3125,0.1786,0.1389,0.0962,0.0833
+9133,609,Will,Lankshear,Spurs,FWD,45,0,0.25,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.125,0.0357,0.0227,0.0179,0.0147
+9148,610,Mikey,Moore,Spurs,MID,45,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.0,0.0,0.0,0.0,0.0
+9163,611,Sam,Szmodics,Ipswich,MID,58,2,1.5,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.75,0.3,0.15,0.1154,0.0938
+9178,612,Wilson,Odobert,Spurs,MID,53,0,0.0,15,SOU (A),LIV (H),NFO (A),WOL (H),NEW (H),2,5,4,3,3,2,7,11,14,17,0.0,0.0,0.0,0.0,0.0
+9193,613,Toby,Collyer,Man Utd,MID,45,0,0.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,0.0,0.0,0.0,0.0,0.0
+9208,614,Jenson,Metcalfe,Everton,MID,45,0,0.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.0,0.0,0.0,0.0,0.0
+9223,615,Carl,Rushworth,Brighton,GK,40,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,0.0,0.0,0.0,0.0,0.0
+9238,616,Ben,Nelson,Leicester,DEF,40,0,0.0,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,2,5,4,4,4,6,11,15,19,0.0,0.0,0.0,0.0,0.0
+9252,617,Francisco Evanilson,Evanilson,Bournemouth,FWD,61,2,4.5,15,WHU (H),MUN (A),CRY (H),FUL (A),EVE (H),2,3,2,3,3,2,5,7,10,13,2.25,0.9,0.6429,0.45,0.3462
+9266,618,Georginio,Georginio,Brighton,MID,56,2,2.5,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,1.25,0.625,0.4167,0.25,0.1786
+9280,619,Jens,Cajuste,Ipswich,MID,45,1,1.5,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.75,0.3,0.15,0.1154,0.0938
+9294,620,Ramón,Sosa,Nottingham Forest,MID,55,0,0.75,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),2,2,4,5,2,2,4,8,13,15,0.375,0.1875,0.0938,0.0577,0.05
+9308,621,João,João Félix,Chelsea,MID,61,1,2.25,15,BRE (H),EVE (A),FUL (H),IPS (A),CRY (A),2,5,4,2,4,2,7,11,13,17,1.125,0.3214,0.2045,0.1731,0.1324
+9322,622,Sander,Berge,Fulham,MID,50,4,1.75,15,LIV (A),SOU (H),CHE (A),BOU (H),IPS (H),5,2,3,4,2,5,7,10,14,16,0.35,0.25,0.175,0.125,0.1094
+9336,623,Mateus Gonçalo,M.Fernandes,Southampton,MID,50,2,3.25,15,TOT (H),FUL (A),WHU (H),CRY (A),BRE (H),4,3,2,4,2,4,7,9,13,15,0.8125,0.4643,0.3611,0.25,0.2167
+9350,624,Asmir,Begovic,Everton,GK,40,0,0.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,5,5,3,3,5,10,15,18,21,0.0,0.0,0.0,0.0,0.0
+9364,625,Ilkay,Gündogan,Man City,MID,65,2,1.75,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),3,4,3,2,2,3,7,10,12,14,0.5833,0.25,0.175,0.1458,0.125
+9378,626,Issa,Kaboré,Man City,DEF,45,0,0.0,15,MUN (H),AVL (A),EVE (H),LEI (A),WHU (H),2,4,2,3,3,2,6,8,11,14,0.0,0.0,0.0,0.0,0.0
+9392,627,Roman,Dixon,Everton,DEF,40,0,0.0,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,5,5,3,3,5,10,15,18,21,0.0,0.0,0.0,0.0,0.0
+9405,628,Ferdi,F.Kadıoğlu,Brighton,DEF,45,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,0.0,0.0,0.0,0.0,0.0
+9418,629,Matt,O'Riley,Brighton,MID,55,1,0.75,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),2,2,2,4,4,2,4,6,10,14,0.375,0.1875,0.125,0.075,0.0536
+9431,630,Dara,O'Shea,Ipswich,DEF,40,1,1.25,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),3,3,5,5,3,3,6,11,16,19,0.4167,0.2083,0.1136,0.0781,0.0658
+9444,631,Jack,J.Clarke,Ipswich,MID,55,1,1.25,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.625,0.25,0.125,0.0962,0.0781
+9457,632,Chiedozie,Ogbene,Ipswich,MID,49,0,0.0,15,WOL (A),NEW (H),ARS (A),CHE (H),FUL (A),2,3,5,3,3,2,5,10,13,16,0.0,0.0,0.0,0.0,0.0
+9470,633,Mikel,Merino,Arsenal,MID,60,1,1.25,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,0.4167,0.1786,0.1389,0.1136,0.0893
+9483,634,Gustavo,G.Nunes,Brentford,MID,49,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.0,0.0,0.0,0.0,0.0
+9496,635,Bilal,El Khannouss,Leicester,MID,48,2,4.5,15,NEW (A),WOL (H),LIV (A),MCI (H),AVL (A),4,3,5,3,4,4,7,12,15,19,1.125,0.6429,0.375,0.3,0.2368
+9509,636,Federico,Chiesa,Liverpool,MID,68,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),4,3,2,2,3,4,7,9,11,14,0.0,0.0,0.0,0.0,0.0
+9522,637,Bastien,Meupiyou,Wolves,DEF,40,0,0.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.0,0.0,0.0,0.0,0.0
+9535,638,Salah-Eddine,Oulad M'hand,Arsenal,MID,45,0,0.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,0.0,0.0,0.0,0.0,0.0
+9548,639,Tommy,Setford,Arsenal,GK,45,0,0.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,0.0,0.0,0.0,0.0,0.0
+9561,640,Sil,Swinkels,Aston Villa,DEF,40,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.0,0.0,0.0,0.0,0.0
+9574,641,Oliwier,Zych,Aston Villa,GK,40,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,4,4,3,3,4,8,12,15,18,0.0,0.0,0.0,0.0,0.0
+9587,642,André,André,Wolves,MID,50,2,2.0,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,1.0,0.5,0.2857,0.2,0.1538
+9600,643,Kaelan,Casey,West Ham,DEF,40,0,0.0,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),3,3,2,5,5,3,6,8,13,18,0.0,0.0,0.0,0.0,0.0
+9613,644,Franco,Umeh-Chibueze,Crystal Palace,MID,44,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.0,0.0,0.0,0.0,0.0
+9626,645,Justin,Devenny,Crystal Palace,MID,45,1,2.75,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.9167,0.3929,0.2292,0.1964,0.1618
+9639,646,Asher,Agbinone,Crystal Palace,MID,45,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.0,0.0,0.0,0.0,0.0
+9652,647,Kaden,Rodney,Crystal Palace,MID,45,0,0.0,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),3,4,5,2,3,3,7,12,14,17,0.0,0.0,0.0,0.0,0.0
+9665,648,Ethan,Wheatley,Man Utd,FWD,45,0,0.0,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,0.0,0.0,0.0,0.0,0.0
+9677,649,Jayden,Meghoma,Brentford,DEF,40,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),4,3,4,5,2,4,7,11,16,18,0.0,0.0,0.0,0.0,0.0
+9689,650,Maxence,Lacroix,Crystal Palace,DEF,45,7,4.5,15,BHA (A),ARS (H),BOU (A),SOU (H),CHE (H),4,5,3,2,5,4,9,12,14,19,1.125,0.5,0.375,0.3214,0.2368
+9701,651,Orel,Mangala,Everton,MID,50,0,2.25,15,ARS (A),CHE (H),MCI (A),NFO (H),BOU (A),5,3,3,3,5,5,8,11,14,19,0.45,0.2812,0.2045,0.1607,0.1184
+9713,652,Manuel,Ugarte,Man Utd,MID,49,2,1.25,15,MCI (A),BOU (H),WOL (A),NEW (H),LIV (A),3,4,2,3,5,3,7,9,12,17,0.4167,0.1786,0.1389,0.1042,0.0735
+9725,653,Felipe,Morato,Nottingham Forest,DEF,45,1,0.75,15,AVL (H),BRE (A),TOT (H),EVE (A),WOL (A),4,5,3,2,3,4,9,12,14,17,0.1875,0.0833,0.0625,0.0536,0.0441
+9737,654,Carlos,C.Soler,West Ham,MID,50,2,3.0,15,BOU (A),BHA (H),SOU (A),LIV (H),MCI (A),5,3,2,5,3,5,8,10,15,18,0.6,0.375,0.3,0.2,0.1667
+9749,655,Carlos Roberto,Forbs,Wolves,MID,55,0,0.25,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,2,3,3,3,2,4,7,10,13,0.125,0.0625,0.0357,0.025,0.0192
+9761,656,Kadan,Young,Aston Villa,MID,45,0,0.0,15,NFO (A),MCI (H),NEW (A),BHA (H),LEI (H),4,3,4,3,2,4,7,11,14,16,0.0,0.0,0.0,0.0,0.0
+9773,657,Maldini,Kacurri,Arsenal,DEF,40,0,0.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,0.0,0.0,0.0,0.0,0.0
+9785,658,Ayden,Heaven,Arsenal,DEF,40,0,0.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,0.0,0.0,0.0,0.0,0.0
+9797,659,Ismeal,Kabia,Arsenal,MID,45,0,0.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),3,4,2,2,3,3,7,9,11,14,0.0,0.0,0.0,0.0,0.0
+9808,660,Vítezslav,Jaros,Liverpool,GK,40,0,0.0,15,FUL (H),TOT (A),LEI (H),WHU (A),MUN (H),3,5,3,3,2,3,8,11,14,16,0.0,0.0,0.0,0.0,0.0
+9819,661,Tony,Yogane,Brentford,MID,45,0,0.0,15,CHE (A),NFO (H),BHA (A),ARS (H),SOU (A),3,3,3,4,2,3,6,9,13,15,0.0,0.0,0.0,0.0,0.0
+9829,662,Josh,Nichols,Arsenal,DEF,40,0,0.0,15,EVE (H),CRY (A),IPS (H),BRE (A),BHA (A),2,2,2,5,4,2,4,6,11,15,0.0,0.0,0.0,0.0,0.0
+9839,663,Imari,Samuels,Brighton,DEF,40,0,0.0,15,CRY (H),WHU (A),BRE (H),AVL (A),ARS (H),3,3,2,4,5,3,6,8,12,17,0.0,0.0,0.0,0.0,0.0
+9849,664,Alfie,Pond,Wolves,DEF,39,0,0.25,15,IPS (H),LEI (A),MUN (H),TOT (A),NFO (H),2,3,2,5,3,2,5,7,12,15,0.125,0.05,0.0357,0.0208,0.0167
