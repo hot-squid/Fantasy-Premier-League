@@ -61,7 +61,7 @@ def run_your_team():
                 GW_team = pd.merge(list_of_players, data, on='Player ID', how='left')
 
                 # file path
-                filepath = r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\WIP\Website\form.csv'
+                filepath = r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\form.csv'
                 # Import form values from the top players
                 top_form = pd.read_csv(filepath)
 

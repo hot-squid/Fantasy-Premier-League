@@ -10,7 +10,7 @@ current_date = datetime.now().isocalendar()[1]
 gameweek = current_date - 35
 
 # Import data at the current gameweek
-form_data = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\WIP\Website\.csv_files\Current_Form.csv')
+form_data = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form.csv')
 
 # Define metric types
 form = 'Form'
@@ -90,8 +90,8 @@ elif page == 'Model_2':
     run_model_2()
 
 elif page == "Model_2.1":
-    from Model_1 import run_model_1
-    run_model_1()
+    from Website.Model_2_1_OLD import run_model_2_1
+    run_model_2_1()
 
 elif page == "FPL_XI":
     from Optimum_team import run_differential

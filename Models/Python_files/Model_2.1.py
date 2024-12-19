@@ -343,6 +343,9 @@ player_data = player_data[player_data['Gameweek'] == gameweek].copy()
 # Pull in dataset
 data = player_data
 
+# Export to csv for website
+data.to_csv(rf'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.1.csv')
+
 # Define constants
 BUDGET = 800 # Choose your budget (1000 = £100m)
 WEEKS = 1 # Choose how many weeks you want to prepare for between 1 and 5

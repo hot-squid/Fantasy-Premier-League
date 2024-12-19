@@ -33,7 +33,7 @@ def run_differential():
     players_df = pd.DataFrame(fpl_data['elements'])
 
     # Load the data for the specified Gameweek
-    data = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\WIP\Website\.csv_files\Current_Form.csv')
+    data = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.1.csv')
 
     # Ensure that 'Position' and 'Form' columns exist in your dataset
     positions = data['Position'].unique()

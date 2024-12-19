@@ -7,7 +7,7 @@ from pulp import LpMaximize, LpProblem, LpVariable, lpSum
 # Model 2
 
 # Current gameweek
-gameweek = 15
+gameweek = 16
 
 # Empty list to collect gameweek information
 all_gameweeks = []
@@ -85,12 +85,12 @@ for i in range(1, 6):
     # Create FDI_i by summing the appropriate columns
     data[f'F_{i}'] = data[[f'NGW{j}' for j in range(1, i+1)]].sum(axis=1)
 
-# Export to csv for website
-data.to_csv(rf'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\WIP\Website\Current_form\Current_Form_GW_{gameweek}.csv')
-
 # Calculate accumulated FD_index for up to next 5 gameweeks
 for i in range(1, 6):
     data[f'FDI_{i}'] = round(data.iloc[:, 7] / data.iloc[:, 18 + i], 4)
+
+# Export to csv for website
+data.to_csv(rf'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.csv')
 
 # Define constants
 BUDGET = 800  # Choose your budget (1000 = £100m)

@@ -52,7 +52,7 @@ def run_model_2():
     # Define constants
     BUDGET = budget  # Choose your budget (1000 = £100m)
     WEEKS = weeks  # Choose how many weeks you want to prepare for between 1 and 5
-    team = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\WIP\Website\first_team_players.csv')
+    team = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\first_team_players.csv')
     
     # Create a list of names to remove from `data`
     names_to_remove = team['Last_Name'].tolist()
@@ -61,7 +61,7 @@ def run_model_2():
     if st.button('Run Simulation'):
 
         # Read csv dataframe
-        data = pd.read_csv(fr'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\WIP\Website\.csv_files\Current_Form.csv', index_col=0)
+        data = pd.read_csv(fr'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.csv', index_col=0)
 
         # Filter `data` to exclude rows with matching names
         data = data[~data['Last_Name'].isin(names_to_remove)]
