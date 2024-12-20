@@ -33,7 +33,7 @@ def run_XI():
     players_df = pd.DataFrame(fpl_data['elements'])
 
     # Load the data for the specified Gameweek
-    data = pd.read_csv(r'https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/main/Website/first_team_players.csv')
+    data = pd.read_csv(r'https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/main/Website/Current_form/Current_Form_M2.csv')
 
     # Ensure that 'Position' and 'Form' columns exist in your dataset
     positions = data['Position'].unique()
