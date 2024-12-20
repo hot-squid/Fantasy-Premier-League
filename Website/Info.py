@@ -5,11 +5,11 @@ import pandas as pd
 def run_info():
 
     # Add logo
-    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/logo2.webp')
+    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/squidward.png')
 
     # Add description
     st.text("""
-    FPAL is a Fantasy Premier League Personal Assistant.
+    Hot Squid Analytics is an open source Data Science and AI provider. 
             
     The models are built using Linear Optimisation and AI to predict the 
     highest scoring players each week. 
@@ -70,7 +70,6 @@ def run_info():
 
     # Add a description
     st.write("""
-    Good luck with your FPL season!
     Click the button below to make a secure payment via Stripe.
     """)
 
