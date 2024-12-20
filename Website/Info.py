@@ -61,3 +61,21 @@ def run_info():
     The model totals do not include a captain choice (double points), therefore
     more points would be earned above average. 
     """)
+    st.text("")  # Adds a blank line
+    st.text("")  # Adds a blank line
+    st.text("")  # Adds a blank line
+
+    # Add a title to your Streamlit app
+    st.subheader("Buy me a coffee?")
+
+    # Add a description
+    st.write("""
+    Good luck with your FPL season!
+    Click the button below to make a secure payment via Stripe.
+    """)
+
+    # Add a button that links to the Stripe payment page
+    stripe_url = "https://buy.stripe.com/00gbJJ0k03QrbAIfYY"  # Replace with your Stripe payment link
+    if st.button("Donate Now"):
+        st.markdown(f"[Click here to donate securely via Stripe]({stripe_url})")
+
