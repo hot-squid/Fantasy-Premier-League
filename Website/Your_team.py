@@ -56,13 +56,13 @@ def run_your_team():
                 )
 
                 # Import accumulated data from latest gameweek
-                data = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.csv')
+                data = pd.read_csv(r'https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/main/Website/Current_form/Current_Form_M2.csv')
 
                 # Merge list of players with accumulated player data
                 GW_team = pd.merge(list_of_players, data, on='Player ID', how='left')
 
                 # file path
-                filepath = r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\form.csv'
+                filepath = r''https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/main/Website/form.csv'
                 # Import form values from the top players
                 top_form = pd.read_csv(filepath)
 
