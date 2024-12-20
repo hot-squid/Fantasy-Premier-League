@@ -10,7 +10,7 @@ current_date = datetime.now().isocalendar()[1]
 gameweek = current_date - 35
 
 # Import data at the current gameweek
-form_data = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.csv')
+form_data = pd.read_csv(r'https://github.com/hot-squid/Fantasy-Premier-League/blob/main/Website/Current_form/Current_Form_M2.csv')
 
 # Define metric types
 form = 'Form'
