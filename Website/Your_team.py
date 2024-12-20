@@ -26,11 +26,12 @@ def run_your_team():
     if st.button("Save Team ID"):
         st.session_state.chosen_option = team_id
         st.success("Team ID saved!")
-    
-    # Provide help tab if user need
+
+    # Provide help tab if user needs
     with st.expander("Click for assistance"):
         st.info('Your ID can be found here when you click on the points tab.')
-        st.image('Team_ID.jpg')
+        st.image('https://github.com/hot-squid/Fantasy-Premier-League/raw/main/Website/Team_ID.jpg')
+
     
         if team_id:  # Only proceed if team_id is provided
             # Construct the URL for fetching players for the specific teamID and gameweek
