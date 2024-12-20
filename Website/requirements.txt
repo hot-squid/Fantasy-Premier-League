@@ -59,8 +59,6 @@ PuLP==2.9.0
 pure_eval==0.2.3
 pyarrow==17.0.0
 pydeck==0.9.1
-Pygments==2.18.0
-pywin32==306
 referencing==0.35.1
 requests==2.32.3
 rich==13.8.1
