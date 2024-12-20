@@ -5,7 +5,7 @@ import pandas as pd
 def run_info():
 
     # Add logo
-    st.image('logo2.webp')
+    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/logo2.webp')
 
     # Add description
     st.text("""
@@ -20,7 +20,7 @@ def run_info():
     """)
 
     # Import performance CSV
-    performance = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_Performance\Model_performance.csv')
+    performance = pd.read_csv(r'https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Current_Performance/Model_performance.csv')
 
     # Create dataframe
     df = pd.DataFrame(performance)
