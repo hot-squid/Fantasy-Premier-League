@@ -90,12 +90,12 @@ elif page == 'Model_2':
     run_model_2()
 
 elif page == "Model_2.1":
-    from Website.Model_2_1_OLD import run_model_2_1
+    from Model_2_1 import run_model_2_1
     run_model_2_1()
 
 elif page == "FPL_XI":
-    from Optimum_team import run_differential
-    run_differential()
+    from FPL_XI import run_XI
+    run_XI()
 
 elif page == "Info":
     from Info import run_info

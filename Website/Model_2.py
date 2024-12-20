@@ -116,8 +116,7 @@ def run_model_2():
                     'Name': names[index],
                     'Team': teams[index],
                     'Position': positions[index],
-                    'FD_Index': FD_index[index],
-                    'Price': prices[index],
+                    'Current_Price': prices[index],
                 }
                 selected_players.append(player_info)
 
@@ -129,11 +128,10 @@ def run_model_2():
             st.subheader("Selected Players")
             st.write(selected_players_df)
 
-            # Display the total cost and index
-            total_cost = sum(selected_players_df.Price)
-            total_fd_index = sum(selected_players_df.FD_Index)
-            st.write(f"Total Team Cost: {total_cost}")
-            st.write(f"Total Team Index: {total_fd_index}")
+            # Display the total cost
+            total_cost = sum(selected_players_df.Current_Price)
+            st.write(f"Total Cost: {total_cost}")
+            
 
             # Delete the CSV file after displaying (only when required)
             os.remove('first_team_players.csv')

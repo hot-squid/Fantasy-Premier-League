@@ -7,7 +7,7 @@ import requests
 from PIL import Image
 from io import BytesIO
 
-def run_differential():
+def run_XI():
 
     current_week = datetime.now().isocalendar()[1]
     gameweek = current_week - 34
@@ -33,7 +33,7 @@ def run_differential():
     players_df = pd.DataFrame(fpl_data['elements'])
 
     # Load the data for the specified Gameweek
-    data = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.1.csv')
+    data = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.csv')
 
     # Ensure that 'Position' and 'Form' columns exist in your dataset
     positions = data['Position'].unique()
@@ -55,7 +55,7 @@ def run_differential():
             pos_data = pos_data.sort_values(by='FDI_1', ascending=False)
             top_3 = pos_data.head(3)
             top_players_list.append(top_3)
-            bench_2 = pos_data.iloc[3:4]
+            bench_2 = pos_data.iloc[3:5]
             bench_player_list.append(bench_2)
         elif pos == 'MID':
             pos_data = data[data['Position'] == pos].copy()
@@ -69,6 +69,8 @@ def run_differential():
             pos_data = pos_data.sort_values(by='FDI_1', ascending=False)
             top_3 = pos_data.head(3)
             top_players_list.append(top_3)
+            bench_2 = pos_data.iloc[0]
+            bench_player_list.append(bench_2)
             
 
     # Concatenate all top players per position into a single DataFrame
@@ -82,7 +84,7 @@ def run_differential():
     bench = bench_team.merge(players, left_on='Player ID', right_on= 'id')
 
     # Pitch of players
-    st.header(f"Optimum Team ahead of next Gameweek")
+    st.header(f"FPAL XI ahead of next Gameweek (Model 2)")
 
     # Separate players by position
     gk = team[team['element_type'] == 1]        # Goalkeepers

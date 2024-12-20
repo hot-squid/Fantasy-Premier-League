@@ -55,7 +55,7 @@ def run_your_team():
                 )
 
                 # Import accumulated data from latest gameweek
-                data = pd.read_csv(fr'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Players\Accumulated\GW_{event_id}.csv')
+                data = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.csv')
 
                 # Merge list of players with accumulated player data
                 GW_team = pd.merge(list_of_players, data, on='Player ID', how='left')
