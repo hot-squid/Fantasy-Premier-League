@@ -62,7 +62,7 @@ def run_your_team():
                 GW_team = pd.merge(list_of_players, data, on='Player ID', how='left')
 
                 # file path
-                filepath = r''https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/main/Website/form.csv'
+                filepath = r'https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/main/Website/form.csv'
                 # Import form values from the top players
                 top_form = pd.read_csv(filepath)
 
