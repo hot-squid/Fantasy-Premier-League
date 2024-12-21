@@ -7,14 +7,16 @@ import pingouin as pg
 import glob
 import re
 import warnings
+from datetime import datetime
 
 # Model 2.1
 
 # Ignore all warnings
 warnings.filterwarnings("ignore")
 
-# Current gameweek parameter
-gameweek = 15
+# Get the current week number (1-52)
+current_date = datetime.now().isocalendar()[1]
+gameweek = current_date - 35
 
 # Initialize an empty list to store all individual, player gameweek data 
 all_player_sep = []
@@ -267,7 +269,7 @@ for i in range(gameweek + 1, gameweek + 6):
         difficulty_values.append(score)
 
     # Add the difficulty values for this gameweek to the player_data dataframe
-    player_data[f'Player_Difficulty{i - 15}'] = difficulty_values
+    player_data[f'Player_Difficulty{i - gameweek}'] = difficulty_values
 
 # Create difficulty difference for all weeks
 for i in range(1, 6):
@@ -327,8 +329,7 @@ for i in range(1, 6):
 
 # Filter on columns
 columns = ['Player ID', 'Name', 'Last_Name', 'Team', 'Position', 'Cost_Today', 
-           'Minutes', 'Gameweek', 'GW16', 'GW17', 'GW18','GW19', 'GW20',
-            'Form_player_xG_norm','Form_TeamxG_against_norm', 'FDI_1',
+           'Minutes', 'Gameweek','Form_player_xG_norm','Form_TeamxG_against_norm', 'FDI_1',
        'FDI_2', 'FDI_3', 'FDI_4', 'FDI_5']
 
 # Filter on columns

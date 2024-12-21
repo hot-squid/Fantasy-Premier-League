@@ -251,7 +251,7 @@ def run_your_team():
         player_positions = GK + DEF + MID + FWD + SUBS
 
         # Export to csv to use in other page
-        GW_team[['Last_Name', 'Team', 'Form']].to_csv('first_team_players.csv')
+        GW_team[['Last_Name', 'Team', 'Form']].to_csv('https://github.com/hot-squid/Fantasy-Premier-League/raw/main/Website/first_team_players.csv')
             
         # Create the rotated green pitch
         fig, ax = plt.subplots(figsize=(8, 12))

@@ -70,7 +70,7 @@ form_data = {
 form_df = pd.DataFrame(form_data)
 
 # Export average form for the top players
-form_df.to_csv('form.csv')
+form_df.to_csv('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/main/Website/form.csv')
 
 # Initialize GW_team in session state if it doesn't exist
 if 'chosen_option' not in st.session_state:

@@ -3,11 +3,13 @@ from sklearn.preprocessing import MinMaxScaler, StandardScaler
 import warnings
 import pandas as pd
 from pulp import LpMaximize, LpProblem, LpVariable, lpSum
+from datetime import datetime
 
 # Model 2
 
-# Current gameweek
-gameweek = 16
+# Get the current week number (1-52)
+current_date = datetime.now().isocalendar()[1]
+gameweek = current_date - 35
 
 # Empty list to collect gameweek information
 all_gameweeks = []
@@ -90,7 +92,8 @@ for i in range(1, 6):
     data[f'FDI_{i}'] = round(data.iloc[:, 7] / data.iloc[:, 18 + i], 4)
 
 # Export to csv for website
-data.to_csv(rf'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.csv')
+data.to_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.csv')
+
 
 # Define constants
 BUDGET = 800  # Choose your budget (1000 = £100m)
