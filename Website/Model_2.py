@@ -52,7 +52,7 @@ def run_model_2():
     # Define constants
     BUDGET = budget  # Choose your budget (1000 = £100m)
     WEEKS = weeks  # Choose how many weeks you want to prepare for between 1 and 5
-    team = pd.read_csv(r'https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/main/Website/first_team_players.csv')
+    team = st.session_state.team_list
     
     # Create a list of names to remove from `data`
     names_to_remove = team['Last_Name'].tolist()

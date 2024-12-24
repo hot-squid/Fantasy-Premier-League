@@ -11,6 +11,14 @@ import warnings
 
 def run_your_team():
 
+    # Initialize the list in session state if it doesn't exist
+    if "team_list" not in st.session_state:
+        st.session_state.team_list = []
+    
+    # Function to add an item to the list
+    def add_to_list(item):
+        st.session_state.team_list.append(item)
+
     # Ignore warnings
     warnings.filterwarnings("ignore", category=UserWarning)
 
@@ -251,8 +259,11 @@ def run_your_team():
         player_positions = GK + DEF + MID + FWD + SUBS
 
         # Export to csv to use in other page
-        GW_team[['Last_Name', 'Team', 'Form']].to_csv('https://github.com/hot-squid/Fantasy-Premier-League/raw/main/Website/first_team_players.csv')
-            
+        team = GW_team['Last_Name']
+
+        # Add to session state
+        add_to_list(team)
+
         # Create the rotated green pitch
         fig, ax = plt.subplots(figsize=(8, 12))
         draw_rotated_pitch(ax)
