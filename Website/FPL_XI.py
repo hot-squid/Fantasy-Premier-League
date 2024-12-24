@@ -10,7 +10,7 @@ from io import BytesIO
 def run_XI():
 
     current_week = datetime.now().isocalendar()[1]
-    gameweek = current_week - 34
+    gameweek = current_week - 35
     
     # FPL API endpoint for general player information
     fpl_url = "https://fantasy.premierleague.com/api/bootstrap-static/"

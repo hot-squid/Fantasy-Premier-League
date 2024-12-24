@@ -94,7 +94,6 @@ for i in range(1, 6):
 # Export to csv for website
 data.to_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.csv')
 
-
 # Define constants
 BUDGET = 800  # Choose your budget (1000 = £100m)
 WEEKS = 1  # Choose how many weeks you want to prepare for between 1 and 5
