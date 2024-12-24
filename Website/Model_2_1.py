@@ -131,9 +131,6 @@ def run_model_2_1():
             # Display the total cost and index
             total_cost = sum(selected_players_df.Current_Price)
             st.write(f"Total Cost: {total_cost}")
-        
 
-            # Delete the CSV file after displaying (only when required)
-            os.remove('first_team_players.csv')
         else:
             st.write("No optimal team could be selected with the given parameters.")
