@@ -16,7 +16,7 @@ warnings.filterwarnings("ignore")
 
 # Get the current week number (1-52)
 current_date = datetime.now().isocalendar()[1]
-gameweek = current_date - 35
+gameweek = current_date - 34
 
 # Initialize an empty list to store all individual, player gameweek data 
 all_player_sep = []
@@ -316,7 +316,7 @@ player_data[f'Form_norm'] = scaler.fit_transform(player_data['Form'].values.resh
 for i in range(1, 6):
     player_data[f'FD{i}'] = player_data.apply(
         lambda row: (
-            row[f'FD_Difference_norm{i}'] / row['Form_TeamxG_against_norm']
+            (row[f'FD_Difference_norm{i}'] / row['Form_TeamxG_against_norm']) * 10
             if row['Position'] in ['GK', 'DEF']
             else row[f'FD_Difference_norm{i}'] * row['Form_player_xG_norm'] * row['Form_norm']
         ),

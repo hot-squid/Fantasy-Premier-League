@@ -339,7 +339,7 @@ for gameweek in range (4,16):
     for i in range(1, 6):
         player_data[f'FD{i}'] = player_data.apply(
             lambda row: (
-                row[f'FD_Difference_norm{i}'] / row['Form_TeamxG_against_norm']
+                (row[f'FD_Difference_norm{i}'] / row['Form_TeamxG_against_norm']) * 10
                 if row['Position'] in ['GK', 'DEF']
                 else row[f'FD_Difference_norm{i}'] * row['Form_norm'] * row['Form_player_xG_norm']
             ),
