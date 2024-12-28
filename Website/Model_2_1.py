@@ -14,11 +14,14 @@ def run_model_2_1():
     st.markdown(
         """
         <div style="text-align: center;">
-            <img src="https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp" alt="Logo" style="width:25%;"/>
+            <img src="https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp" alt="Logo" style="width:75%;"/>
         </div>
         """,
         unsafe_allow_html=True
     )
+
+    # Ensure 'team_list' is accessed safely
+    team_list = st.session_state.get('team_list', [])  # Default to an empty list if not present
 
 
         # Wildcard button
