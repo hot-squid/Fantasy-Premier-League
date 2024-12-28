@@ -11,12 +11,13 @@ def run_model_2_1():
     event_id = current_week - 35
 
     # Add logo
-    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp', width = 250)
+    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp', width = 400)
 
     # Wildcard button
     # Provide help tab if user needs
     with st.expander("Wildcard?"):
         if st.button("Click here only if you plan wildcard"):
+            st.info('This removes your saved team selection from the first page.')
             for key in st.session_state.keys():
                 del st.session_state[key]  # Clear session state
 
@@ -142,16 +143,17 @@ def run_model_2_1():
 
             # Ensure the 'Current_Price' column is cleaned
             if 'Current_Price' in selected_players_df.columns:
-                # Remove the £ sign and convert to numeric
-                selected_players_df['Current_Price'] = selected_players_df['Current_Price'].replace('[£,]', '', regex=True).astype(float)
 
                 # Display the DataFrame in Streamlit
                 st.subheader("Selected Players")
                 st.write(selected_players_df)
 
+                # Remove the £ sign and convert to numeric
+                selected_players_df['Current_Price'] = selected_players_df['Current_Price'].replace('[£,]', '', regex=True).astype(float)
+
                 # Calculate and display the total cost
                 total_cost = selected_players_df['Current_Price'].sum()
-                st.write(f"Total Cost: £{total_cost / 10:.1f}")  # Adjusting to one decimal place
+                st.write(f"Total Cost: £{total_cost:.1f}")  # Adjusting to one decimal place
             else:
                 st.error("Error: 'Current_Price' column is missing in the DataFrame.")
         else:
