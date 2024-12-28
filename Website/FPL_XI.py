@@ -9,9 +9,12 @@ from io import BytesIO
 
 def run_XI():
 
+    # Pitch of players
+    st.header(f"FPL_XI Gameweek {gameweek}")
+
     # Provide help tab if user needs
     with st.expander("Information"):
-        st.info('This team is picked using no FPL constraints, such as budget or club limit. They are the most in form players')
+        st.info('This team is picked using no FPL constraints, such as budget or club limit. They are the most in form players.')
 
     current_week = datetime.now().isocalendar()[1]
     gameweek = current_week - 35
@@ -37,7 +40,7 @@ def run_XI():
     players_df = pd.DataFrame(fpl_data['elements'])
 
     # Load the data for the specified Gameweek
-    data = pd.read_csv(r'https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/main/Website/Current_form/Current_Form_M2.csv')
+    data = pd.read_csv(r'https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/main/Website/Current_form/Current_Form_M2.1.csv')
 
     # Ensure that 'Position' and 'Form' columns exist in your dataset
     positions = data['Position'].unique()
@@ -86,9 +89,6 @@ def run_XI():
     # Combined
     team = top_team.merge(players, left_on= 'Player ID', right_on= 'id')
     bench = bench_team.merge(players, left_on='Player ID', right_on= 'id')
-
-    # Pitch of players
-    st.header(f"FPAL XI ahead of next Gameweek (Model 2)")
 
     # Separate players by position
     gk = team[team['element_type'] == 1]        # Goalkeepers

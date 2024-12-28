@@ -5,7 +5,15 @@ import pandas as pd
 def run_info():
 
     # Add logo
-    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/squidward.png')
+    # Add the logo, center it, and make it smaller
+    st.markdown(
+        """
+        <div style="text-align: center;">
+            <img src="https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/squidward.webp" alt="Logo" style="width:75%;"/>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
     # Add description
     st.text("""

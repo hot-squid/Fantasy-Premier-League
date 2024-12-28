@@ -6,6 +6,10 @@ import os
 
 def run_model_2():
 
+    # Provide help tab if user needs
+    with st.expander("Information"):
+        st.info('The Transfer Bot is a scout that suggests players to choose for upcoming gameweeks. If you save your team on the first page, the bot will not suggest players that are already in your team. You can plan transfers for up to 5 weeks.')
+
     # Get the current week number (1-52)
     current_week = datetime.now().isocalendar()[1]
     event_id = current_week - 35
@@ -51,7 +55,7 @@ def run_model_2():
         st.error("Caution: FPL teams are MAX 2 GKs, 5 DEFs, 5 MIDs and 3 FWDs.'")
 
     # Define constants
-    BUDGET = budget  # Choose your budget (1000 = £100m)
+    BUDGET = budget * 10  # Choose your budget (1000 = £100m)
     WEEKS = weeks  # Choose how many weeks you want to prepare for between 1 and 5
     team = st.session_state.team_list
     
