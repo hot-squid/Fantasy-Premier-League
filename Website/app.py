@@ -79,7 +79,7 @@ if 'chosen_option' not in st.session_state:
 # Sidebar for navigation
 with st.sidebar:
     page = st.selectbox("Select a page:", 
-                        ["Your Team", "Model_2", 'Model_2.1', 'FPL_XI', "Info"])
+                        ["Your Team", "Model_2", 'Des_LynAIm_picks', 'FPL_XI', "Info"])
 
 # Page routing based on the selected page
 if page == "Your Team":
@@ -90,7 +90,7 @@ elif page == 'Model_2':
     from Model_2 import run_model_2
     run_model_2()
 
-elif page == "Model_2.1":
+elif page == "Des_LynAIm_picks":
     from Model_2_1 import run_model_2_1
     run_model_2_1()
 

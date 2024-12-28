@@ -10,13 +10,17 @@ def run_model_2_1():
     current_week = datetime.now().isocalendar()[1]
     event_id = current_week - 35
 
+    # Add logo
+    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp', width = 10)
+
     # Pick model parameters 
     st.subheader("Parameters")
     budget = st.slider(
         "What is your budget?",
         min_value=0,
-        max_value=1000,
-        value=50
+        max_value=100,
+        value= 0.1
+        format="£%d"
     )
 
     weeks = st.slider(
@@ -50,7 +54,7 @@ def run_model_2_1():
         st.error("Caution: FPL teams are MAX 2 GKs, 5 DEFs, 5 MIDs and 3 FWDs.'")
 
     # Define constants
-    BUDGET = budget  # Choose your budget (1000 = £100m)
+    BUDGET = budget * 10  # Choose your budget (1000 = £100m)
     WEEKS = weeks  # Choose how many weeks you want to prepare for between 1 and 5
     team = st.session_state.team_list
     
@@ -107,7 +111,7 @@ def run_model_2_1():
         # Solve the problem
         prob.solve()
 
-        # Create a list of selected players
+                # Create a list of selected players
         selected_players = []
         for v in prob.variables():
             if v.varValue != 0:
@@ -116,9 +120,11 @@ def run_model_2_1():
                     'Name': names[index],
                     'Team': teams[index],
                     'Position': positions[index],
-                    'Current_Price': prices[index],
+                    'Current_Price': f"£{prices[index] / 10:.1f}"  # Format with £ and divide by 10
                 }
                 selected_players.append(player_info)
+
+                
 
         # Convert selected players to a DataFrame for a better display
         if selected_players:
@@ -130,7 +136,7 @@ def run_model_2_1():
 
             # Display the total cost and index
             total_cost = sum(selected_players_df.Current_Price)
-            st.write(f"Total Cost: {total_cost}")
+            st.write(f"Total Cost: £{total_cost / 10:.1f}")
 
         else:
             st.write("No optimal team could be selected with the given parameters.")
