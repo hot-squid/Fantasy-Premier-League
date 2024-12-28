@@ -11,7 +11,7 @@ def run_model_2_1():
     event_id = current_week - 35
 
     # Add logo
-    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp', width = 10)
+    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp')
 
     # Wildcard button
     if st.button("Click if you are planning a Wildcard"):
@@ -23,10 +23,10 @@ def run_model_2_1():
     st.subheader("Parameters")
     budget = st.slider(
     "What is your budget?",
-    min_value=0.0,
-    max_value=100.0,
+    min_value=0,
+    max_value=100,
     value=0.1,  # Default value within the range
-    format="£%.2f"  # Floating-point format
+    format="£%.2fm"  # Floating-point format
     )
 
 
