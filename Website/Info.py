@@ -9,7 +9,7 @@ def run_info():
     st.markdown(
         """
         <div style="text-align: center;">
-            <img src="https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/squidward.webp" alt="Logo" style="width:75%;"/>
+            <img src="https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/squidward.png" alt="Logo" style="width:75%;"/>
         </div>
         """,
         unsafe_allow_html=True

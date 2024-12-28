@@ -13,7 +13,7 @@ def run_XI():
     gameweek = current_week - 35
 
     # Pitch of players
-    st.header(f"FPL_XI Gameweek {gameweek}")
+    st.header(f"FPL_XI Gameweek {gameweek + 1}")
 
     # Provide help tab if user needs
     with st.expander("Information"):
