@@ -11,7 +11,7 @@ def run_model_2_1():
     event_id = current_week - 35
 
     # Add logo
-    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp', width = 400)
+    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp', width = 400, use_container_width = True)
 
     # Wildcard button
     # Provide help tab if user needs
@@ -20,8 +20,6 @@ def run_model_2_1():
             st.info('This removes your saved team selection from the first page.')
             for key in st.session_state.keys():
                 del st.session_state[key]  # Clear session state
-
-                st.experimental_rerun()  # Rerun the app to reset the UI
 
     st.subheader("Parameters")
     budget = st.slider(
