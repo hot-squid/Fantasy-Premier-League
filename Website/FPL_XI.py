@@ -9,15 +9,15 @@ from io import BytesIO
 
 def run_XI():
 
+    current_week = datetime.now().isocalendar()[1]
+    gameweek = current_week - 35
+
     # Pitch of players
     st.header(f"FPL_XI Gameweek {gameweek}")
 
     # Provide help tab if user needs
     with st.expander("Information"):
-        st.info('This team is picked using no FPL constraints, such as budget or club limit. They are the most in form players.')
-
-    current_week = datetime.now().isocalendar()[1]
-    gameweek = current_week - 35
+        st.info('Des LynAIm has picked this team is with no FPL constraints, such as budget or club limit.')
     
     # FPL API endpoint for general player information
     fpl_url = "https://fantasy.premierleague.com/api/bootstrap-static/"

@@ -121,7 +121,7 @@ def run_model_2():
                     'Name': names[index],
                     'Team': teams[index],
                     'Position': positions[index],
-                    'Current_Price': prices[index],
+                    'Current_Price': f"£{prices[index] / 10:.1f}"
                 }
                 selected_players.append(player_info)
 

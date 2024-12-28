@@ -17,14 +17,16 @@ def run_info():
 
     # Add description
     st.text("""
-    Hot Squid Analytics is an open source Data Science and AI provider. 
+    Hot Squid Ink is an open source data science and analytics provider. 
             
-    The models are built using Linear Optimisation and AI to predict the 
+    The available models are built using AI and linear optimisation to predict the 
     highest scoring players each week. 
             
-    You can read the analysis here:
+    You can read about the analysis here:
     https://medium.com/@thomasburnand/which-fpl-player-position-returns-the-most-points-917aa8886ff8
-            
+    
+    Full access to the source code can be found here:
+    https://github.com/hot-squid/Fantasy-Premier-League
     """)
 
     # Import performance CSV
@@ -37,7 +39,7 @@ def run_info():
     fig = go.Figure()
 
     # Plot lines for each column except 'Gameweek'
-    columns_to_plot = ['Model_2.1', 'Model_2', 'FPL_Average']
+    columns_to_plot = ['Des_LynAIm', 'Transfer_Bot_1', 'FPL_Average']
     for column in columns_to_plot:
         fig.add_trace(go.Scatter(
             x=df['Gameweek'],

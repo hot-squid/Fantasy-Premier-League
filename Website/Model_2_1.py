@@ -22,7 +22,7 @@ def run_model_2_1():
 
     # Provide help tab if user needs
     with st.expander("Information"):
-        st.info('Des LynAIm is our premium scout. His transfer suggestions consistently outperform average FPL players and is generally better than Transfer Bot 1.')
+        st.info('Des LynAIm is our premium scout that consistently finds top players.')
 
     # Ensure 'team_list' is accessed safely
     team_list = st.session_state.get('team_list', [])  # Default to an empty list if not present
@@ -30,15 +30,15 @@ def run_model_2_1():
 
     # Wildcard button
     # Provide a help tab if the user needs it
-    with st.expander("Wildcard?"):
-        if st.button("Click here only if you plan wildcard"):
-            st.info('Your team selection has been removed.')
+    #with st.expander("Wildcard?"):
+       # if st.button("Click here only if you plan wildcard"):
+          #  st.info('Your team selection has been removed.')
             
             # Check if 'team_list' exists in session state
-            if 'team_list' in st.session_state:
-                del st.session_state['team_list']  # Clear the 'team_list' from session state
-            else:
-                st.warning("No team selection found to remove.")
+           # if 'team_list' in st.session_state:
+           #     del st.session_state['team_list']  # Clear the 'team_list' from session state
+           # else:
+            #    st.warning("No team selection found to remove.")
 
 
     st.subheader("Parameters")
