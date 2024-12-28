@@ -21,13 +21,18 @@ def run_model_2_1():
     )
 
 
-    # Wildcard button
-    # Provide help tab if user needs
+        # Wildcard button
+    # Provide a help tab if the user needs it
     with st.expander("Wildcard?"):
         if st.button("Click here only if you plan wildcard"):
-            st.info('This removes your saved team selection from the first page.')
-            for key in st.session_state.keys():
-                del st.session_state[key]  # Clear session state
+            st.info('Your team selection has been removed.')
+            
+            # Check if 'team_list' exists in session state
+            if 'team_list' in st.session_state:
+                del st.session_state['team_list']  # Clear the 'team_list' from session state
+            else:
+                st.warning("No team selection found to remove.")
+
 
     st.subheader("Parameters")
     budget = st.slider(
