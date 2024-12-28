@@ -19,7 +19,8 @@ def run_model_2_1():
         """,
         unsafe_allow_html=True
     )
-
+    st.text("")  # Adds a blank line
+    
     # Provide help tab if user needs
     with st.expander("Information"):
         st.info('Des LynAIm is our premium scout that consistently finds top players.')

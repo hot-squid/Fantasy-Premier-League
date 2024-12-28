@@ -17,6 +17,7 @@ def run_info():
 
     # Add description
     st.text("""
+    
     Hot Squid Ink is an open source data science and analytics provider. 
             
     The available models are built using AI and linear optimisation to predict the 
@@ -66,9 +67,8 @@ def run_info():
 
     # Add description
     st.text("""
-    These scores reflect the OptimumXI team choice suggested each week. 
     
-    The model totals do not include a captain choice (double points), therefore
+    Note: The model totals do not include a captain choice (double points), therefore
     more points would be earned above average. 
     """)
     st.text("")  # Adds a blank line
