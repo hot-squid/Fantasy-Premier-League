@@ -10,8 +10,16 @@ def run_model_2_1():
     current_week = datetime.now().isocalendar()[1]
     event_id = current_week - 35
 
-    # Add logo
-    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp', width = 400, use_container_width = True)
+    # Add the logo, center it, and make it smaller
+    st.markdown(
+        """
+        <div style="text-align: center;">
+            <img src="https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp" alt="Logo" style="width:25%;"/>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
 
     # Wildcard button
     # Provide help tab if user needs
