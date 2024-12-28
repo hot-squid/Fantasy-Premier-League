@@ -11,14 +11,16 @@ def run_model_2_1():
     event_id = current_week - 35
 
     # Add logo
-    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp', width = 50)
+    st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp', width = 250)
 
     # Wildcard button
-    if st.button("Click if you are planning a Wildcard"):
-        for key in st.session_state.keys():
-            del st.session_state[key]  # Clear session state
+    # Provide help tab if user needs
+    with st.expander("Wildcard?"):
+        if st.button("Click here only if you plan wildcard"):
+            for key in st.session_state.keys():
+                del st.session_state[key]  # Clear session state
 
-            st.experimental_rerun()  # Rerun the app to reset the UI
+                st.experimental_rerun()  # Rerun the app to reset the UI
 
     st.subheader("Parameters")
     budget = st.slider(
@@ -133,17 +135,25 @@ def run_model_2_1():
                 selected_players.append(player_info)
 
 
-        # Convert selected players to a DataFrame for a better display
+        # Assuming `selected_players` is a list of dictionaries
         if selected_players:
+            # Convert the list to a DataFrame
             selected_players_df = pd.DataFrame(selected_players)
 
-            # Display the DataFrame in Streamlit
-            st.subheader("Selected Players")
-            st.write(selected_players_df)
+            # Ensure the 'Current_Price' column is cleaned
+            if 'Current_Price' in selected_players_df.columns:
+                # Remove the £ sign and convert to numeric
+                selected_players_df['Current_Price'] = selected_players_df['Current_Price'].replace('[£,]', '', regex=True).astype(float)
 
-            # Display the total cost and index
-            total_cost = sum(selected_players_df.Current_Price)
-            st.write(f"Total Cost: £{total_cost / 10:.1f}")
+                # Display the DataFrame in Streamlit
+                st.subheader("Selected Players")
+                st.write(selected_players_df)
 
+                # Calculate and display the total cost
+                total_cost = selected_players_df['Current_Price'].sum()
+                st.write(f"Total Cost: £{total_cost / 10:.1f}")  # Adjusting to one decimal place
+            else:
+                st.error("Error: 'Current_Price' column is missing in the DataFrame.")
         else:
-            st.write("No optimal team could be selected with the given parameters.")
+            st.info("No players selected.")
+
