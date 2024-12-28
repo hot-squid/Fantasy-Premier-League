@@ -14,7 +14,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Current gameweek parameter
-week = 16
+week = 16 
+
 
 # Initialize an empty list to store all individual, player gameweek data 
 all_player_sep = []
