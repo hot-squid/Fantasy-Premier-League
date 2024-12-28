@@ -23,7 +23,7 @@ def run_model_2_1():
     
     # Provide help tab if user needs
     with st.expander("Information"):
-        st.info('Des LynAIm is our premium scout that consistently finds top players.')
+        st.info('Des LynAIm is our premium scout.')
 
     # Ensure 'team_list' is accessed safely
     team_list = st.session_state.get('team_list', [])  # Default to an empty list if not present
@@ -42,7 +42,6 @@ def run_model_2_1():
             #    st.warning("No team selection found to remove.")
 
 
-    st.subheader("Parameters")
     budget = st.slider(
     "What is your budget?",
     min_value=0.0,

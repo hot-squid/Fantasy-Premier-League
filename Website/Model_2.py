@@ -14,7 +14,6 @@ def run_model_2():
     current_week = datetime.now().isocalendar()[1]
     event_id = current_week - 35
 
-    st.subheader("Parameters")
     budget = st.slider(
     "What is your budget?",
     min_value=0.0,
