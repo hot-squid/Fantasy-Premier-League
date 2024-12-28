@@ -13,6 +13,13 @@ def run_model_2_1():
     # Add logo
     st.image('https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp', width = 10)
 
+    # Wildcard button
+    if st.button("Click if you are planning a Wildcard"):
+        for key in st.session_state.keys():
+            del st.session_state[key]  # Clear session state
+
+            st.experimental_rerun()  # Rerun the app to reset the UI
+
     # Pick model parameters 
     st.subheader("Parameters")
     budget = st.slider(
@@ -60,6 +67,7 @@ def run_model_2_1():
     
     # Create a list of names (from last added team - hopefully the current website user)
     names_to_remove = team[-1].tolist()
+
 
     # Run simulation
     if st.button('Run Simulation'):
@@ -124,7 +132,6 @@ def run_model_2_1():
                 }
                 selected_players.append(player_info)
 
-                
 
         # Convert selected players to a DataFrame for a better display
         if selected_players:
