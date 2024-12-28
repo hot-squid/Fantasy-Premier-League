@@ -24,7 +24,7 @@ def run_model_2_1():
     team_list = st.session_state.get('team_list', [])  # Default to an empty list if not present
 
 
-        # Wildcard button
+    # Wildcard button
     # Provide a help tab if the user needs it
     with st.expander("Wildcard?"):
         if st.button("Click here only if you plan wildcard"):

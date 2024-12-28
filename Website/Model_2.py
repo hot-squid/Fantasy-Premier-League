@@ -10,14 +10,15 @@ def run_model_2():
     current_week = datetime.now().isocalendar()[1]
     event_id = current_week - 35
 
-    # Pick model parameters 
     st.subheader("Parameters")
     budget = st.slider(
-        "What is your budget?",
-        min_value=0,
-        max_value=1000,
-        value=50
+    "What is your budget?",
+    min_value=0.0,
+    max_value=100.0,
+    value=0.1,  # Default value within the range
+    format="£%.2fm"  # Floating-point format
     )
+    
 
     weeks = st.slider(
         "How many weeks are you planning for?",
@@ -120,17 +121,25 @@ def run_model_2():
                 }
                 selected_players.append(player_info)
 
-        # Convert selected players to a DataFrame for a better display
+       # Assuming `selected_players` is a list of dictionaries
         if selected_players:
+            # Convert the list to a DataFrame
             selected_players_df = pd.DataFrame(selected_players)
 
-            # Display the DataFrame in Streamlit
-            st.subheader("Selected Players")
-            st.write(selected_players_df)
+            # Ensure the 'Current_Price' column is cleaned
+            if 'Current_Price' in selected_players_df.columns:
 
-            # Display the total cost
-            total_cost = sum(selected_players_df.Current_Price)
-            st.write(f"Total Cost: {total_cost}")
-            
+                # Display the DataFrame in Streamlit
+                st.subheader("Selected Players")
+                st.write(selected_players_df)
+
+                # Remove the £ sign and convert to numeric
+                selected_players_df['Current_Price'] = selected_players_df['Current_Price'].replace('[£,]', '', regex=True).astype(float)
+
+                # Calculate and display the total cost
+                total_cost = selected_players_df['Current_Price'].sum()
+                st.write(f"Total Cost: £{total_cost:.1f}")  # Adjusting to one decimal place
+            else:
+                st.error("Error: 'Current_Price' column is missing in the DataFrame.")
         else:
-            st.write("No optimal team could be selected with the given parameters.")
+            st.info("No players selected.")

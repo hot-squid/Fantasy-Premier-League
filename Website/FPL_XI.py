@@ -9,6 +9,10 @@ from io import BytesIO
 
 def run_XI():
 
+    # Provide help tab if user needs
+    with st.expander("Information"):
+        st.info('This team is picked using no FPL constraints, such as budget or club limit. They are the most in form players')
+
     current_week = datetime.now().isocalendar()[1]
     gameweek = current_week - 35
     
