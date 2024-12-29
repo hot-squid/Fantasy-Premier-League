@@ -15,16 +15,17 @@ def run_info():
         unsafe_allow_html=True
     )
 
+    st.text("")  # Adds a blank line
     # Add description
     st.text("""
     
-    Hot Squid Ink is an open source data science and analytics provider. 
+    Hot Squid Ink is a freelance data science and machine learning specialist. who provides open source research. 
             
-    The available models are built using AI and linear optimisation to predict the 
+    The scouts (models) are built using AI and linear optimisation to predict the 
     highest scoring players each week. 
             
     You can read about the analysis here:
-    https://medium.com/@thomasburnand/which-fpl-player-position-returns-the-most-points-917aa8886ff8
+    https://medium.com/@hotsquid
     
     Full access to the source code can be found here:
     https://github.com/hot-squid/Fantasy-Premier-League
@@ -40,7 +41,7 @@ def run_info():
     fig = go.Figure()
 
     # Plot lines for each column except 'Gameweek'
-    columns_to_plot = ['Des_LynAIm', 'Transfer_Bot_1', 'FPL_Average']
+    columns_to_plot = ['Des_LynAIm', 'The_Scout', 'FPL_Average']
     for column in columns_to_plot:
         fig.add_trace(go.Scatter(
             x=df['Gameweek'],
@@ -51,7 +52,7 @@ def run_info():
 
     # Update layout with titles and grid
     fig.update_layout(
-        title='Algorithm Performance',
+        title='Scout Performance',
         xaxis_title='Gameweek',
         yaxis_title='Points',
         xaxis=dict(
@@ -65,13 +66,6 @@ def run_info():
     # Show the interactive plot
     st.plotly_chart(fig)
 
-    # Add description
-    st.text("""
-    
-    Note: The model totals do not include a captain choice (double points), therefore
-    more points would be earned above average. 
-    """)
-    st.text("")  # Adds a blank line
     st.text("")  # Adds a blank line
     st.text("")  # Adds a blank line
 

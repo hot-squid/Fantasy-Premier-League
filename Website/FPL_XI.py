@@ -13,12 +13,8 @@ def run_XI():
     gameweek = current_week - 35
 
     # Pitch of players
-    st.header(f"FPL_XI Gameweek {gameweek + 1}")
-
-    # Provide help tab if user needs
-    with st.expander("Information"):
-        st.info('Des LynAIm has picked this team is with no FPL constraints, such as budget or club limit.')
-    
+    st.header(f"Des's Hot Picks: {gameweek + 2}")
+   
     # FPL API endpoint for general player information
     fpl_url = "https://fantasy.premierleague.com/api/bootstrap-static/"
 
@@ -163,4 +159,7 @@ def run_XI():
     else:
         st.write("No bench players selected.")
 
+    # Provide help tab if user needs
+    with st.expander("Information"):
+        st.info("Des LynAIm's picks without any constraints.")
 

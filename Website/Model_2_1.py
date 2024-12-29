@@ -23,24 +23,16 @@ def run_model_2_1():
     
     # Provide help tab if user needs
     with st.expander("Information"):
-        st.info('Des LynAIm is our premium scout.')
+        st.info('''Des LynAIm is the G.O.A.T scout. He uses an improved fixture difficulty rating, in addition to form, to choose players. 
+                
+                His analysis can be found here:
+                https://medium.com/@hotsquid/improved-fixture-difficulty-rating-opponents-to-target-and-avoid-9a38c7f8228b''')
+
+    st.text("")  # Adds a blank line
+    st.text("")  # Adds a blank line
 
     # Ensure 'team_list' is accessed safely
     team_list = st.session_state.get('team_list', [])  # Default to an empty list if not present
-
-
-    # Wildcard button
-    # Provide a help tab if the user needs it
-    #with st.expander("Wildcard?"):
-       # if st.button("Click here only if you plan wildcard"):
-          #  st.info('Your team selection has been removed.')
-            
-            # Check if 'team_list' exists in session state
-           # if 'team_list' in st.session_state:
-           #     del st.session_state['team_list']  # Clear the 'team_list' from session state
-           # else:
-            #    st.warning("No team selection found to remove.")
-
 
     budget = st.slider(
     "What is your budget?",
@@ -176,4 +168,16 @@ def run_model_2_1():
                 st.error("Error: 'Current_Price' column is missing in the DataFrame.")
         else:
             st.info("No players selected.")
+
+        # Wildcard button
+    # Provide a help tab if the user needs it
+    #with st.expander("Wildcard?"):
+       # if st.button("Click here only if you plan wildcard"):
+          #  st.info('Your team selection has been removed.')
+            
+            # Check if 'team_list' exists in session state
+           # if 'team_list' in st.session_state:
+           #     del st.session_state['team_list']  # Clear the 'team_list' from session state
+           # else:
+            #    st.warning("No team selection found to remove.")
 

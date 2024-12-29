@@ -283,7 +283,6 @@ def run_your_team():
                     
             White is good. Orange is okay. Red is poor. 
                     
-            Simply take note of the underperformers, their position and price
-            and give this information to the transfer scouts in the below tabs''')
+            Simply take note of the underperformers, their position and price and give this information to the scouts''')
 
 

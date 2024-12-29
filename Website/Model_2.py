@@ -8,8 +8,11 @@ def run_model_2():
 
     # Provide help tab if user needs
     with st.expander("Information"):
-        st.info('The Transfer Bot is a scout that suggests players to choose for upcoming gameweeks. If you save your team on the first page, the bot will not suggest players that are already in your team. You can plan transfers for up to 5 weeks.')
+        st.info('''The Scout will suggest top players to choose for upcoming gameweeks using a combination of Form and Fixture Difficulty. In addition, the scout will maximise points given the transfer constraints (e.g. budget available).
+                
+                Ensure your Team ID has saved on the first page if you are having difficulties. Also, if you plan to Wildcard then click the 'Wildcard' button below to remove your saved players.''')
 
+    st.text("")  # Adds a blank line
     # Get the current week number (1-52)
     current_week = datetime.now().isocalendar()[1]
     event_id = current_week - 35
