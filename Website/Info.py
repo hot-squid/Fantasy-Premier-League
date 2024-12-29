@@ -19,10 +19,11 @@ def run_info():
     # Add description
     st.text("""
     
-    Hot Squid Ink is a freelance data science and machine learning specialist. who provides open source research. 
+    Hot Squid Ink is a freelance data science and machine learning researcher,
+    who provides open source analysis. 
             
-    The scouts (models) are built using AI and linear optimisation to predict the 
-    highest scoring players each week. 
+    The scouts (models) are built using AI and linear optimisation to predict 
+    the highest scoring players each week. 
             
     You can read about the analysis here:
     https://medium.com/@hotsquid

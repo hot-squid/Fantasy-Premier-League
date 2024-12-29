@@ -8,9 +8,11 @@ def run_model_2():
 
     # Provide help tab if user needs
     with st.expander("Information"):
-        st.info('''The Scout will suggest top players to choose for upcoming gameweeks using a combination of Form and Fixture Difficulty. In addition, the scout will maximise points given the transfer constraints (e.g. budget available).
+        st.info('''
+        The Scout will suggest top players to choose for upcoming gameweeks using a combination of Form and Fixture Difficulty. In addition, the scout will maximise points given the transfer constraints (e.g. budget available).
                 
-                Ensure your Team ID has saved on the first page if you are having difficulties. Also, if you plan to Wildcard then click the 'Wildcard' button below to remove your saved players.''')
+        Ensure your Team ID has saved on the first page if you are having difficulties. Also, if you plan to Wildcard then click the 'Wildcard' button below to remove your saved players.
+                ''')
 
     st.text("")  # Adds a blank line
     # Get the current week number (1-52)
