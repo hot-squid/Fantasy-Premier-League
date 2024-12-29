@@ -274,14 +274,16 @@ def run_your_team():
         # Post to website
         st.pyplot(fig)
 
-        st.info('''
+        # Provide help tab if user needs
+        with st.expander("Information"):
         
-        Your team is assessed to the top in form players by position (5 GK, 15 DEF, 15 MID and 10 FWDS). 
-                
-        Red indicates they are not the in form players.
-                
-        Orange indicates they are below the average of the in form players.
-                
-        White indicates a top in-form player.''')
+            st.info('''
+            
+            Your team is compared to the most in-form players by position (GW points scored over past 4 weeks).
+                    
+            White is good. Orange is okay. Red is poor. 
+                    
+            Simply take note of the underperformers, their position and price
+            and give this information to the transfer scouts in the below tabs''')
 
 
