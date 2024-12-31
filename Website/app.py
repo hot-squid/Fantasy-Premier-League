@@ -1,11 +1,4 @@
 import streamlit as st
-
-# Set basic page configuration
-st.set_page_config(
-    page_title="Custom Themed App",
-    layout="centered",
-    page_icon=None
-)
 import pandas as pd
 from datetime import datetime
 
