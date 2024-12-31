@@ -155,5 +155,6 @@ def run_model_2():
     # Wildcard button
     with st.expander("Wildcard?"):
        if st.button("Click here if you plan wildcard"):
-          st.session_state['team_list'] = [['Coady'* 11]]
-            st.success('Team reset.')
+        st.success('Team reset.')
+        st.session_state['team_list'] = [['Coady'* 11]]
+
