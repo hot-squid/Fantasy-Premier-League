@@ -17,7 +17,7 @@ st.markdown(
         /* Global app styling */
         .stApp {
             background-color: #1C1C1C; /* Background color */
-            color: #E0E0E0; /* Text color */
+            color: #FFFFFF; /* Text color */
             font-family: 'Sans serif', sans-serif; /* Font family */
         }
 
