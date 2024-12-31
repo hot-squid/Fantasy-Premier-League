@@ -13,7 +13,7 @@ def run_your_team():
 
     # Initialize the list in session state if it doesn't exist
     if "team_list" not in st.session_state:
-        st.session_state['team_list'] = [Salah, Salah, Salah, Salah, Salah, Salah, Salah, Salah, Salah, Salah, Salah]
+        st.session_state['team_list'] = [[Salah, Salah, Salah, Salah, Salah, Salah, Salah, Salah, Salah, Salah, Salah]]
     
     # Function to add an item to the list
     def add_to_list(item):
