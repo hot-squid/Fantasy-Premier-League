@@ -2,6 +2,8 @@ import streamlit as st
 
 import streamlit as st
 
+import streamlit as st
+
 # Set basic page configuration
 st.set_page_config(
     page_title="Custom Themed App",
@@ -10,21 +12,21 @@ st.set_page_config(
     page_icon=None
 )
 
-# Enhanced CSS for theme based on config.toml
+# Enhanced CSS for theme
 st.markdown(
     """
     <style>
         /* Global app styling */
         .stApp {
-            background-color: #1C1C1C; /* Background color */
-            color: #FFFFFF; /* Text color */
+            background-color: #1C1C1C; /* Main app background */
+            color: #FFFFFF; /* Main app text color */
             font-family: 'Sans serif', sans-serif; /* Font family */
         }
 
         /* Primary color elements like buttons */
         .stButton button {
             background-color: #F8F8F8; /* Primary color */
-            color: #1C1C1C; /* Inverted for contrast */
+            color: #1C1C1C; /* Text color for buttons */
             border-radius: 8px;
             border: none;
         }
@@ -38,17 +40,22 @@ st.markdown(
             font-family: 'Sans serif', sans-serif; /* Font family */
         }
 
-        /* Sidebar styling */
-        .css-1d391kg { /* Sidebar container */
+        /* Sidebar container styling */
+        .css-1d391kg { 
             background-color: #1C1C1C; /* Sidebar background */
-            color: #E0E0E0; /* Sidebar text color */
+            color: #FFFFFF; /* Sidebar text color */
+        }
+        /* Sidebar expanded content styling (newer Streamlit versions) */
+        .css-qbe2hs {
+            background-color: #1C1C1C; /* Sidebar background for Streamlit >=1.10 */
+            color: #FFFFFF; /* Sidebar text color */
         }
 
         /* Text input fields */
         .stTextInput > div > div > input {
-            background-color: #2C2C2C; /* Input background */
-            color: #E0E0E0; /* Input text color */
-            border: 1px solid #555555; /* Input border color */
+            background-color: #2C2C2C; /* Input field background */
+            color: #E0E0E0; /* Input field text color */
+            border: 1px solid #555555; /* Input field border color */
         }
 
         /* Links */
@@ -60,16 +67,16 @@ st.markdown(
             text-decoration: underline;
         }
 
-        /* Custom scrollbar (optional) */
+        /* Scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
         }
         ::-webkit-scrollbar-thumb {
-            background: #FFFFFF; /* Dark scrollbar */
+            background: #FFFFFF; /* Scrollbar color */
             border-radius: 4px;
         }
         ::-webkit-scrollbar-thumb:hover {
-            background: #555555; /* Lighter scrollbar on hover */
+            background: #555555; /* Scrollbar hover color */
         }
     </style>
     """,
