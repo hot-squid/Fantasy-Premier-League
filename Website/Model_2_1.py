@@ -24,7 +24,7 @@ def run_model_2_1():
 
     # Provide help tab if user needs
     with st.expander("Information"):
-        st.info('Des LynAIm is the G.O.A.T scout. He uses an improved fixture difficulty rating, in addition to form, to choose players.')
+        st.info('Des LynAIm is the G.O.A.T scout.')
         st.info('His analysis can be found here: https://medium.com/@hotsquid/improved-fixture-difficulty-rating-opponents-to-target-and-avoid-9a38c7f8228b')
                 
 
