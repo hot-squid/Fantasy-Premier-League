@@ -39,9 +39,7 @@ def run_your_team():
     with st.expander("Click for assistance"):
         st.info('Your ID can be found here when you click on the points tab.')
         st.image('https://github.com/hot-squid/Fantasy-Premier-League/raw/main/Website/Team_ID.jpg')
-        st.info('Entering TeamID will stop the scouts choosing the players you already have. If you plan to Wildcard, do not enter your Team ID.')
-
-    
+        
         if team_id:  # Only proceed if team_id is provided
             # Construct the URL for fetching players for the specific teamID and gameweek
             url = f'https://fantasy.premierleague.com/api/entry/{team_id}/event/{event_id}/picks/'
