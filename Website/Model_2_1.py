@@ -79,7 +79,7 @@ def run_model_2_1():
     team = st.session_state.team_list
     
     # Create a list of names (from last added team - hopefully the current website user)
-    names_to_remove = team[-1].tolist()
+    names_to_remove = team[-1]
 
 
     # Run simulation
