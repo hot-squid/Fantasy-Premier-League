@@ -19,14 +19,10 @@ def run_info():
     # Add description
     st.text("""
     
-    Hot Squid Ink is a freelance data science and machine learning researcher,
-    who provides open source analysis. 
+    Hot Squid Ink is a freelance researcher, specialising in Data Science, 
+    Machine Learning and AI. All analysis and code is provided open source. 
             
-    The scouts (models) are built using AI and linear optimisation to predict 
-    the highest scoring players each week. 
-            
-    You can read about the analysis here:
-    https://medium.com/@hotsquid
+    You can read about the FPL analysis here: https://medium.com/@hotsquid
     
     Full access to the source code can be found here:
     https://github.com/hot-squid/Fantasy-Premier-League
@@ -75,7 +71,8 @@ def run_info():
 
     # Add a description
     st.write("""
-    Click the button below to make a secure payment via Stripe.
+    Click the button to support open source research below and make a 
+    secure payment via Stripe.
     """)
 
     # Add a button that links to the Stripe payment page
