@@ -65,7 +65,7 @@ st.markdown(
             width: 8px;
         }
         ::-webkit-scrollbar-thumb {
-            background: #555555; /* Dark scrollbar */
+            background: #FFFFFF; /* Dark scrollbar */
             border-radius: 4px;
         }
         ::-webkit-scrollbar-thumb:hover {
