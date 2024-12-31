@@ -1,28 +1,83 @@
 import streamlit as st
 
-# Manually setting theme configurations (requires Streamlit >= 1.2.0)
+import streamlit as st
+
+# Set basic page configuration
 st.set_page_config(
-    page_title="Your App",
+    page_title="Custom Themed App",
     layout="centered",
     initial_sidebar_state="expanded",
     page_icon=None
 )
 
-# Apply CSS for theme customization as a workaround
+# Enhanced CSS for additional styling
 st.markdown(
     """
     <style>
+        /* Set global app background and text color */
         .stApp {
             background-color: #1C1C1C;
             color: #E0E0E0;
+            font-family: 'Arial', sans-serif; /* Fallback font */
         }
-        .css-1v3fvcr { /* Primary color elements */
-            background-color: dark;
+
+        /* Primary color elements like buttons */
+        .stButton button {
+            background-color: #3A3A3A;
+            color: #FFFFFF;
+            border-radius: 8px;
+            border: 1px solid #555555;
         }
+        .stButton button:hover {
+            background-color: #555555;
+        }
+
+        /* Sidebar styling */
+        .sidebar .sidebar-content {
+            background-color: #2E2E2E;
+            color: #E0E0E0;
+        }
+        
+        /* Headers */
+        h1, h2, h3, h4, h5, h6 {
+            color: #FFA500; /* Custom color for headers */
+            font-family: 'Verdana', sans-serif; /* Use custom font */
+        }
+
+        /* Links */
+        a {
+            color: #1E90FF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Input boxes */
+        .stTextInput > div > div > input {
+            background-color: #2C2C2C;
+            color: #FFFFFF;
+            border: 1px solid #555555;
+        }
+
+        /* Custom fonts for entire app */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+        .stApp {
+            font-family: 'Roboto', sans-serif;
+        }
+
     </style>
     """,
     unsafe_allow_html=True
 )
+
+# Add some Streamlit components to demonstrate the styling
+st.title("Custom Themed App")
+st.header("This is a header with custom styling")
+st.text("This is some regular text.")
+st.button("Click Me!")
+st.text_input("Enter some text")
+
 
 import pandas as pd
 from datetime import datetime
