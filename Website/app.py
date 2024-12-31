@@ -69,7 +69,7 @@ st.markdown(
             border-radius: 4px;
         }
         ::-webkit-scrollbar-thumb:hover {
-            background: #777777; /* Lighter scrollbar on hover */
+            background: #555555; /* Lighter scrollbar on hover */
         }
     </style>
     """,
