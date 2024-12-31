@@ -1,17 +1,29 @@
-import sys
-
-sys.argv = [
-    'streamlit',
-    'app',
-    'streamlit_app_path',
-    '--global.developmentMode=false',
-    '--theme.backgroundColor=#1C1C1C',
-    '--theme.primaryColor=dark',
-    '--theme.textColor=#E0E0E0',
-    '--theme.font="sans serif"'
-]
-
 import streamlit as st
+
+# Manually setting theme configurations (requires Streamlit >= 1.2.0)
+st.set_page_config(
+    page_title="Your App",
+    layout="centered",
+    initial_sidebar_state="expanded",
+    page_icon=None
+)
+
+# Apply CSS for theme customization as a workaround
+st.markdown(
+    """
+    <style>
+        .stApp {
+            background-color: #1C1C1C;
+            color: #E0E0E0;
+        }
+        .css-1v3fvcr { /* Primary color elements */
+            background-color: dark;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 import pandas as pd
 from datetime import datetime
 
