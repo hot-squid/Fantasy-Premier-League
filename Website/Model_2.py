@@ -152,8 +152,8 @@ def run_model_2():
         else:
             st.info("No players selected.")
 
-        # Wildcard button
-        with st.expander("Wildcard?"):
-           if st.button("Click here if you plan wildcard"):
-              st.session_state['team_list'] = [['Coady'* 11]]
-                st.success('Team reset.')
+    # Wildcard button
+    with st.expander("Wildcard?"):
+       if st.button("Click here if you plan wildcard"):
+          st.session_state['team_list'] = [['Coady'* 11]]
+            st.success('Team reset.')
