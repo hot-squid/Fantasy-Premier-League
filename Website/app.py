@@ -1,85 +1,10 @@
 import streamlit as st
 
-import streamlit as st
-
-import streamlit as st
-
 # Set basic page configuration
 st.set_page_config(
     page_title="Custom Themed App",
     layout="centered",
     page_icon=None
-)
-
-# Enhanced CSS for theme
-st.markdown(
-    """
-    <style>
-        /* Global app styling */
-        .stApp {
-            background-color: #1C1C1C; /* Main app background */
-            color: #FFFFFF; /* Main app text color */
-            font-family: 'Sans serif', sans-serif; /* Font family */
-        }
-
-        /* Primary color elements like buttons */
-        .stButton button {
-            background-color: #F8F8F8; /* Primary color */
-            color: #1C1C1C; /* Text color for buttons */
-            border-radius: 8px;
-            border: none;
-        }
-        .stButton button:hover {
-            background-color: #1C1C1C; /* Slightly darker hover state */
-        }
-
-        /* Headers styling */
-        h1, h2, h3, h4, h5, h6 {
-            color: #F8F8F8; /* Primary color for headers */
-            font-family: 'Sans serif', sans-serif; /* Font family */
-        }
-
-        /* Sidebar container styling */
-        .css-1d391kg { 
-            background-color: #1C1C1C; /* Sidebar background */
-            color: #FFFFFF; /* Sidebar text color */
-        }
-        /* Sidebar expanded content styling (newer Streamlit versions) */
-        .css-qbe2hs {
-            background-color: #1C1C1C; /* Sidebar background for Streamlit >=1.10 */
-            color: #FFFFFF; /* Sidebar text color */
-        }
-
-        /* Text input fields */
-        .stTextInput > div > div > input {
-            background-color: #2C2C2C; /* Input field background */
-            color: #E0E0E0; /* Input field text color */
-            border: 1px solid #555555; /* Input field border color */
-        }
-
-        /* Links */
-        a {
-            color: #F8F8F8; /* Primary color for links */
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* Scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #FFFFFF; /* Scrollbar color */
-            border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #555555; /* Scrollbar hover color */
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
 )
 import pandas as pd
 from datetime import datetime
