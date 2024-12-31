@@ -1,3 +1,16 @@
+import sys
+
+sys.argv = [
+    'streamlit',
+    'app',
+    'streamlit_app_path',
+    '--global.developmentMode=false',
+    '--theme.backgroundColor=#1C1C1C',
+    '--theme.primaryColor=dark',
+    '--theme.textColor=#E0E0E0',
+    '--theme.font="sans serif"'
+]
+
 import streamlit as st
 import pandas as pd
 from datetime import datetime

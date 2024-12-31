@@ -10,7 +10,7 @@ from io import BytesIO
 def run_XI():
 
     current_week = datetime.now().isocalendar()[1]
-    gameweek = current_week - 35
+    gameweek = current_week + 17
 
     # Pitch of players
     st.header(f"Des's Hot Picks: {gameweek + 2}")

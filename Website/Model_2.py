@@ -17,7 +17,7 @@ def run_model_2():
     st.text("")  # Adds a blank line
     # Get the current week number (1-52)
     current_week = datetime.now().isocalendar()[1]
-    event_id = current_week - 35
+    event_id = current_week + 17
 
     budget = st.slider(
     "What is your budget?",

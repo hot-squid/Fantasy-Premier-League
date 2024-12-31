@@ -8,7 +8,7 @@ def run_model_2_1():
 
     # Get the current week number (1-52)
     current_week = datetime.now().isocalendar()[1]
-    event_id = current_week - 35
+    event_id = current_week + 17
 
     # Add the logo, center it, and make it smaller
     st.markdown(
@@ -21,12 +21,12 @@ def run_model_2_1():
     )
     st.text("")  # Adds a blank line
     
+
     # Provide help tab if user needs
     with st.expander("Information"):
-        st.info('''Des LynAIm is the G.O.A.T scout. He uses an improved fixture difficulty rating, in addition to form, to choose players. 
+        st.info('Des LynAIm is the G.O.A.T scout. He uses an improved fixture difficulty rating, in addition to form, to choose players.')
+        st.info('His analysis can be found here: https://medium.com/@hotsquid/improved-fixture-difficulty-rating-opponents-to-target-and-avoid-9a38c7f8228b')
                 
-                His analysis can be found here:
-                https://medium.com/@hotsquid/improved-fixture-difficulty-rating-opponents-to-target-and-avoid-9a38c7f8228b''')
 
     st.text("")  # Adds a blank line
     st.text("")  # Adds a blank line
