@@ -30,7 +30,7 @@ st.markdown(
             border: none;
         }
         .stButton button:hover {
-            background-color: #D3D3D3; /* Slightly darker hover state */
+            background-color: #1C1C1C; /* Slightly darker hover state */
         }
 
         /* Headers styling */
