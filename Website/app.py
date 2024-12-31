@@ -10,75 +10,71 @@ st.set_page_config(
     page_icon=None
 )
 
-# Enhanced CSS for additional styling
+# Enhanced CSS for theme based on config.toml
 st.markdown(
     """
     <style>
-        /* Set global app background and text color */
+        /* Global app styling */
         .stApp {
-            background-color: #1C1C1C;
-            color: #E0E0E0;
-            font-family: 'Arial', sans-serif; /* Fallback font */
+            background-color: #1C1C1C; /* Background color */
+            color: #E0E0E0; /* Text color */
+            font-family: 'Sans serif', sans-serif; /* Font family */
         }
 
         /* Primary color elements like buttons */
         .stButton button {
-            background-color: #3A3A3A;
-            color: #FFFFFF;
+            background-color: #F8F8F8; /* Primary color */
+            color: #1C1C1C; /* Inverted for contrast */
             border-radius: 8px;
-            border: 1px solid #555555;
+            border: none;
         }
         .stButton button:hover {
-            background-color: #555555;
+            background-color: #D3D3D3; /* Slightly darker hover state */
+        }
+
+        /* Headers styling */
+        h1, h2, h3, h4, h5, h6 {
+            color: #F8F8F8; /* Primary color for headers */
+            font-family: 'Sans serif', sans-serif; /* Font family */
         }
 
         /* Sidebar styling */
-        .sidebar .sidebar-content {
-            background-color: #2E2E2E;
-            color: #E0E0E0;
+        .css-1d391kg { /* Sidebar container */
+            background-color: #1C1C1C; /* Sidebar background */
+            color: #E0E0E0; /* Sidebar text color */
         }
-        
-        /* Headers */
-        h1, h2, h3, h4, h5, h6 {
-            color: #FFA500; /* Custom color for headers */
-            font-family: 'Verdana', sans-serif; /* Use custom font */
+
+        /* Text input fields */
+        .stTextInput > div > div > input {
+            background-color: #2C2C2C; /* Input background */
+            color: #E0E0E0; /* Input text color */
+            border: 1px solid #555555; /* Input border color */
         }
 
         /* Links */
         a {
-            color: #1E90FF;
+            color: #F8F8F8; /* Primary color for links */
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
 
-        /* Input boxes */
-        .stTextInput > div > div > input {
-            background-color: #2C2C2C;
-            color: #FFFFFF;
-            border: 1px solid #555555;
+        /* Custom scrollbar (optional) */
+        ::-webkit-scrollbar {
+            width: 8px;
         }
-
-        /* Custom fonts for entire app */
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-        .stApp {
-            font-family: 'Roboto', sans-serif;
+        ::-webkit-scrollbar-thumb {
+            background: #555555; /* Dark scrollbar */
+            border-radius: 4px;
         }
-
+        ::-webkit-scrollbar-thumb:hover {
+            background: #777777; /* Lighter scrollbar on hover */
+        }
     </style>
     """,
     unsafe_allow_html=True
 )
-
-# Add some Streamlit components to demonstrate the styling
-st.title("Custom Themed App")
-st.header("This is a header with custom styling")
-st.text("This is some regular text.")
-st.button("Click Me!")
-st.text_input("Enter some text")
-
-
 import pandas as pd
 from datetime import datetime
 
