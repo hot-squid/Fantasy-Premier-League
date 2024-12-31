@@ -170,14 +170,10 @@ def run_model_2_1():
             st.info("No players selected.")
 
         # Wildcard button
-    # Provide a help tab if the user needs it
-    #with st.expander("Wildcard?"):
-       # if st.button("Click here only if you plan wildcard"):
-          #  st.info('Your team selection has been removed.')
+        with st.expander("Wildcard?"):
+           if st.button("Click here if you plan wildcard"):
+              st.session_state['team_list'] = [['Coady'* 11]]
+               st.succes('Team reset.')
             
-            # Check if 'team_list' exists in session state
-           # if 'team_list' in st.session_state:
-           #     del st.session_state['team_list']  # Clear the 'team_list' from session state
-           # else:
-            #    st.warning("No team selection found to remove.")
+    
 
