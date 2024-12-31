@@ -151,3 +151,9 @@ def run_model_2():
                 st.error("Error: 'Current_Price' column is missing in the DataFrame.")
         else:
             st.info("No players selected.")
+
+        # Wildcard button
+        with st.expander("Wildcard?"):
+           if st.button("Click here if you plan wildcard"):
+              st.session_state['team_list'] = [['Coady'* 11]]
+               st.succes('Team reset.')
