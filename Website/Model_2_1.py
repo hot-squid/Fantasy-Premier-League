@@ -8,7 +8,7 @@ def run_model_2_1():
 
     # Get the current week number (1-52)
     current_week = datetime.now().isocalendar()[1]
-    event_id = current_week + 17
+    event_id = current_week + 18
 
     # Add the logo, center it, and make it smaller
     st.markdown(
