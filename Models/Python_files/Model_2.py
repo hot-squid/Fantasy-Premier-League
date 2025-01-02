@@ -9,7 +9,7 @@ from datetime import datetime
 
 # Get the current week number (1-52)
 current_date = datetime.now().isocalendar()[1]
-gameweek = current_date - 35
+gameweek = current_date + 18
 
 # Empty list to collect gameweek information
 all_gameweeks = []
