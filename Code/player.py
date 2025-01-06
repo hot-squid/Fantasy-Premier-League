@@ -6,6 +6,9 @@ import json
 # Create data class 
 data = FplApiDataRaw()
 
+# Access elements attribute (for availablity status)
+info = data.elements_json
+
 # Get all available data
 summary = data.get_all_element_summaries()
 
@@ -64,6 +67,19 @@ player = player_info[columns]
 
 # Merging all player data on Player ID
 dataset = player.merge(data, on='Player ID', how='left')
+
+# Collect availablilty data 
+avail = []
+for player in info:
+    play = player['id']
+    status = player['status']
+    avail.append([play, status])
+
+# Turn into a pandas dataframe
+availability = pd.DataFrame(avail, columns= ['Player ID', 'Avail'])
+
+# Merge with other dataframe
+dataset = dataset.merge(availability, on= 'Player ID')
 
 # Import fixture information
 fixtures = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Schedule\Fixtures.csv')

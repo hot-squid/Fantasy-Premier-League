@@ -45,7 +45,7 @@ final_data["Form"] = (
 # Choose important columns
 columns = [
     'Player ID', 'Name', 'Last_Name', 'Team', 'Position', 'Cost_Today',
-    'GW Points', 'Form', 'Gameweek'
+    'GW Points', 'Form', 'Gameweek', 'Avail'
 ]
 
 # Create final dataset
@@ -81,7 +81,7 @@ mapping = difficulty.set_index(['Opponent', 'Position'])['FD_combined'].to_dict(
 
 # Map difficulty for NGWs (next gameweeks) using Team and Position
 for i in range(1, 6):  # NGW1 to NGW5
-    data[f'NGW{i}'] = data.apply(lambda row: mapping.get((row.iloc[8 + i], row.iloc[4]), None), axis=1)
+    data[f'NGW{i}'] = data.apply(lambda row: mapping.get((row.iloc[9 + i], row.iloc[4]), None), axis=1)
 
 # Loop to create FDI_1 to FDI_5, summing up the values from F_1 to F_i
 for i in range(1, 6):
@@ -90,7 +90,7 @@ for i in range(1, 6):
 
 # Calculate accumulated FD_index for up to next 5 gameweeks
 for i in range(1, 6):
-    data[f'FDI_{i}'] = round(data.iloc[:, 7] / data.iloc[:, 18 + i], 4)
+    data[f'FDI_{i}'] = round(data.iloc[:, 7] / data.iloc[:, 19 + i], 4)
 
 # Export to csv for website
 data.to_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.csv')

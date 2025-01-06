@@ -70,7 +70,7 @@ player_data['FD_combined'] = player_data.apply(
 
 # Map difficulty for NGWs (next gameweeks) using Team and Position
 for i in range(1, 6):  # NGW1 to NGW5
-    player_data[f'NGW{i}'] = player_data.apply(lambda row: mapping.get((row.iloc[32 + i], row.iloc[4]), None), axis=1)
+    player_data[f'NGW{i}'] = player_data.apply(lambda row: mapping.get((row.iloc[33 + i], row.iloc[4]), None), axis=1)
 
 # Specify the path to the files
 defense = glob.glob(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Team\Seperate_GW\Defensive\*.csv')
