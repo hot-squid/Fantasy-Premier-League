@@ -67,16 +67,15 @@ def run_info():
     st.text("")  # Adds a blank line
 
     # Add a title to your Streamlit app
-    st.subheader("Buy me a coffee?")
+    st.subheader("Donate?")
 
     # Add a description
     st.write("""
-    Click the button to support open source research below and make a 
+    Click the button to support Squid's research and make a 
     secure payment via Stripe.
     """)
 
     # Add a button that links to the Stripe payment page
-    stripe_url = "https://buy.stripe.com/00gbJJ0k03QrbAIfYY"  # Replace with your Stripe payment link
+    stripe_url = "https://donate.stripe.com/00gbJJ0k03QrbAIfYY"  # Replace with your Stripe payment link
     if st.button("Donate Now"):
         st.markdown(f"[Click here to donate securely via Stripe]({stripe_url})")
-
