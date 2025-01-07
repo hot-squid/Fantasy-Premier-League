@@ -330,7 +330,7 @@ for i in range(1, 6):
 
 # Filter on columns
 columns = ['Player ID', 'Name', 'Last_Name', 'Team', 'Position', 'Cost_Today', 
-           'Minutes', 'Gameweek','Form_player_xG_norm','Form_TeamxG_against_norm', 'FDI_1',
+           'Minutes', 'Avail', 'Gameweek','Form_player_xG_norm','Form_TeamxG_against_norm', 'FDI_1',
        'FDI_2', 'FDI_3', 'FDI_4', 'FDI_5']
 
 # Filter on columns
