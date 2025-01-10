@@ -19,7 +19,7 @@ def run_info():
     # Add description
     st.text("""
     
-    Hot Squid Ink is a freelance researcher, specialising in Data Science, 
+    Hot Squid is a researcher in Data Science, 
     Machine Learning and AI. All analysis and code is provided open source. 
             
     You can read about the FPL analysis here: https://medium.com/@hotsquid
