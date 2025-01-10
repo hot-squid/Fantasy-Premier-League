@@ -282,6 +282,8 @@ def run_your_team():
                     
             White is good. Orange is okay. Red is poor. 
                     
-            Simply take note of the underperformers, their position and price and give this information to the scouts''')
+            Simply take note of the underperformers, their position and price and give this information to the scouts
+                    
+            NOTE: Check your team's player availability via FPL. The scouts will not suggest unavailable players for transfer.''')
 
 

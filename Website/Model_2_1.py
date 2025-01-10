@@ -91,6 +91,9 @@ def run_model_2_1():
         # Filter `data` to exclude rows with matching names
         data = data[~data['Last_Name'].isin(names_to_remove)]
 
+        # Remove players who are currently unavailable
+        data = data[data['Avail'] == 'a']
+
         # Dynamically create the column name based on the number of weeks
         column_name = f'FDI_{WEEKS}'
 

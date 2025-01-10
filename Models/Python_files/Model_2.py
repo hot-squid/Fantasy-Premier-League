@@ -109,6 +109,9 @@ column_name = f'FDI_{WEEKS}'
 # Filter out players with FD_index == 0 to avoid selecting them
 data = data[data[column_name] > 0]
 
+# Remove players who are currently unavailable
+data = data[data['Avail'] == 'a']
+
 # Create lists of key variables
 names = data.Last_Name.tolist()
 teams = data.Team.tolist()
