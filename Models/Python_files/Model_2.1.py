@@ -16,7 +16,7 @@ warnings.filterwarnings("ignore")
 
 # Get the current week number (1-52)
 current_date = datetime.now().isocalendar()[1]
-gameweek = current_date + 18
+gameweek = current_date + 17
 
 
 # Initialize an empty list to store all individual, player gameweek data 
