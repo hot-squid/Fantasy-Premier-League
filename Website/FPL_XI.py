@@ -10,7 +10,7 @@ from io import BytesIO
 def run_XI():
 
     current_week = datetime.now().isocalendar()[1]
-    gameweek = current_week + 18
+    gameweek = current_week + 17
 
     # Pitch of players
     st.header(f"Des's Hot Picks: GW{gameweek + 1}")
@@ -79,7 +79,7 @@ def run_XI():
     # Concatenate all top players per position into a single DataFrame
     top_team = pd.concat(top_players_list, ignore_index=True)
 
-    # Including bench players 
+    # Including bench players
     bench_team = pd.concat(bench_player_list, ignore_index= True)
 
     # Combined
