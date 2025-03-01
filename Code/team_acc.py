@@ -56,7 +56,7 @@ attack = team_attack(url)
 defense = team_defense(url)
 
 # Current gameweek
-current_gw = attack['Playing TimeMP'].max()
+current_gw = attack['Playing TimeMP'].max() - 1
 
 # Create a full file path with the current GW for attack
 attack_file_path = fr'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Team\Accumulated\Attacking\GW_{current_gw}.csv'
