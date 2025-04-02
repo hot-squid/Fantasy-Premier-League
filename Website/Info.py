@@ -19,7 +19,7 @@ def run_info():
     # Add description
     st.text("""
     
-    Hot Squid is a researcher in Data Science, Machine Learning and AI. All analysis and code is provided open source. 
+    Hot Squid is a Data Scientist.
             
     You can read about the FPL analysis here: https://medium.com/@hotsquid
     
@@ -37,7 +37,7 @@ def run_info():
     fig = go.Figure()
 
     # Plot lines for each column except 'Gameweek'
-    columns_to_plot = ['Des_LynAIm', 'The_Scout', 'FPL_Average']
+    columns_to_plot = ['Des_LynAIm','FPL_Average']
     for column in columns_to_plot:
         fig.add_trace(go.Scatter(
             x=df['Gameweek'],
