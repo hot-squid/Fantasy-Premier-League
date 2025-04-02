@@ -6,10 +6,27 @@ import os
 
 def run_model_2():
 
+    # Add the logo, center it, and make it smaller
+    st.markdown(
+        """
+        <div style="text-align: center;">
+            <img src="https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/Des_Lynam.webp" alt="Logo" style="width:75%;"/>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    st.text("")  # Adds a blank line
+    
+
+    # Provide help tab if user needs
+    with st.expander("Information"):
+        st.info('Des LynAIm is our premium scout.')
+        st.info('His analysis can be found here: https://medium.com/@hotsquid/improved-fixture-difficulty-rating-opponents-to-target-and-avoid-9a38c7f8228b')
+
     # Provide help tab if user needs
     with st.expander("Information"):
         st.info('''
-        The Scout will suggest top players to choose for upcoming gameweeks using a combination of Form and Fixture Difficulty. In addition, the scout will maximise points given the transfer constraints (e.g. budget available).
+        Des will suggest top players to choose for upcoming gameweeks using a combination of Form and Fixture Difficulty. In addition, the scout will maximise points given the transfer constraints (e.g. budget available).
 
                 ''')
 

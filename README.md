@@ -53,93 +53,6 @@ Information:
   * Opponent
   * Difficulty
 
-
-### `Code.player_acc`
-
-This downloads all accumulated player information up to and including current 
-gameweek.
-
-This file includes detailed information about upcoming fixtures and difficulty 
-that is explained below. 
-
-Note: xGi, xGc, GW_points, Transfers Out GW and Transfers in GW is specific 
-to the gameweek. 
-
-Information
-
-  * Player ID
-  * Name
-  * Last_Name
-  * Team
-  * Position
-  * Cost_Today
-  * Total Points
-  * Form
-  * xGi (Expected goal involvements)
-  * xGc (Expected goal conceded)
-  * Points/Game
-  * Selection %
-  * Goals
-  * Assists
-  * Clean Sheets
-  * GW Points
-  * Total Bonus Points
-  * Total BPS
-  * Goals Conceded
-  * Minutes
-  * YC
-  * RC
-  * Saves
-  * Penalties Saved
-  * Penalties Missed
-  * Transfers Out GW
-  * Transfers In GW
-  * Influence
-  * Creativity
-  * Threat
-  * ICT Index
-  * GW2 - Gameweek fixture 2 (Current gameweek - note this increases each GW). 
-  * GW3 - Gameweek fixture 3
-  * GW4 - Gameweek fixture 4
-  * GW5 - etc.
-  * GW6 - etc.
-  * GW7 - etc.
-  * CGW - Current gameweek difficulty (GW2 in this example)
-  * NGW - Next gameweek difficulty (GW3 in this example)
-  * NGW2 - Next, next gameweek difficulty (GW4 in this example)
-  * NGW3 - etc.
-  * NGW4 - etc.
-  * NGW5 - etc.
-  * Diff_Score_1_GW - Difficulty score for next gameweek
-  * Diff_Score_2_GW - Combined difficulty score for next 2 gameweeks
-  * Diff_Score_3_GW - Combined difficulty score for next 3 gameweeks
-  * Diff_Score_4_GW - etc.
-  * Diff_Score_5_GW - etc.
-  * FDI_1 - Form / Diff_Score_1_GW
-  * FDI_2 - Form / Diff_Score_2_GW
-  * FDI_3 - etc.
-  * FDI_4 - etc.
-  * FDI_5 - etc.
-
-
-### `Code.team_acc`
-
-This downloads all accumulated team data from FBRef website, including 
-attacking and defensive. 
-
-The full glossary can be found here:
-
-https://fbref.com/en/comps/9/Premier-League-Stats
-
-### 'Code.team'
-
-This code pulls each weekly accumulated team data from FRBref and deaccumulates
-the data into csv files.
-
-For example data shown in GW5.csv will show team data for GW5 only and not all
-from 1 to 5. 
-
-
 ### `Code.load`
 
 This module provides a single class: `FplApiDataRaw`
@@ -179,12 +92,3 @@ conda env create -f environment.yml
 ```bash
 conda activate FPL_Data
 ```
-
-### Models and performance
-
-Details of each model can be found in the folder 'Models' and their respective 
-performance in 'Model Performance'. 
-
-  * 'Model_1' uses a combination of form and fixture difficulty over a number of weeks. 
-
-  *  'Model_2' is currently under development. 
