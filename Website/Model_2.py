@@ -17,7 +17,6 @@ def run_model_2():
     )
     st.text("")  # Adds a blank line
     
-
     # Provide help tab if user needs
     with st.expander("Information"):
         st.info('Des LynAIm is our premium scout.')
