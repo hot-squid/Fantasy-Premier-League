@@ -22,9 +22,6 @@ def run_model_2():
     with st.expander("Information"):
         st.info('Des LynAIm is our premium scout.')
         st.info('His analysis can be found here: https://medium.com/@hotsquid/improved-fixture-difficulty-rating-opponents-to-target-and-avoid-9a38c7f8228b')
-
-    # Provide help tab if user needs
-    with st.expander("Information"):
         st.info('''
         Des will suggest top players to choose for upcoming gameweeks using a combination of Form and Fixture Difficulty. In addition, the scout will maximise points given the transfer constraints (e.g. budget available).
 
