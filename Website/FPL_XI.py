@@ -115,15 +115,20 @@ def run_XI():
         img = Image.open(BytesIO(image_response.content))
         def_cols[i].image(img, caption=player_name, width=image_width)
 
-    # MID row (4 columns)
-    mid_cols = st.columns([1,1,1,1])
+        # MID row (4 columns)
+    mid_cols = st.columns([1, 1, 1, 1])
     for i, (_, row) in enumerate(midfielders.head(4).iterrows()):
         player_code = row['code']
         player_name = f"{row['first_name']} {row['second_name']}"
         photo_url = f"https://resources.premierleague.com/premierleague/photos/players/110x140/p{player_code}.png"
-        image_response = requests.get(photo_url)
-        img = Image.open(BytesIO(image_response.content))
-        mid_cols[i].image(img, caption=player_name, width=image_width)
+        
+        try:
+            image_response = requests.get(photo_url)
+            if image_response.status_code == 200:
+                img = Image.open(BytesIO(image_response.content))
+                mid_cols[i].image(img, caption=player_name, width=image_width)
+        except:
+            pass  # Silently skip any errors
 
     # FWD row (3 columns)
     fwd_cols = st.columns([1,1,1])
