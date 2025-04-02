@@ -113,7 +113,7 @@ def run_model_2():
         prob += lpSum(players[i] * FD_index[i] for i in range(len(data)))
 
         # Budget constraint: the sum of selected players' prices must be <= BUDGET
-        prob += lpSum(players[i] * prices[i] for i in range(len(data))) >= (BUDGET - 75)
+        prob += lpSum(players[i] * prices[i] for i in range(len(data))) >= (BUDGET - 50)
 
         # Budget constraint: the sum of selected players' prices must be <= BUDGET
         prob += lpSum(players[i] * prices[i] for i in range(len(data))) <= (BUDGET)
