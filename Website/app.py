@@ -7,7 +7,7 @@ chosen_option = None
 
 # Get the current week number (1-52)
 current_date = datetime.now().isocalendar()[1]
-gameweek = current_date + 17
+gameweek = current_date + 15
 
 # Import data at the current gameweek
 url = 'https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/main/Website/Current_form/Current_Form_M2.csv'
@@ -79,7 +79,7 @@ if 'chosen_option' not in st.session_state:
 # Sidebar for navigation
 with st.sidebar:
     page = st.selectbox("Select a page:", 
-                        ["Your Team", "The Scout", "Des LynAIm", "Des's Hot Picks", "About"])
+                        ["Your Team", "The Scout", "Des's Hot Picks", "About"])
 
 # Page routing based on the selected page
 if page == "Your Team":
@@ -89,10 +89,6 @@ if page == "Your Team":
 elif page == 'The Scout':
     from Model_2 import run_model_2
     run_model_2()
-
-elif page == "Des LynAIm":
-    from Model_2_1 import run_model_2_1
-    run_model_2_1()
 
 elif page == "Des's Hot Picks":
     from FPL_XI import run_XI
