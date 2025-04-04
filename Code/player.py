@@ -57,7 +57,7 @@ columns = [
 data = data[columns]
 
 # Get extra player information
-player_info = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Players\Accumulated\GW_15.csv')
+player_info = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Archived\Data\Players\Accumulated\GW_15.csv')
 
 # Extra player information to add
 columns = ['Player ID','Name', 'Last_Name', 'Team', 'Position']

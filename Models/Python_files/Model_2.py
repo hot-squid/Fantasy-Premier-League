@@ -9,7 +9,7 @@ from datetime import datetime
 
 # Get the current week number (1-52)
 current_date = datetime.now().isocalendar()[1]
-gameweek = current_date + 15
+gameweek = current_date + 16
 print(gameweek)
 # Empty list to collect gameweek information
 all_gameweeks = []
@@ -95,11 +95,11 @@ for i in range(1, 6):
 data.to_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.csv')
 
 # Define constants
-BUDGET = 800  # Choose your budget (1000 = £100m)
+BUDGET = 1000  # Choose your budget (1000 = £100m)
 WEEKS = 1  # Choose how many weeks you want to prepare for between 1 and 5
-GK = 1  # Goalkeepers required (Choose between 0 and 2)
-DEF = 3  # Defenders required (Choose between 0 and 5)
-MID = 4  # Midfielders required (Choose between 0 and 5)
+GK = 2  # Goalkeepers required (Choose between 0 and 2)
+DEF = 5  # Defenders required (Choose between 0 and 5)
+MID = 5  # Midfielders required (Choose between 0 and 5)
 FWD = 3  # Forwards required (Choose between 0 and 3)
 
 # Dynamically create the column name based on the number of weeks
