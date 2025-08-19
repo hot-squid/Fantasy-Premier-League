@@ -6,11 +6,40 @@ import json
 # Create data class 
 data = FplApiDataRaw()
 
-# Access elements attribute (for availablity status)
+# Team info
+teams = data.teams_json
+
+# Access elements attribute
 info = data.elements_json
 
 # Get all available data
 summary = data.get_all_element_summaries()
+
+# Player details
+cols = ['id', 'first_name', 'second_name', 'team', 'element_type']
+player = pd.DataFrame(info).loc[:, cols]
+
+# Team details
+cols_2 = ['id', 'name', 'short_name']
+team = pd.DataFrame(teams).loc[:, cols_2]
+
+# Merge data
+player = (
+    player
+    .merge(team[['id','name','short_name']],
+           left_on='team', right_on='id', how='left', suffixes=('', '_team'))
+    .rename(columns={'name': 'team_name', 'short_name': 'team_abbr'})
+    .drop(columns=['team', 'id_team'])   # <-- note: not nested list
+)
+
+# Create mapping for positions
+pos_map = {1: "GK", 2: "DEF", 3: "MID", 4: "FWD"}
+
+# add a new column
+player["position"] = player["element_type"].astype(int).map(pos_map)
+
+# Drop columns
+player.drop(columns= ['element_type'], inplace= True)
 
 # Filter by current season and create pd dataframe
 data = pd.DataFrame(summary['history'])
@@ -56,14 +85,8 @@ columns = [
 # Filter by selected data
 data = data[columns]
 
-# Get extra player information
-player_info = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Archived\Data\Players\Accumulated\GW_15.csv')
-
-# Extra player information to add
-columns = ['Player ID','Name', 'Last_Name', 'Team', 'Position']
-
-# Filter by selected data 
-player = player_info[columns]
+# Rename categories 
+player.rename(columns={'id':'Player ID', 'first_name':'Name', 'second_name':'Last_Name', 'team_name':'Team', 'position': 'Position'}, inplace= True)
 
 # Merging all player data on Player ID
 dataset = player.merge(data, on='Player ID', how='left')
@@ -82,7 +105,7 @@ availability = pd.DataFrame(avail, columns= ['Player ID', 'Avail'])
 dataset = dataset.merge(availability, on= 'Player ID')
 
 # Import fixture information
-fixtures = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Schedule\Fixtures.csv')
+fixtures = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\2025_26\Fixtures\Schedule\Fixtures.csv')
 
 # Use 'melt' function to unpivot the dataframe
 fixtures = fixtures.melt(id_vars=['Team'], var_name='Gameweek', value_name='Opponent')
@@ -94,7 +117,7 @@ fixtures['Gameweek'] = fixtures['Gameweek'].str.replace('GW', '').astype(int)
 data= pd.merge(dataset, fixtures, on=['Team', 'Gameweek'], how='left')
 
 # Import fixture difficulty information
-fixture_diff = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Difficulty_ratings\FD_FPL\Difficulty.csv')
+fixture_diff = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\2025_26\Fixtures\Difficulty_ratings\FD_FPL\Difficulty.csv')
 
 # Create a mapping dictionary from fixture difficulty
 mapping = fixture_diff.set_index('Fixture')['Difficulty'].to_dict()
@@ -109,14 +132,13 @@ def filter_data_by_round(df, gameweek):
     return filtered_data[filtered_data['Gameweek'] == gameweek]
 
 # Current gameweek
-current_gw = data['Gameweek'].max()
+current_gw = int(data['Gameweek'].max())
 
 # Filter by current gameweek 
 GW = filter_data_by_round(data, current_gw)
 
 # Create a full file path with the current gameweek
-file_path = fr'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Players\Seperate_GW\GW_{current_gw}.csv'
+file_path = fr'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\2025_26\Players\GW_{current_gw}.csv'
 
 # Export the current working dataset to the specified file path
 GW.to_csv(file_path, index=False)
-
