@@ -13,7 +13,7 @@ def run_XI():
     gameweek = current_week 
 
     # Pitch of players
-    st.header(f"Des's Hot Picks: GW{gameweek + 1}")
+    st.header("Des's Hot Picks: COMING SOON 2025/26")
    
     # FPL API endpoint for general player information
     fpl_url = "https://fantasy.premierleague.com/api/bootstrap-static/"
