@@ -6,7 +6,7 @@ from datetime import datetime
 chosen_option = None
 
 # Add description
-    st.text("""
+st.text("""
     
     Hot Squid is a Data Scientist and has returned for the 2025/26 season.
             
