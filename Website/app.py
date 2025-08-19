@@ -5,19 +5,6 @@ from datetime import datetime
 # Initialize variables
 chosen_option = None
 
-# Add description
-st.text("""
-    
-    Hot Squid is a Data Scientist and has returned for the 2025/26 season.
-            
-    The website will be up and running after 3 gameweeks. 
-            
-    You can read about the FPL analysis here: https://medium.com/@hotsquid
-    
-    Full access to the source code can be found here:
-    https://github.com/hot-squid/Fantasy-Premier-League
-    """)
-
 # Get the current week number (1-52)
 current_date = datetime.now().isocalendar()[1]
 gameweek = current_date + 16

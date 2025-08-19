@@ -11,6 +11,31 @@ import warnings
 
 def run_your_team():
 
+
+    # Add logo
+    # Add the logo, center it, and make it smaller
+    st.markdown(
+        """
+        <div style="text-align: center;">
+            <img src="https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/refs/heads/main/Website/squidward.png" alt="Logo" style="width:75%;"/>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    st.text("")  # Adds a blank line
+    # Add description
+    st.text("""
+    
+    Hot Squid is a Data Scientist and has returned for the 2025/26 season.
+            
+    The website will be up and running after 3 gameweeks. 
+            
+    You can read about the FPL analysis here: https://medium.com/@hotsquid
+    
+    Full access to the source code can be found here:
+    https://github.com/hot-squid/Fantasy-Premier-League
+    """)
+
     # Initialize the list in session state if it doesn't exist
     if "team_list" not in st.session_state:
         st.session_state['team_list'] = [['Coady'* 11]]
