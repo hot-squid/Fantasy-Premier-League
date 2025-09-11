@@ -134,9 +134,13 @@ def run_XI():
         player_code = row['code']
         player_name = f"{row['first_name']} {row['second_name']}"
         photo_url = f"https://resources.premierleague.com/premierleague/photos/players/110x140/p{player_code}.png"
-        image_response = requests.get(photo_url)
-        img = Image.open(BytesIO(image_response.content))
-        fwd_cols[i].image(img, caption=player_name, width=image_width)
+        
+        try:
+            image_response = requests.get(photo_url)
+            img = Image.open(BytesIO(image_response.content))
+            fwd_cols[i].image(img, caption=player_name, width=image_width)
+        except:
+            pass
 
     # Add vertical spacing before showing the bench
     st.write("")
