@@ -119,12 +119,14 @@ def run_XI():
         photo_url = f"https://resources.premierleague.com/premierleague/photos/players/110x140/p{player_code}.png"
         
         try:
-            image_response = requests.get(photo_url)
-            if image_response.status_code == 200:
-                img = Image.open(BytesIO(image_response.content))
-                mid_cols[i].image(img, caption=player_name, width=image_width)
-        except:
-            pass  # Silently skip any errors
+            response = requests.get(photo_url, timeout=5)  # add timeout
+            response.raise_for_status()  # raise error if status != 200
+            img = Image.open(BytesIO(response.content))
+            mid_cols[i].image(img, caption=player_name, width=image_width)
+        except requests.exceptions.RequestException as e:
+            st.warning(f"Could not load image for {player_name}: {e}")
+        except Exception as e:
+            st.error(f"Unexpected error: {e}")
 
     # FWD row (3 columns)
     fwd_cols = st.columns([1,1,1])
