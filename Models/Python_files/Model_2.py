@@ -9,7 +9,7 @@ from datetime import datetime
 
 # Get the current week number (1-52)
 current_date = datetime.now().isocalendar()[1]
-gameweek = current_date + 16
+gameweek = current_date - 34
 print(gameweek)
 # Empty list to collect gameweek information
 all_gameweeks = []
@@ -17,7 +17,7 @@ all_gameweeks = []
 # Loop through each gameweek
 for i in range(1, gameweek + 1):  # Adjusting the range to start from 1 to gameweek
     # Read the CSV for the current gameweek
-    gameweek_data = pd.read_csv(rf'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Players\Seperate_GW\GW_{i}.csv')
+    gameweek_data = pd.read_csv(rf'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\2025_26\Players\GW_{i}.csv')
     
     # Append the current gameweek data to the list
     all_gameweeks.append(gameweek_data)
@@ -25,14 +25,11 @@ for i in range(1, gameweek + 1):  # Adjusting the range to start from 1 to gamew
 # Concatenate all dataframes in the list into a single dataframe
 data = pd.concat(all_gameweeks, axis=0, ignore_index=True)
 
-# Drop unnamed column
-data = data.drop(columns = ['Unnamed: 0'])
-
 # Sort dataset by Player ID and Gameweek
 final_data = data.sort_values(by=['Player ID', 'Gameweek'])
 
 # Define the rolling window size
-number_of_games = 4
+number_of_games = 2
 
 # Calculate the rolling average of GW_Points over the specified number_of_games
 final_data["Form"] = (
@@ -51,7 +48,7 @@ columns = [
 final_data = final_data[columns]
 
 # Add fixture list into spreadsheet
-fixtures = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Schedule\Fixtures.csv')
+fixtures = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\2025_26\Fixtures\Schedule\Fixtures.csv')
 
 # Merge on fixture list
 final_data = final_data.merge(fixtures, on= 'Team')
@@ -73,7 +70,7 @@ today = data['Gameweek'].isin([gameweek])
 data = data[today]
 
 # Import improve fixture difficulty 
-difficulty = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\Fixtures\Difficulty_ratings\FD_IMPROVED\Current_FD_Improved.csv', index_col=0)
+difficulty = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\2025_26\Fixtures\Difficulty_ratings\FD_IMPROVED\Current_FD_Improved.csv', index_col=0)
 
 # Create a mapping dictionary from fixture difficulty
 mapping = difficulty.set_index(['Opponent', 'Position'])['FD_combined'].to_dict()
