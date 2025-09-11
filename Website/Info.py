@@ -20,9 +20,7 @@ def run_info():
     st.text("""
     
     Hot Squid is a Data Scientist and has returned for the 2025/26 season.
-            
-    The website will be up and running after 3 gameweeks. 
-            
+                       
     You can read about the FPL analysis here: https://medium.com/@hotsquid
     
     Full access to the source code can be found here:
