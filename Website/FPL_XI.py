@@ -10,10 +10,10 @@ from io import BytesIO
 def run_XI():
 
     current_week = datetime.now().isocalendar()[1]
-    gameweek = current_week 
+    gameweek = current_week - 33
 
     # Pitch of players
-    st.header("Des's Hot Picks")
+    st.header(f"Des's Hot Picks GW{gameweek}")
    
     # FPL API endpoint for general player information
     fpl_url = "https://fantasy.premierleague.com/api/bootstrap-static/"
@@ -22,10 +22,6 @@ def run_XI():
     response = requests.get(fpl_url)
     data = response.json()
     players = pd.DataFrame(data['elements'])
-
-
-    #current_week = datetime.now().isocalendar()[1]
-    #gameweek = current_week - 34
 
     # FPL API endpoint for general player information
     fpl_url = "https://fantasy.premierleague.com/api/bootstrap-static/"
