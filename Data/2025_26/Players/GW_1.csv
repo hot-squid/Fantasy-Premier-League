@@ -1,4 +1,5 @@
 Player ID,Name,Last_Name,Team,team_abbr,Position,Cost_Today,GW Points,Minutes,KO_time,Goals,Assists,Clean Sheets,Goals Conceded,Penalties Saved,Penalties Missed,YC,RC,Saves,Total Bonus Points,Total BPS,Influence,Creativity,Threat,ICT Index,xG,xA,xGi,xGc,Transfers In GW,Transfers Out GW,Gameweek,Avail,Opponent,Difficulty
+1,David,Raya Martín,Arsenal,ARS,GK,55.0,10.0,90.0,2025-08-23T16:30:00Z,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,7.0,0.0,23.0,22.8,0.3,4.0,2.7,0.00,0.00,0.00,1.52,3.0,0.0,1.0,a,MUN (A),3.0
 2,Kepa,Arrizabalaga Revuelta,Arsenal,ARS,GK,45.0,0.0,0.0,2025-08-17T15:30:00Z,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.0,0.0,1.0,a,MUN (A),3.0
 3,Karl,Hein,Arsenal,ARS,GK,40.0,0.0,0.0,2025-08-17T15:30:00Z,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.0,0.0,1.0,u,MUN (A),3.0
 4,Tommy,Setford,Arsenal,ARS,GK,40.0,0.0,0.0,2025-08-17T15:30:00Z,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.0,0.0,1.0,a,MUN (A),3.0

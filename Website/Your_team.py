@@ -160,7 +160,7 @@ def run_your_team():
                 if i < len(first_team_df):
                     # Get data to present from dataframe
                     player_name = first_team_df.iloc[i]['Last_Name']
-                    player_form = first_team_df.iloc[i]['Form']
+                    player_form = round(first_team_df.iloc[i]['Form'], 2)
                     player_position = first_team_df.iloc[i]['Position']
                     player_cost = first_team_df.iloc[i]['Cost_Today']
 
