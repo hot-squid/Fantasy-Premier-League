@@ -29,7 +29,7 @@ data = pd.concat(all_gameweeks, axis=0, ignore_index=True)
 final_data = data.sort_values(by=['Player ID', 'Gameweek'])
 
 # Define the rolling window size
-number_of_games = 2
+number_of_games = 3
 
 # Calculate the rolling average of GW_Points over the specified number_of_games
 final_data["Form"] = (
