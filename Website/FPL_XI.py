@@ -97,9 +97,16 @@ def run_XI():
         player_code = row['code']
         player_name = f"{row['first_name']} {row['second_name']}"
         photo_url = f"https://resources.premierleague.com/premierleague/photos/players/110x140/p{player_code}.png"
-        image_response = requests.get(photo_url)
-        img = Image.open(BytesIO(image_response.content))
-        gk_cols[1].image(img, caption=player_name, width=image_width)  # middle column is index 1
+        
+        try:
+            response = requests.get(photo_url, timeout=5)  # add timeout
+            response.raise_for_status()  # raise error if status != 200
+            img = Image.open(BytesIO(response.content))
+            gk_cols[i].image(img, caption=player_name, width=image_width)
+        except requests.exceptions.RequestException as e:
+            st.warning(f"Could not load image for {player_name}: {e}")
+        except Exception as e:
+            st.error(f"Unexpected error: {e}")
 
     # DEF row (3 columns)
     def_cols = st.columns([1,1,1])
