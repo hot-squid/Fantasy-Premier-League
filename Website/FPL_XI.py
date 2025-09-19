@@ -104,7 +104,7 @@ def run_XI():
             img = Image.open(BytesIO(response.content))
             gk_cols[i].image(img, caption=player_name, width=image_width)
         except requests.exceptions.RequestException as e:
-            st.warning(f"Could not load image for {player_name}: {e}")
+            st.warning(f"{player_name}")
         except Exception as e:
             st.error(f"Unexpected error: {e}")
 
@@ -143,12 +143,15 @@ def run_XI():
         photo_url = f"https://resources.premierleague.com/premierleague/photos/players/110x140/p{player_code}.png"
         
         try:
-            image_response = requests.get(photo_url)
-            img = Image.open(BytesIO(image_response.content))
+            response = requests.get(photo_url, timeout=5)  # add timeout
+            response.raise_for_status()  # raise error if status != 200
+            img = Image.open(BytesIO(response.content))
             fwd_cols[i].image(img, caption=player_name, width=image_width)
-        except:
-            pass
-
+        except requests.exceptions.RequestException as e:
+            st.warning(f"{player_name}")
+        except Exception as e:
+            st.error(f"Unexpected error: {e}")
+            
     # Add vertical spacing before showing the bench
     st.write("")
     st.write("")
