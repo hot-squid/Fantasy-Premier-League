@@ -118,6 +118,16 @@ def run_XI():
         img = Image.open(BytesIO(image_response.content))
         def_cols[i].image(img, caption=player_name, width=image_width)
 
+        try:
+            response = requests.get(photo_url, timeout=5)  # add timeout
+            response.raise_for_status()  # raise error if status != 200
+            img = Image.open(BytesIO(response.content))
+            def_cols[i].image(img, caption=player_name, width=image_width)
+        except requests.exceptions.RequestException as e:
+            st.warning(f"{player_name}")
+        except Exception as e:
+            st.error(f"Unexpected error: {e}")
+
         # MID row (4 columns)
     mid_cols = st.columns([1, 1, 1, 1])
     for i, (_, row) in enumerate(midfielders.head(4).iterrows()):
