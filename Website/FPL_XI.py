@@ -36,17 +36,35 @@ def get_player_image(player_code: int, timeout: int = 6):
 def safe_name(row) -> str:
     return f"{row.get('first_name','').strip()} {row.get('second_name','').strip()}".strip()
 
-def top_n_by(df: pd.DataFrame, n: int, col: str = "FDI_1") -> pd.DataFrame:
-    return df.sort_values(col, ascending=False).head(n)
+def pick_top_and_bench(form_df: pd.DataFrame, position: str, top_n: int, taken_ids: set, bench_each: int = 1):
+    """Pick top_n starters for a position and bench_each bench players, excluding any already taken_ids."""
+    pool = form_df[form_df["Position"] == position].copy()
+    if pool.empty:
+        return pd.DataFrame(), pd.DataFrame()
+
+    pool = pool.sort_values("FDI_1", ascending=False)
+
+    # starters: first top_n not already taken
+    starters = pool[~pool["Player ID"].isin(taken_ids)].head(top_n)
+    taken_now = set(starters["Player ID"].tolist())
+
+    # bench: next-best not in starters or previously taken
+    exclude_ids = taken_ids.union(taken_now)
+    bench = pool[~pool["Player ID"].isin(exclude_ids)].head(bench_each)
+
+    # update taken set for caller
+    taken_ids |= taken_now
+    taken_ids |= set(bench["Player ID"].tolist())
+
+    return starters, bench
 
 # --- Main UI
 def run_XI():
 
-    # Gameweek label (keep your original logic but allow override)
+    # Header shows a GW label (no user input / no cycling)
     current_week = datetime.now().isocalendar()[1]
-    default_gw = max(1, current_week - 33)
-    gameweek = st.number_input("Gameweek", min_value=1, max_value=38, value=default_gw, step=1)
-    st.header(f"Des's Hot Picks GW{int(gameweek)}")
+    gw_label = max(1, current_week - 33)
+    st.header(f"Des's Hot Picks GW{int(gw_label)}")
 
     # Load data
     try:
@@ -63,17 +81,13 @@ def run_XI():
         st.error(f"Form CSV missing required columns: {missing}")
         return
 
-    # XI selection: 3-4-3 by FDI_1
-    gk_top  = top_n_by(form_df[form_df["Position"] == "GK"], 1)
-    def_top = top_n_by(form_df[form_df["Position"] == "DEF"], 3)
-    mid_top = top_n_by(form_df[form_df["Position"] == "MID"], 4)
-    fwd_top = top_n_by(form_df[form_df["Position"] == "FWD"], 3)
+    # --- Select XI and Bench (distinct)
+    taken_ids: set = set()
 
-    # Bench: next-best GK/DEF/MID/FWD (1 each)
-    gk_bench  = top_n_by(form_df[form_df["Position"] == "GK"].iloc[1:], 1)
-    def_bench = top_n_by(form_df[form_df["Position"] == "DEF"].iloc[3:], 1)
-    mid_bench = top_n_by(form_df[form_df["Position"] == "MID"].iloc[4:], 1)
-    fwd_bench = top_n_by(form_df[form_df["Position"] == "FWD"].iloc[3:], 1)
+    gk_top,  gk_bench  = pick_top_and_bench(form_df, "GK",  1, taken_ids, bench_each=1)
+    def_top, def_bench = pick_top_and_bench(form_df, "DEF", 3, taken_ids, bench_each=1)
+    mid_top, mid_bench = pick_top_and_bench(form_df, "MID", 4, taken_ids, bench_each=1)
+    fwd_top, fwd_bench = pick_top_and_bench(form_df, "FWD", 3, taken_ids, bench_each=1)
 
     top_team = pd.concat([gk_top, def_top, mid_top, fwd_top], ignore_index=True)
     bench_team = pd.concat([gk_bench, def_bench, mid_bench, fwd_bench], ignore_index=True)
@@ -83,14 +97,14 @@ def run_XI():
     bench = bench_team.merge(players, left_on="Player ID", right_on="id", how="left")
 
     # Split by FPL element_type (1 GK, 2 DEF, 3 MID, 4 FWD)
-    gk         = team[team["element_type"] == 1]
-    defenders  = team[team["element_type"] == 2]
-    midfielders= team[team["element_type"] == 3]
-    forwards   = team[team["element_type"] == 4]
+    gk          = team[team["element_type"] == 1]
+    defenders   = team[team["element_type"] == 2]
+    midfielders = team[team["element_type"] == 3]
+    forwards    = team[team["element_type"] == 4]
 
     image_width = 70
 
-    # --- GK (center column)
+    # --- GK (center column, no enumerate)
     gk_cols = st.columns([1, 1, 1])
     if not gk.empty:
         row = gk.iloc[0]
@@ -131,7 +145,7 @@ def run_XI():
         else:
             fwd_cols[i].markdown(f"**{name}**")
 
-    # --- Bench
+    # --- Bench (distinct already ensured)
     st.write(""); st.write("")
     st.subheader("Bench")
     bench_image_width = 50
@@ -149,4 +163,4 @@ def run_XI():
         st.write("No bench players selected.")
 
     with st.expander("Information"):
-        st.info("Des LynAIm's picks by highest FDI_1 in a 3–4–3, plus a 4-player bench from next-best GK/DEF/MID/FWD.")
+        st.info("Best XI by FDI_1 in a 3–4–3 from the current dataset, plus a 4-player bench (GK/DEF/MID/FWD) from the next-best, with no duplicates.")
