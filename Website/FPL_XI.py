@@ -63,7 +63,7 @@ def run_XI():
 
     # Header shows a GW label (no user input / no cycling)
     current_week = datetime.now().isocalendar()[1]
-    gw_label = max(1, current_week - 33)
+    gw_label = max(1, current_week - 34)
     st.header(f"Des's Hot Picks GW{int(gw_label)}")
 
     # Load data
