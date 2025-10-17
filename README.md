@@ -9,7 +9,7 @@ can be downloaded from the 'Data' folder.
 Additionally, it contains optimisation models to support team selection, which 
 can be accessed, downloaded and edited. 
 
-For any assistance please contact: thomas.burnand@outlook.com
+For any assistance please contact: hot_squid_ink@outlook.com
 
 ### **Details of code**
 
