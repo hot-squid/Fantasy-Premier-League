@@ -24,7 +24,7 @@ def run_your_team():
 
     # Get the current week number (1-52)
     current_week = datetime.now().isocalendar()[1]
-    event_id = current_week - 34
+    event_id = current_week - 35
     GW_team = None
     
     # Ask user for team ID

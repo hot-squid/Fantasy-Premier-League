@@ -3,6 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 # Initialize variables
+
 chosen_option = None
 
 # Get the current week number (1-52)
