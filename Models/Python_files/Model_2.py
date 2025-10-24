@@ -48,7 +48,7 @@ columns = [
 final_data = final_data[columns]
 
 # Normalize form
-scaler = MinMaxScaler()
+scaler = MinMaxScaler(feature_range=(1,2))
 
 mask = final_data['Form'].notna()
 
@@ -89,10 +89,11 @@ mapping = difficulty.set_index(['Opponent', 'Position'])['FD_combined'].to_dict(
 for i in range(1, 6):  # NGW1 to NGW5
     data[f'NGW{i}'] = data.apply(lambda row: mapping.get((row.iloc[9 + i], row.iloc[4]), None), axis=1)
 
+scaler_2 = MinMaxScaler(feature_range=(1,2))
 # Normalize fixture difficulty
 for col in ['NGW1', 'NGW2', 'NGW3', 'NGW4', 'NGW5']:
     mask = data[col].notna()
-    data.loc[mask, col] = scaler.fit_transform(
+    data.loc[mask, col] = scaler_2.fit_transform(
         data.loc[mask, col].values.reshape(-1, 1)
     )
 
