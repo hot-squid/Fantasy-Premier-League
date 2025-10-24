@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 import warnings
-import pandas as pd
+import numpy as np
 from pulp import LpMaximize, LpProblem, LpVariable, lpSum
 from datetime import datetime
 
@@ -47,6 +47,16 @@ columns = [
 # Create final dataset
 final_data = final_data[columns]
 
+# Normalize form
+scaler = MinMaxScaler()
+
+mask = final_data['Form'].notna()
+
+# Scale only the non-null values
+final_data.loc[mask, 'Form'] = scaler.fit_transform(
+    final_data.loc[mask, 'Form'].values.reshape(-1, 1)
+)
+
 # Add fixture list into spreadsheet
 fixtures = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\2025_26\Fixtures\Schedule\Fixtures.csv')
 
@@ -79,6 +89,13 @@ mapping = difficulty.set_index(['Opponent', 'Position'])['FD_combined'].to_dict(
 for i in range(1, 6):  # NGW1 to NGW5
     data[f'NGW{i}'] = data.apply(lambda row: mapping.get((row.iloc[9 + i], row.iloc[4]), None), axis=1)
 
+# Normalize fixture difficulty
+for col in ['NGW1', 'NGW2', 'NGW3', 'NGW4', 'NGW5']:
+    mask = data[col].notna()
+    data.loc[mask, col] = scaler.fit_transform(
+        data.loc[mask, col].values.reshape(-1, 1)
+    )
+
 # Loop to create FDI_1 to FDI_5, summing up the values from F_1 to F_i
 for i in range(1, 6):
     # Create FDI_i by summing the appropriate columns
@@ -101,6 +118,10 @@ FWD = 3  # Forwards required (Choose between 0 and 3)
 
 # Dynamically create the column name based on the number of weeks
 column_name = f'FDI_{WEEKS}'
+
+# Drop any nans
+data[['FDI_1', 'FDI_2', 'FDI_3', 'FDI_4', 'FDI_5']] = data[['FDI_1', 'FDI_2', 'FDI_3', 'FDI_4', 'FDI_5']].replace([np.inf, -np.inf], np.nan)
+data = data.dropna(subset=['FDI_1', 'FDI_2', 'FDI_3', 'FDI_4', 'FDI_5'])
 
 # Filter out players with FD_index == 0 to avoid selecting them
 data = data[data[column_name] > 0]
