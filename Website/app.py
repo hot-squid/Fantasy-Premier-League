@@ -8,7 +8,7 @@ chosen_option = None
 
 # Get the current week number (1-52)
 current_date = datetime.now().isocalendar()[1]
-gameweek = current_date - 35
+gameweek = current_date - 36
 
 # Import data at the current gameweek
 url = 'https://raw.githubusercontent.com/hot-squid/Fantasy-Premier-League/main/Website/Current_form/Current_Form_M2.csv'
