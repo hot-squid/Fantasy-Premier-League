@@ -80,7 +80,7 @@ today = data['Gameweek'].isin([gameweek])
 data = data[today]
 
 # Import improve fixture difficulty 
-difficulty = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\2025_26\Fixtures\Difficulty_ratings\FD_IMPROVED\Current_FD_Improved.csv', index_col=0)
+difficulty = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\2025_26\Fixtures\Difficulty_ratings\FD_Improved\Current_FD_Improved.csv', index_col=0)
 
 # Create a mapping dictionary from fixture difficulty
 mapping = difficulty.set_index(['Opponent', 'Position'])['FD_combined'].to_dict()
@@ -90,12 +90,20 @@ for i in range(1, 6):  # NGW1 to NGW5
     data[f'NGW{i}'] = data.apply(lambda row: mapping.get((row.iloc[9 + i], row.iloc[4]), None), axis=1)
 
 scaler_2 = MinMaxScaler(feature_range=(1,2))
-# Normalize fixture difficulty
+epsilon = 1e-6
+
 for col in ['NGW1', 'NGW2', 'NGW3', 'NGW4', 'NGW5']:
     mask = data[col].notna()
-    data.loc[mask, col] = scaler_2.fit_transform(
-        data.loc[mask, col].values.reshape(-1, 1)
-    )
+    x = data.loc[mask, col].to_numpy()
+
+    minimum = x.min()
+    maximum = x.max()
+
+    # Add epsilon to prevent division by zero or exact 1.0
+    scale = max(maximum - minimum, epsilon)
+
+    data.loc[mask, col] = (x - minimum) / scale
+
 
 # Loop to create FDI_1 to FDI_5, summing up the values from F_1 to F_i
 for i in range(1, 6):
