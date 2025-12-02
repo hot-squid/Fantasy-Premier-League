@@ -83,7 +83,7 @@ data = data[today]
 difficulty = pd.read_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Data\2025_26\Fixtures\Difficulty_ratings\FD_Improved\Current_FD_Improved.csv', index_col=0)
 
 # Create a mapping dictionary from fixture difficulty
-mapping = difficulty.set_index(['Opponent', 'Position'])['FD_combined'].to_dict()
+mapping = difficulty.set_index(['Opponent', 'Position'])['Difficulty'].to_dict()
 
 # Map difficulty for NGWs (next gameweeks) using Team and Position
 for i in range(1, 6):  # NGW1 to NGW5
@@ -118,11 +118,11 @@ for i in range(1, 6):
 data.to_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.csv')
 
 # Define constants
-BUDGET = 1000  # Choose your budget (1000 = £100m)
+BUDGET = 850  # Choose your budget (1000 = £100m)
 WEEKS = 1  # Choose how many weeks you want to prepare for between 1 and 5
-GK = 2  # Goalkeepers required (Choose between 0 and 2)
-DEF = 5  # Defenders required (Choose between 0 and 5)
-MID = 5  # Midfielders required (Choose between 0 and 5)
+GK = 1  # Goalkeepers required (Choose between 0 and 2)
+DEF = 3  # Defenders required (Choose between 0 and 5)
+MID = 4  # Midfielders required (Choose between 0 and 5)
 FWD = 3  # Forwards required (Choose between 0 and 3)
 
 # Dynamically create the column name based on the number of weeks

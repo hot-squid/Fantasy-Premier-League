@@ -1,161 +1,161 @@
-,Opponent,Position,Difficulty_points,Difficulty_xG,Side,FD_combined,Team
-0,ARS (A),GK,5,5,A,5.0,Arsenal
-40,ARS (A),DEF,5,5,A,5.0,Arsenal
-120,ARS (A),FWD,5,5,A,5.0,Arsenal
-80,ARS (A),MID,5,5,A,5.0,Arsenal
-1,ARS (H),GK,3,3,H,3.0,Arsenal
-41,ARS (H),DEF,3,3,H,3.0,Arsenal
-81,ARS (H),MID,4,5,H,4.5,Arsenal
-121,ARS (H),FWD,4,5,H,4.5,Arsenal
-82,AVL (A),MID,5,2,A,3.5,Aston Villa
-42,AVL (A),DEF,2,1,A,1.5,Aston Villa
-2,AVL (A),GK,2,1,A,1.5,Aston Villa
-122,AVL (A),FWD,5,2,A,3.5,Aston Villa
-83,AVL (H),MID,2,4,H,3.0,Aston Villa
-43,AVL (H),DEF,2,1,H,1.5,Aston Villa
-3,AVL (H),GK,2,1,H,1.5,Aston Villa
-123,AVL (H),FWD,2,4,H,3.0,Aston Villa
-84,BHA (A),MID,3,3,A,3.0,Brighton
-44,BHA (A),DEF,5,3,A,4.0,Brighton
-124,BHA (A),FWD,3,3,A,3.0,Brighton
-4,BHA (A),GK,5,3,A,4.0,Brighton
-5,BHA (H),GK,2,5,H,3.5,Brighton
-85,BHA (H),MID,2,3,H,2.5,Brighton
-125,BHA (H),FWD,2,3,H,2.5,Brighton
-45,BHA (H),DEF,2,5,H,3.5,Brighton
-46,BOU (A),DEF,2,2,A,2.0,Bournemouth
-86,BOU (A),MID,5,5,A,5.0,Bournemouth
-126,BOU (A),FWD,5,5,A,5.0,Bournemouth
-6,BOU (A),GK,2,2,A,2.0,Bournemouth
-7,BOU (H),GK,4,4,H,4.0,Bournemouth
-47,BOU (H),DEF,4,4,H,4.0,Bournemouth
-87,BOU (H),MID,2,1,H,1.5,Bournemouth
-127,BOU (H),FWD,2,1,H,1.5,Bournemouth
-88,BRE (A),MID,3,3,A,3.0,Brentford
-128,BRE (A),FWD,3,3,A,3.0,Brentford
-8,BRE (A),GK,4,3,A,3.5,Brentford
-48,BRE (A),DEF,4,3,A,3.5,Brentford
-89,BRE (H),MID,2,4,H,3.0,Brentford
-49,BRE (H),DEF,4,3,H,3.5,Brentford
-129,BRE (H),FWD,2,4,H,3.0,Brentford
-9,BRE (H),GK,4,3,H,3.5,Brentford
-90,BUR (A),MID,5,1,A,3.0,Burnley
-50,BUR (A),DEF,4,1,A,2.5,Burnley
-130,BUR (A),FWD,5,1,A,3.0,Burnley
-10,BUR (A),GK,4,1,A,2.5,Burnley
-91,BUR (H),MID,2,1,H,1.5,Burnley
-51,BUR (H),DEF,4,1,H,2.5,Burnley
-11,BUR (H),GK,4,1,H,2.5,Burnley
-131,BUR (H),FWD,2,1,H,1.5,Burnley
-12,CHE (A),GK,3,4,A,3.5,Chelsea
-132,CHE (A),FWD,5,2,A,3.5,Chelsea
-52,CHE (A),DEF,3,4,A,3.5,Chelsea
-92,CHE (A),MID,5,2,A,3.5,Chelsea
-53,CHE (H),DEF,5,4,H,4.5,Chelsea
-93,CHE (H),MID,3,2,H,2.5,Chelsea
-13,CHE (H),GK,5,4,H,4.5,Chelsea
-133,CHE (H),FWD,3,2,H,2.5,Chelsea
-14,CRY (A),GK,4,5,A,4.5,Crystal Palace
-54,CRY (A),DEF,4,5,A,4.5,Crystal Palace
-134,CRY (A),FWD,3,2,A,2.5,Crystal Palace
-94,CRY (A),MID,3,2,A,2.5,Crystal Palace
-135,CRY (H),FWD,4,3,H,3.5,Crystal Palace
-95,CRY (H),MID,4,3,H,3.5,Crystal Palace
-15,CRY (H),GK,3,5,H,4.0,Crystal Palace
-55,CRY (H),DEF,3,5,H,4.0,Crystal Palace
-136,EVE (A),FWD,5,2,A,3.5,Everton
-56,EVE (A),DEF,3,3,A,3.0,Everton
-16,EVE (A),GK,3,3,A,3.0,Everton
-96,EVE (A),MID,5,2,A,3.5,Everton
-57,EVE (H),DEF,2,3,H,2.5,Everton
-137,EVE (H),FWD,2,2,H,2.0,Everton
-97,EVE (H),MID,2,2,H,2.0,Everton
-17,EVE (H),GK,2,3,H,2.5,Everton
-58,FUL (A),DEF,4,2,A,3.0,Fulham
-138,FUL (A),FWD,4,3,A,3.5,Fulham
-18,FUL (A),GK,4,2,A,3.0,Fulham
-98,FUL (A),MID,4,3,A,3.5,Fulham
-99,FUL (H),MID,2,2,H,2.0,Fulham
-139,FUL (H),FWD,2,2,H,2.0,Fulham
-59,FUL (H),DEF,2,2,H,2.0,Fulham
-19,FUL (H),GK,2,2,H,2.0,Fulham
-100,LEE (A),MID,4,5,A,4.5,Leeds
-140,LEE (A),FWD,4,5,A,4.5,Leeds
-60,LEE (A),DEF,2,3,A,2.5,Leeds
-20,LEE (A),GK,2,3,A,2.5,Leeds
-21,LEE (H),GK,2,2,H,2.0,Leeds
-141,LEE (H),FWD,2,3,H,2.5,Leeds
-101,LEE (H),MID,2,3,H,2.5,Leeds
-61,LEE (H),DEF,2,2,H,2.0,Leeds
-22,LIV (A),GK,5,3,A,4.0,Liverpool
-102,LIV (A),MID,2,3,A,2.5,Liverpool
-142,LIV (A),FWD,2,3,A,2.5,Liverpool
-62,LIV (A),DEF,5,3,A,4.0,Liverpool
-23,LIV (H),GK,4,5,H,4.5,Liverpool
-143,LIV (H),FWD,4,4,H,4.0,Liverpool
-103,LIV (H),MID,4,4,H,4.0,Liverpool
-63,LIV (H),DEF,4,5,H,4.5,Liverpool
-104,MCI (A),MID,3,4,A,3.5,Man City
-144,MCI (A),FWD,3,4,A,3.5,Man City
-64,MCI (A),DEF,5,5,A,5.0,Man City
-24,MCI (A),GK,5,5,A,5.0,Man City
-65,MCI (H),DEF,5,4,H,4.5,Man City
-25,MCI (H),GK,5,4,H,4.5,Man City
-105,MCI (H),MID,5,5,H,5.0,Man City
-145,MCI (H),FWD,5,5,H,5.0,Man City
-66,MUN (A),DEF,3,5,A,4.0,Man Utd
-106,MUN (A),MID,4,4,A,4.0,Man Utd
-26,MUN (A),GK,3,5,A,4.0,Man Utd
-146,MUN (A),FWD,4,4,A,4.0,Man Utd
-27,MUN (H),GK,3,5,H,4.0,Man Utd
-67,MUN (H),DEF,3,5,H,4.0,Man Utd
-107,MUN (H),MID,2,1,H,1.5,Man Utd
-147,MUN (H),FWD,2,1,H,1.5,Man Utd
-28,NEW (A),GK,4,3,A,3.5,Newcastle
-108,NEW (A),MID,4,5,A,4.5,Newcastle
-148,NEW (A),FWD,4,5,A,4.5,Newcastle
-68,NEW (A),DEF,4,3,A,3.5,Newcastle
-69,NEW (H),DEF,2,2,H,2.0,Newcastle
-109,NEW (H),MID,3,5,H,4.0,Newcastle
-149,NEW (H),FWD,3,5,H,4.0,Newcastle
-29,NEW (H),GK,2,2,H,2.0,Newcastle
-70,NFO (A),DEF,2,3,A,2.5,Nottingham Forest
-150,NFO (A),FWD,2,1,A,1.5,Nottingham Forest
-30,NFO (A),GK,2,3,A,2.5,Nottingham Forest
-110,NFO (A),MID,2,1,A,1.5,Nottingham Forest
-31,NFO (H),GK,2,1,H,1.5,Nottingham Forest
-151,NFO (H),FWD,2,1,H,1.5,Nottingham Forest
-71,NFO (H),DEF,2,1,H,1.5,Nottingham Forest
-111,NFO (H),MID,2,1,H,1.5,Nottingham Forest
-32,SUN (A),GK,5,1,A,3.0,Spurs
-112,SUN (A),MID,5,5,A,5.0,Spurs
-152,SUN (A),FWD,5,5,A,5.0,Spurs
-72,SUN (A),DEF,5,1,A,3.0,Spurs
-73,SUN (H),DEF,2,2,H,2.0,Spurs
-33,SUN (H),GK,2,2,H,2.0,Spurs
-153,SUN (H),FWD,2,2,H,2.0,Spurs
-113,SUN (H),MID,2,2,H,2.0,Spurs
-154,TOT (A),FWD,3,4,A,3.5,Sunderland
-74,TOT (A),DEF,3,2,A,2.5,Sunderland
-34,TOT (A),GK,3,2,A,2.5,Sunderland
-114,TOT (A),MID,3,4,A,3.5,Sunderland
-155,TOT (H),FWD,4,3,H,3.5,Sunderland
-115,TOT (H),MID,4,3,H,3.5,Sunderland
-75,TOT (H),DEF,5,3,H,4.0,Sunderland
-35,TOT (H),GK,5,3,H,4.0,Sunderland
-116,WHU (A),MID,2,1,A,1.5,West Ham
-76,WHU (A),DEF,2,1,A,1.5,West Ham
-36,WHU (A),GK,2,1,A,1.5,West Ham
-156,WHU (A),FWD,2,1,A,1.5,West Ham
-117,WHU (H),MID,2,4,H,3.0,West Ham
-157,WHU (H),FWD,2,4,H,3.0,West Ham
-37,WHU (H),GK,2,3,H,2.5,West Ham
-77,WHU (H),DEF,2,3,H,2.5,West Ham
-118,WOL (A),MID,2,2,A,2.0,Wolves
-158,WOL (A),FWD,2,2,A,2.0,Wolves
-78,WOL (A),DEF,2,2,A,2.0,Wolves
-38,WOL (A),GK,2,2,A,2.0,Wolves
-79,WOL (H),DEF,2,1,H,1.5,Wolves
-39,WOL (H),GK,2,1,H,1.5,Wolves
-119,WOL (H),MID,3,5,H,4.0,Wolves
-159,WOL (H),FWD,3,5,H,4.0,Wolves
+,Opponent,Position,Difficulty,Team
+0,ARS (A),GK,5,Arsenal
+0,ARS (A),DEF,5,Arsenal
+0,ARS (A),FWD,5,Arsenal
+0,ARS (A),MID,5,Arsenal
+1,ARS (H),GK,4,Arsenal
+1,ARS (H),DEF,4,Arsenal
+1,ARS (H),MID,5,Arsenal
+1,ARS (H),FWD,5,Arsenal
+2,AVL (A),MID,5,Aston Villa
+2,AVL (A),DEF,2,Aston Villa
+2,AVL (A),GK,2,Aston Villa
+2,AVL (A),FWD,5,Aston Villa
+3,AVL (H),MID,2,Aston Villa
+3,AVL (H),DEF,2,Aston Villa
+3,AVL (H),GK,2,Aston Villa
+3,AVL (H),FWD,2,Aston Villa
+4,BHA (A),MID,4,Brighton
+4,BHA (A),DEF,5,Brighton
+4,BHA (A),FWD,4,Brighton
+4,BHA (A),GK,5,Brighton
+5,BHA (H),GK,2,Brighton
+5,BHA (H),MID,2,Brighton
+5,BHA (H),FWD,2,Brighton
+5,BHA (H),DEF,2,Brighton
+6,BOU (A),DEF,3,Bournemouth
+6,BOU (A),MID,5,Bournemouth
+6,BOU (A),FWD,5,Bournemouth
+6,BOU (A),GK,3,Bournemouth
+7,BOU (H),GK,4,Bournemouth
+7,BOU (H),DEF,4,Bournemouth
+7,BOU (H),MID,2,Bournemouth
+7,BOU (H),FWD,2,Bournemouth
+8,BRE (A),MID,3,Brentford
+8,BRE (A),FWD,3,Brentford
+8,BRE (A),GK,4,Brentford
+8,BRE (A),DEF,4,Brentford
+9,BRE (H),MID,2,Brentford
+9,BRE (H),DEF,3,Brentford
+9,BRE (H),FWD,2,Brentford
+9,BRE (H),GK,3,Brentford
+10,BUR (A),MID,3,Burnley
+10,BUR (A),DEF,2,Burnley
+10,BUR (A),FWD,3,Burnley
+10,BUR (A),GK,2,Burnley
+11,BUR (H),MID,2,Burnley
+11,BUR (H),DEF,4,Burnley
+11,BUR (H),GK,4,Burnley
+11,BUR (H),FWD,2,Burnley
+12,CHE (A),GK,4,Chelsea
+12,CHE (A),FWD,5,Chelsea
+12,CHE (A),DEF,4,Chelsea
+12,CHE (A),MID,5,Chelsea
+13,CHE (H),DEF,5,Chelsea
+13,CHE (H),MID,5,Chelsea
+13,CHE (H),GK,5,Chelsea
+13,CHE (H),FWD,5,Chelsea
+14,CRY (A),GK,4,Crystal Palace
+14,CRY (A),DEF,4,Crystal Palace
+14,CRY (A),FWD,4,Crystal Palace
+14,CRY (A),MID,4,Crystal Palace
+15,CRY (H),FWD,4,Crystal Palace
+15,CRY (H),MID,4,Crystal Palace
+15,CRY (H),GK,3,Crystal Palace
+15,CRY (H),DEF,3,Crystal Palace
+16,EVE (A),FWD,4,Everton
+16,EVE (A),DEF,2,Everton
+16,EVE (A),GK,2,Everton
+16,EVE (A),MID,4,Everton
+17,EVE (H),DEF,3,Everton
+17,EVE (H),FWD,2,Everton
+17,EVE (H),MID,2,Everton
+17,EVE (H),GK,3,Everton
+18,FUL (A),DEF,4,Fulham
+18,FUL (A),FWD,5,Fulham
+18,FUL (A),GK,4,Fulham
+18,FUL (A),MID,5,Fulham
+19,FUL (H),MID,2,Fulham
+19,FUL (H),FWD,2,Fulham
+19,FUL (H),DEF,3,Fulham
+19,FUL (H),GK,3,Fulham
+20,LEE (A),MID,4,Leeds
+20,LEE (A),FWD,4,Leeds
+20,LEE (A),DEF,4,Leeds
+20,LEE (A),GK,4,Leeds
+21,LEE (H),GK,2,Leeds
+21,LEE (H),FWD,2,Leeds
+21,LEE (H),MID,2,Leeds
+21,LEE (H),DEF,2,Leeds
+22,LIV (A),GK,3,Liverpool
+22,LIV (A),MID,3,Liverpool
+22,LIV (A),FWD,3,Liverpool
+22,LIV (A),DEF,3,Liverpool
+23,LIV (H),GK,3,Liverpool
+23,LIV (H),FWD,3,Liverpool
+23,LIV (H),MID,3,Liverpool
+23,LIV (H),DEF,3,Liverpool
+24,MCI (A),MID,5,Man City
+24,MCI (A),FWD,5,Man City
+24,MCI (A),DEF,5,Man City
+24,MCI (A),GK,5,Man City
+25,MCI (H),DEF,4,Man City
+25,MCI (H),GK,4,Man City
+25,MCI (H),MID,4,Man City
+25,MCI (H),FWD,4,Man City
+26,MUN (A),DEF,2,Man Utd
+26,MUN (A),MID,3,Man Utd
+26,MUN (A),GK,2,Man Utd
+26,MUN (A),FWD,3,Man Utd
+27,MUN (H),GK,5,Man Utd
+27,MUN (H),DEF,5,Man Utd
+27,MUN (H),MID,2,Man Utd
+27,MUN (H),FWD,2,Man Utd
+28,NEW (A),GK,5,Newcastle
+28,NEW (A),MID,4,Newcastle
+28,NEW (A),FWD,4,Newcastle
+28,NEW (A),DEF,5,Newcastle
+29,NEW (H),DEF,2,Newcastle
+29,NEW (H),MID,3,Newcastle
+29,NEW (H),FWD,3,Newcastle
+29,NEW (H),GK,2,Newcastle
+30,NFO (A),DEF,2,Nottingham Forest
+30,NFO (A),FWD,2,Nottingham Forest
+30,NFO (A),GK,2,Nottingham Forest
+30,NFO (A),MID,2,Nottingham Forest
+31,NFO (H),GK,2,Nottingham Forest
+31,NFO (H),FWD,2,Nottingham Forest
+31,NFO (H),DEF,2,Nottingham Forest
+31,NFO (H),MID,2,Nottingham Forest
+32,SUN (A),GK,5,Spurs
+32,SUN (A),MID,4,Spurs
+32,SUN (A),FWD,4,Spurs
+32,SUN (A),DEF,5,Spurs
+33,SUN (H),DEF,2,Spurs
+33,SUN (H),GK,2,Spurs
+33,SUN (H),FWD,2,Spurs
+33,SUN (H),MID,2,Spurs
+34,TOT (A),FWD,3,Sunderland
+34,TOT (A),DEF,2,Sunderland
+34,TOT (A),GK,2,Sunderland
+34,TOT (A),MID,3,Sunderland
+35,TOT (H),FWD,3,Sunderland
+35,TOT (H),MID,3,Sunderland
+35,TOT (H),DEF,5,Sunderland
+35,TOT (H),GK,5,Sunderland
+36,WHU (A),MID,2,West Ham
+36,WHU (A),DEF,2,West Ham
+36,WHU (A),GK,2,West Ham
+36,WHU (A),FWD,2,West Ham
+37,WHU (H),MID,2,West Ham
+37,WHU (H),FWD,2,West Ham
+37,WHU (H),GK,2,West Ham
+37,WHU (H),DEF,2,West Ham
+38,WOL (A),MID,2,Wolves
+38,WOL (A),FWD,2,Wolves
+38,WOL (A),DEF,2,Wolves
+38,WOL (A),GK,2,Wolves
+39,WOL (H),DEF,2,Wolves
+39,WOL (H),GK,2,Wolves
+39,WOL (H),MID,2,Wolves
+39,WOL (H),FWD,2,Wolves
