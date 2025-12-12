@@ -4,8 +4,7 @@ import os
 # Paths to the scripts
 scripts = [
     r"Code\player.py",
-    r"Models\Python_files\Model_2.py",
-    r"Website\app.py"
+    r"Analysis\Improved_FD.py"
 ]
 
 for script in scripts:
