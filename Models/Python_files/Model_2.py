@@ -9,7 +9,7 @@ from datetime import datetime
 
 # Get the current week number (1-52)
 current_date = datetime.now().isocalendar()[1]
-gameweek = current_date - 36
+gameweek = current_date - 35
 print(gameweek)
 # Empty list to collect gameweek information
 all_gameweeks = []
@@ -29,7 +29,7 @@ data = pd.concat(all_gameweeks, axis=0, ignore_index=True)
 final_data = data.sort_values(by=['Player ID', 'Gameweek'])
 
 # Define the rolling window size
-number_of_games = 3
+number_of_games = 4
 
 # Calculate the rolling average of GW_Points over the specified number_of_games
 final_data["Form"] = (
@@ -118,7 +118,7 @@ for i in range(1, 6):
 data.to_csv(r'C:\Users\thoma\Code\Projects\Fantasy-Premier-League\Website\Current_form\Current_Form_M2.csv')
 
 # Define constants
-BUDGET = 850  # Choose your budget (1000 = £100m)
+BUDGET = 1000  # Choose your budget (1000 = £100m)
 WEEKS = 1  # Choose how many weeks you want to prepare for between 1 and 5
 GK = 1  # Goalkeepers required (Choose between 0 and 2)
 DEF = 3  # Defenders required (Choose between 0 and 5)
@@ -192,6 +192,7 @@ selected_players_df = pd.DataFrame(selected_players)
 
 # Display the DataFrame
 print(selected_players_df)
+
 
 # Display the total cost and index
 print(f'Total Team Cost:', sum(selected_players_df.Price))
