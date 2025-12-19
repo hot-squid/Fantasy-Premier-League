@@ -2,7 +2,7 @@
 echo ===========================
 echo Running all Python scripts
 echo ===========================
-python run_all.py
+python Code\run_all.py
 
 IF %ERRORLEVEL% NEQ 0 (
     echo Script execution failed. Aborting Git push.
